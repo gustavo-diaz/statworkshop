@@ -1,0 +1,65 @@
+---
+title: |
+       | POLI SCI 490
+       | R Workshop
+       | 2024-2025
+format: 
+  typst:
+    margin:
+      x: 1in
+      y: 1in
+fontsize: 12pt
+---
+
+```{=typst} 
+#show link: set text(blue)
+```
+
+<!-- Remember double space for line skip -->
+**Organizer:** Gustavo Diaz  
+**Time and Place:**  TBD  
+**Office Hours:** TBD  
+**GitHub Repository:** TBD
+
+
+# Overview
+
+The R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.
+
+Each workshop meeting will feature an introduction to a new tool/method/approach and practice. The workshop is open to everyone, but those formally enrolled will receive full credit by attending to every meeting. Meeting times are TBD (unsure if there will be a pre-determined time or if we can arrange it on our own).
+
+The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new.
+
+# Schedule
+
+## Fall
+
+### Meeting 1: Project-oriented workflow in Quarto
+
+### Meeting 2: Writing papers
+
+### Meeting 3: Presentations and posters
+
+&nbsp;
+
+## Winter
+
+### Meeting 4: Figures and data visualization (*guest:* Gina Reynolds?)
+
+### Meeting 5: Descriptive tables and model summaries (*guest:* Vincent Arel-Bundock?)
+
+### Meeting 6: Declaring and diagnosing research designs (*guest:* Graeme Blair or Alex Coppock?)
+
+&nbsp;
+
+## Spring
+
+### Meeting 7: Flex topic I
+
+### Meeting 8: Flex topic II
+
+### Meeting 9: Academic websites
+
+# Course Details Subject to Change
+
+Please note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes.
