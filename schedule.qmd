@@ -17,6 +17,7 @@ fontsize: 12pt
 
 <!-- Remember double space for line skip -->
 **Organizer:** Gustavo Diaz  
+**Email:** <gustavo.diaz@northwestern.edu>  
 **Time and Place:**  TBD  
 **Office Hours:** TBD  
 **GitHub Repository:** TBD
@@ -26,9 +27,9 @@ fontsize: 12pt
 
 The R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.
 
-Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting.
+Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).
 
-The workshop is open to everyone, but those formally enrolled will receive full credit by attending to every meeting. Meeting times are TBD (unsure if there will be a pre-determined time or if we can arrange it on our own).
+The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. We will meet on TBD (unsure if there will be a pre-determined time or if we can arrange it on our own).
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
 
@@ -46,9 +47,11 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Winter
 
-### Meeting 4: Figures and data visualization (*guest:* Gina Reynolds?)
+### Meeting 4: Figures and data visualization (*guest:* TBD)
+<!-- Gina Reynolds -->
 
-### Meeting 5: Descriptive tables and model summaries (*guest:* Vincent Arel-Bundock?)
+### Meeting 5: Descriptive tables and model summaries (*guest:* TBD)
+<!-- Vincent Arel-Bundock, Andrew Heiss -->
 
 ### Meeting 6: Coding session
 
@@ -56,9 +59,13 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Spring
 
-### Meeting 7: Declaring and diagnosing research designs (*guest:* Graeme Blair or Alex Coppock?)
+### Meeting 7: Text and images as data (*guest:* TBD)
+<!-- Nora Webb-Williams is close! -->
 
-### Meeting 8: Academic websites
+
+### Meeting 8: Declaring and diagnosing research designs (*guest:* TBD)
+<!-- Graeme Blair, Alex Coppock, Macartan Humphreys -->
+
 
 ### Meeting 9: Coding session
 
