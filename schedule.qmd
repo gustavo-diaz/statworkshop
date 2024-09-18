@@ -47,10 +47,10 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Winter
 
-### Meeting 4: Figures and data visualization (*guest:* TBD)
+### Meeting 4: Figures and data visualization (*guest:* Gina Renolds -- West Point)
 <!-- Gina Reynolds -->
 
-### Meeting 5: Descriptive tables and model summaries (*guest:* TBD)
+### Meeting 5: Descriptive tables and model summaries (*guest:* Vincent Arel-Bundock -- Université de Montréal/ Andrew Heiss -- Georgia State)
 <!-- Vincent Arel-Bundock, Andrew Heiss -->
 
 ### Meeting 6: Coding session
@@ -59,11 +59,11 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Spring
 
-### Meeting 7: Text and images as data (*guest:* TBD)
+### Meeting 7: Text and images as data (*guest:* Sirus Bouchat/Nora Webb-Williams -- Illinois)
 <!-- Nora Webb-Williams is close! -->
 
 
-### Meeting 8: Declaring and diagnosing research designs (*guest:* TBD)
+### Meeting 8: Declaring and diagnosing research designs (*guest:* Alex Coppock -- Yale/Graeme Blair -- UCLA)
 <!-- Graeme Blair, Alex Coppock, Macartan Humphreys -->
 
 
