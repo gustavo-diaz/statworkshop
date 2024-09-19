@@ -19,7 +19,7 @@ fontsize: 12pt
 **Organizer:** Gustavo Diaz  
 **Email:** <gustavo.diaz@northwestern.edu>  
 **Time and Place:**  Mondays TBD.   
-Fill your availability here: <https://www.when2meet.com/?26570251-3LYiF>    
+Fill your availability for Fall 2024 here: <https://www.when2meet.com/?26570251-3LYiF>    
 **GitHub Repository:** <https://github.com/gustavo-diaz/r-workshop>  
 **Office Hours:** <https://calendly.com/gustavo-diaz-nu/f24-meetings> 
 
