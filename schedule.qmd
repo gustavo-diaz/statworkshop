@@ -30,7 +30,8 @@ The R Workshop is a year-long series that meets three times per quarter during t
 
 Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).
 
-The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. We will meet on TBD (unsure if there will be a pre-determined time or if we can arrange it on our own).
+The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. In Fall 2024, we will meet on Mondays at TBD. The meeting schedule may change for subsequent quarters.
+
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
 
