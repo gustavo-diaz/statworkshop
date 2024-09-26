@@ -18,8 +18,7 @@ fontsize: 12pt
 <!-- Remember double space for line skip -->
 **Organizer:** Gustavo Diaz  
 **Email:** <gustavo.diaz@northwestern.edu>  
-**Time and Place:**  Mondays TBD.   
-Fill your availability for Fall 2024 here: <https://www.when2meet.com/?26570251-3LYiF>    
+**Time and place:**  See below.
 **GitHub Repository:** <https://github.com/gustavo-diaz/r-workshop>  
 **Office Hours:** <https://calendly.com/gustavo-diaz-nu/f24-meetings> 
 
@@ -30,8 +29,7 @@ The R Workshop is a year-long series that meets three times per quarter during t
 
 Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).
 
-The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. In Fall 2024, we will meet on Mondays at TBD. The meeting schedule may change for subsequent quarters.
-
+The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter.
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
 
@@ -39,11 +37,11 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Fall
 
-### Meeting 1: Writing papers in Quarto
+### October 7: Writing papers in Quarto
 
-### Meeting 2: Presentations and posters
+### October 28: Presentations and posters
 
-### Meeting 3: Coding session
+### November 25: Coding session
 
 &nbsp;
 
