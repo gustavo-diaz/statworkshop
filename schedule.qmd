@@ -18,7 +18,7 @@ fontsize: 12pt
 <!-- Remember double space for line skip -->
 **Organizer:** Gustavo Diaz  
 **Email:** <gustavo.diaz@northwestern.edu>  
-**Time and place:**  See below.
+**Time and place:**  See below  
 **GitHub Repository:** <https://github.com/gustavo-diaz/r-workshop>  
 **Office Hours:** <https://calendly.com/gustavo-diaz-nu/f24-meetings> 
 
@@ -35,7 +35,7 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 # Schedule
 
-## Fall
+## Fall (3:00 -- 4:20 PM, Scott Hall 212)
 
 ### October 7: Writing papers in Quarto
 
@@ -47,11 +47,13 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Winter
 
-### Meeting 4: Figures and data visualization
-<!-- Gina Reynolds -->
-
-### Meeting 5: Descriptive tables and model summaries
+### Meeting 4: Data and model visualization
 <!-- Vincent Arel-Bundock, Andrew Heiss -->
+
+### Meeting 5: Geographical and census data
+<!-- Michelle Bueno Vasquez -->
+
+
 
 ### Meeting 6: Coding session
 
