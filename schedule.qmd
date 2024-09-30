@@ -18,7 +18,7 @@ fontsize: 12pt
 <!-- Remember double space for line skip -->
 **Organizer:** Gustavo Diaz  
 **Email:** <gustavo.diaz@northwestern.edu>  
-**Time and place:**  See below  
+**Time and place:**  Varies by quarter. See below  
 **GitHub Repository:** <https://github.com/gustavo-diaz/r-workshop>  
 **Office Hours:** <https://calendly.com/gustavo-diaz-nu/f24-meetings> 
 
