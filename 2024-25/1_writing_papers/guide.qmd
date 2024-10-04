@@ -25,7 +25,6 @@ knitr::opts_chunk$set(echo = TRUE,
 
 - Template
 
-- Tips
 
 # Why Quarto?
 
@@ -155,9 +154,17 @@ tinytex::install_tinytex()
 ::: incremental
 - Repeat after installing a new version of R
 - *tiny*TeX will install/update required LaTeX packages as you create documents
+:::
 
 ## Citation manager
 
+- Zotero <https://www.zotero.org>
+
+- EndNote <https://endnote.com/>
+
+- Mendeley <https://www.mendeley.com>
+
+- JabRef <https://www.jabref.org>
+
 # Template
 
-# Tips
