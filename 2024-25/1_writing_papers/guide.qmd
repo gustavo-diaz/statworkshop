@@ -4,7 +4,6 @@ author: "R Workshop"
 format: 
   revealjs:
     theme: [default, custom.scss]
-# bibliography: references.bib
 ---
 
 ## Roadmap
@@ -166,5 +165,5 @@ tinytex::install_tinytex()
 
 - JabRef <https://www.jabref.org>
 
-# Template
+# [Template](https://github.com)
 
