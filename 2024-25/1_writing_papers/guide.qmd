@@ -123,7 +123,7 @@ In one word, **CONVENIENCE**
 
 ## What you need to write papers
 
-1. A recent version of R and RStudio (or equivalent, like [VS Code](https://quarto.org/docs/tools/vscode.html))
+1. A recent version of R and RStudio
 
 2. A LaTeX distribution
 
@@ -131,7 +131,7 @@ In one word, **CONVENIENCE**
 
 ## What you need to write papers
 
-1. A recent version of R and RStudio (or equivalent, like [VS Code](https://quarto.org/docs/tools/vscode.html))
+1. A recent version of R and RStudio
 
 2. **A LaTeX distribution**
 
@@ -165,5 +165,7 @@ tinytex::install_tinytex()
 
 - JabRef <https://www.jabref.org>
 
-# [Template](https://github.com)
+# Template
+
+[github.com/gustavo-diaz/r-workshop](https://github.com/gustavo-diaz/r-workshop/blob/main/2024-25/1_writing_papers/template.qmd)
 
