@@ -47,8 +47,8 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Winter
 
-### Meeting 4: Data and model visualization
-<!-- Vincent Arel-Bundock, Andrew Heiss -->
+### Meeting 4: Interpreting statistical results
+<!-- Vincent Arel-Bundock -->
 
 ### Meeting 5: Geographical and census data
 <!-- Michelle Bueno Vasquez -->
@@ -61,12 +61,12 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Spring
 
-### Meeting 7: Text and images as data
-<!-- Nora Webb-Williams is close! -->
+### Meeting 7: Text as data
+<!-- Sirus Bouchat or a student  -->
 
 
-### Meeting 8: Declaring and diagnosing research designs
-<!-- Graeme Blair, Alex Coppock, Macartan Humphreys -->
+### Meeting 8: Data visualization extensions
+<!-- Evangeline Reynolds -->
 
 
 ### Meeting 9: Coding session
