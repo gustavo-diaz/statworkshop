@@ -11,5 +11,7 @@
 # RStudio files
 .Rproj.user/
 .Rproj
-r-workshop.Rproj
 .DS_Store
+rworkshop.Rproj
+
+/.quarto/

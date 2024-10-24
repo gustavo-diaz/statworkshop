@@ -1,0 +1,16 @@
+---
+title: "Writing Papers in Quarto"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+Academics spent a lot of time writing.
+
+## Resources
+
+- {{< fa tv >}} [Guide](2024-25/writing_papers/guide.html)
+- {{< fa file-code >}} [Template](https://github.com/gustavo-diaz/rworkshop/blob/main/2024-25/writing_papers/template.qmd)
+- {{< fa book >}} [Sample bibliography](https://github.com/gustavo-diaz/rworkshop/blob/main/2024-25/writing_papers/references.bib)
+

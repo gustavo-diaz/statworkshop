@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*-- scss:defaults --*/
+//
+// Variables
+// --------------------------------------------------
+
+//** Primary color.
+$primary: #B6ACD1 !default;
+$secondary: #5E6A71 !default;
+$info: #000 !default;
+
+//** Link hover color set via `darken()` function.
+$link-color: #B6ACD1;
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+$font-family-sans-serif:      Fira Sans Condensed, sans-serif !default;
+$font-family-serif:           Barlow, serif !default;  /* Not actually a serif font but whatever */
+
+$font-size-base:              1.1rem !default;
+$headings-font-weight:        700 !default;
+$sidebar-font-size: 1.2rem;
+
+// Code blocks
+$code-block-bg-alpha: -.8;
+
+
+
+
