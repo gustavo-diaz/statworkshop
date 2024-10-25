@@ -24,7 +24,7 @@ library(markdown)
 schedule =
   tribble(
     ~Date, ~Topic,
-    "October 7", "Writing papers in Quarto",
+    "October 7", "[Writing papers in Quarto](writing_papers/)",
     "October 28", "Presentations and posters",
     "November 25", "Coding session",
     )
@@ -33,7 +33,8 @@ schedule =
 
 ```{r show-schedule, echo = FALSE, results = "asis"}
 schedule %>% 
-  tt(width = 1)
+  tt(width = 1) %>% 
+  format_tt(j = 2, markdown = TRUE)
 ```
 
 <!-- # Previous Terms -->

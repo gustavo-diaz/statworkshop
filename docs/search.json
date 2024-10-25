@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "R Workshop",
     "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto \n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
     "crumbs": [
       "Home"
     ]
@@ -14,83 +14,10 @@
     "href": "index.html#fall-2024-schedule",
     "title": "R Workshop",
     "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto \n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
     "crumbs": [
       "Home"
     ]
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "R Workshop",
-    "section": "Welcome",
-    "text": "Welcome\nThe R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nMost workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nThe aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "2024-25/writing_papers/template.html#from-r",
-    "href": "2024-25/writing_papers/template.html#from-r",
-    "title": "Quarto Paper Template",
-    "section": "4.1 From R",
-    "text": "4.1 From R\nFigure 1 shows how to plot a figure from R code. See Wickham (2016a) for more on how to make pretty plots.8\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
-  },
-  {
-    "objectID": "2024-25/writing_papers/template.html#from-external-sources",
-    "href": "2024-25/writing_papers/template.html#from-external-sources",
-    "title": "Quarto Paper Template",
-    "section": "4.2 From external sources",
-    "text": "4.2 From external sources\nSometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. Figure 2 shows an example.\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
-  },
-  {
-    "objectID": "2024-25/writing_papers/template.html#pipe-tables",
-    "href": "2024-25/writing_papers/template.html#pipe-tables",
-    "title": "Quarto Paper Template",
-    "section": "5.1 Pipe tables",
-    "text": "5.1 Pipe tables\nYou can make tables “by hand” using pipe tables. Like Table 1 shows.\n\n\n\nTable 1: Demonstration of pipe table syntax\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\nYou can even use a Tables Generator to make them interactively and then copy and paste in your .qmd file."
-  },
-  {
-    "objectID": "2024-25/writing_papers/template.html#from-r-1",
-    "href": "2024-25/writing_papers/template.html#from-r-1",
-    "title": "Quarto Paper Template",
-    "section": "5.2 From R",
-    "text": "5.2 From R\nOf course, you can also make tables in R and then print them in a nice format. I like to use the tinytable for simple tables.9\nFor example, Table 2 is made “by hand” with R code. Of course, you can also plot tidy data objects, like Table 3 shows.\n\n\n\nTable 2: An example of a table made with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Default\n                Left\n                Right\n                Center\n              \n        \n        \n        \n                \n                   12\n                   12\n                   12\n                   12\n                \n                \n                  123\n                  123\n                  123\n                  123\n                \n                \n                    1\n                    1\n                    1\n                    1\n                \n        \n      \n    \n\n\n\n\n\n\n\nTable 3: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
-  },
-  {
-    "objectID": "2024-25/writing_papers/template.html#footnotes",
-    "href": "2024-25/writing_papers/template.html#footnotes",
-    "title": "Quarto Paper Template",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
-  },
-  {
-    "objectID": "schedule_tentative.html",
-    "href": "schedule_tentative.html",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "",
-    "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nTime and Place: TBD\nOffice Hours: TBD\nGitHub Repository: TBD"
-  },
-  {
-    "objectID": "schedule_tentative.html#fall",
-    "href": "schedule_tentative.html#fall",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "Fall",
-    "text": "Fall\n\nMeeting 1: Writing papers in Quarto\n\n\nMeeting 2: Presentations and posters\n\n\nMeeting 3: Coding session"
-  },
-  {
-    "objectID": "schedule_tentative.html#winter",
-    "href": "schedule_tentative.html#winter",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "Winter",
-    "text": "Winter\n\nMeeting 4: Figures and data visualization (guest: Gina Renolds – West Point)\n\n\n\nMeeting 5: Descriptive tables and model summaries (guest: Vincent Arel-Bundock – Université de Montréal/ Andrew Heiss – Georgia State)\n\n\n\nMeeting 6: Coding session"
-  },
-  {
-    "objectID": "schedule_tentative.html#spring",
-    "href": "schedule_tentative.html#spring",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "Spring",
-    "text": "Spring\n\nMeeting 7: Text and images as data (guest: Sirus Bouchat/Nora Webb-Williams – Illinois)\n\n\n\nMeeting 8: Declaring and diagnosing research designs (guest: Alex Coppock – Yale/Graeme Blair – UCLA)\n\n\n\nMeeting 9: Coding session"
   },
   {
     "objectID": "index.html#details",
@@ -103,31 +30,129 @@
     ]
   },
   {
-    "objectID": "2024-25/writing_papers/writing_papers.html",
-    "href": "2024-25/writing_papers/writing_papers.html",
+    "objectID": "writing_papers/index.html",
+    "href": "writing_papers/index.html",
     "title": "Writing Papers in Quarto",
     "section": "",
-    "text": "Academics spent a lot of time writing."
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
   },
   {
-    "objectID": "2024-25/writing_papers/writing_papers.html#overview",
-    "href": "2024-25/writing_papers/writing_papers.html#overview",
+    "objectID": "writing_papers/index.html#overview",
+    "href": "writing_papers/index.html#overview",
     "title": "Writing Papers in Quarto",
     "section": "",
-    "text": "Academics spent a lot of time writing."
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
   },
   {
-    "objectID": "2024-25/writing_papers/writing_papers.html#links",
-    "href": "2024-25/writing_papers/writing_papers.html#links",
-    "title": "Writing Papers in Quarto",
-    "section": "Links",
-    "text": "Links\n\n Guide\n Template\n Sample bibliography"
-  },
-  {
-    "objectID": "2024-25/writing_papers/writing_papers.html#resources",
-    "href": "2024-25/writing_papers/writing_papers.html#resources",
+    "objectID": "writing_papers/index.html#resources",
+    "href": "writing_papers/index.html#resources",
     "title": "Writing Papers in Quarto",
     "section": "Resources",
     "text": "Resources\n\n Guide\n Template\n Sample bibliography"
+  },
+  {
+    "objectID": "writing_papers/guide.html#roadmap",
+    "href": "writing_papers/guide.html#roadmap",
+    "title": "Writing Papers in Quarto",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
+  },
+  {
+    "objectID": "writing_papers/guide.html#elements-of-an-academic-paper",
+    "href": "writing_papers/guide.html#elements-of-an-academic-paper",
+    "title": "Writing Papers in Quarto",
+    "section": "Elements of an (academic) paper",
+    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
+  },
+  {
+    "objectID": "writing_papers/guide.html#default-option-word-processors",
+    "href": "writing_papers/guide.html#default-option-word-processors",
+    "title": "Writing Papers in Quarto",
+    "section": "Default option: Word processors",
+    "text": "Default option: Word processors\n\n\nLanguage: Awesome\nFormatting: Excruciating\nVisualization: Harrowing (but see StatTag)\nCollaboration: Ok (Word) to great (Google Docs)\nCitations: Great (Zotero, Mendeley, RefWorks)"
+  },
+  {
+    "objectID": "writing_papers/guide.html#alternative-typesetting",
+    "href": "writing_papers/guide.html#alternative-typesetting",
+    "title": "Writing Papers in Quarto",
+    "section": "Alternative: Typesetting",
+    "text": "Alternative: Typesetting\n\n\nRemove frustrations with formatting and visualization\nWord processors: Write, then format\nTypesetting: Format, then write"
+  },
+  {
+    "objectID": "writing_papers/guide.html#latex",
+    "href": "writing_papers/guide.html#latex",
+    "title": "Writing Papers in Quarto",
+    "section": "LaTeX",
+    "text": "LaTeX"
+  },
+  {
+    "objectID": "writing_papers/guide.html#popular-option-overleaf",
+    "href": "writing_papers/guide.html#popular-option-overleaf",
+    "title": "Writing Papers in Quarto",
+    "section": "Popular option: Overleaf",
+    "text": "Popular option: Overleaf"
+  },
+  {
+    "objectID": "writing_papers/guide.html#for-rstudio-users-rmarkdown",
+    "href": "writing_papers/guide.html#for-rstudio-users-rmarkdown",
+    "title": "Writing Papers in Quarto",
+    "section": "For RStudio Users: RMarkdown",
+    "text": "For RStudio Users: RMarkdown"
+  },
+  {
+    "objectID": "writing_papers/guide.html#newer-option-quarto",
+    "href": "writing_papers/guide.html#newer-option-quarto",
+    "title": "Writing Papers in Quarto",
+    "section": "Newer option: Quarto",
+    "text": "Newer option: Quarto"
+  },
+  {
+    "objectID": "writing_papers/guide.html#why-papers-in-rstudio",
+    "href": "writing_papers/guide.html#why-papers-in-rstudio",
+    "title": "Writing Papers in Quarto",
+    "section": "Why papers in RStudio?",
+    "text": "Why papers in RStudio?\n\n\nLanguage: Fine\nFormatting: Flexible\nVisualization: Excellent! Connects directly to data analysis \\(\\rightarrow\\) Reproducible workflow\nCollaboration: Great, but not real-time (GitHub)\nCitations: Also great (Connect to .bib files)"
+  },
+  {
+    "objectID": "writing_papers/guide.html#but-why-quarto-in-particular",
+    "href": "writing_papers/guide.html#but-why-quarto-in-particular",
+    "title": "Writing Papers in Quarto",
+    "section": "But why Quarto in particular?",
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
+  },
+  {
+    "objectID": "writing_papers/guide.html#what-you-need-to-write-papers",
+    "href": "writing_papers/guide.html#what-you-need-to-write-papers",
+    "title": "Writing Papers in Quarto",
+    "section": "What you need to write papers",
+    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
+  },
+  {
+    "objectID": "writing_papers/guide.html#what-you-need-to-write-papers-1",
+    "href": "writing_papers/guide.html#what-you-need-to-write-papers-1",
+    "title": "Writing Papers in Quarto",
+    "section": "What you need to write papers",
+    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
+  },
+  {
+    "objectID": "writing_papers/guide.html#latex-distribution-tinytex",
+    "href": "writing_papers/guide.html#latex-distribution-tinytex",
+    "title": "Writing Papers in Quarto",
+    "section": "LaTeX distribution: tinyTex",
+    "text": "LaTeX distribution: tinyTex"
+  },
+  {
+    "objectID": "writing_papers/guide.html#in-r",
+    "href": "writing_papers/guide.html#in-r",
+    "title": "Writing Papers in Quarto",
+    "section": "In R",
+    "text": "In R\n\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()\n\n\n\nRepeat after installing a new version of R\ntinyTeX will install/update required LaTeX packages as you create documents"
+  },
+  {
+    "objectID": "writing_papers/guide.html#citation-manager",
+    "href": "writing_papers/guide.html#citation-manager",
+    "title": "Writing Papers in Quarto",
+    "section": "Citation manager",
+    "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
   }
 ]

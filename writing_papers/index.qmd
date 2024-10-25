@@ -1,0 +1,23 @@
+---
+title: "Writing Papers in Quarto"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+We discuss different alternatives to write academic papers:
+
+1. Word processors (Word, Google Docs)
+2. LaTeX and Overleaf
+3. RMarkdown
+4. Quarto
+
+Each one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto's functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio.
+
+## Resources
+
+- {{< fa tv >}} [Guide](writing_papers/guide.html)
+- {{< fa file-code >}} [Template](https://github.com/gustavo-diaz/rworkshop/blob/main/2024-25/writing_papers/template.qmd)
+- {{< fa book >}} [Sample bibliography](https://github.com/gustavo-diaz/rworkshop/blob/main/2024-25/writing_papers/references.bib)
+
