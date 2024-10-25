@@ -17,7 +17,7 @@ Each one has its advantages, and what you do is ultimately a matter of convenien
 
 ## Resources
 
-- {{< fa tv >}} [Guide](writing_papers/guide.html)
-- {{< fa file-code >}} [Template](https://github.com/gustavo-diaz/rworkshop/blob/main/2024-25/writing_papers/template.qmd)
-- {{< fa book >}} [Sample bibliography](https://github.com/gustavo-diaz/rworkshop/blob/main/2024-25/writing_papers/references.bib)
+- {{< fa tv >}} [Guide](guide.html)
+- {{< fa file-code >}} [Template](https://github.com/gustavo-diaz/rworkshop/blob/main/writing_papers/template.qmd)
+- {{< fa book >}} [Sample bibliography](https://github.com/gustavo-diaz/rworkshop/blob/main/writing_papers/references.bib)
 
