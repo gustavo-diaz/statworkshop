@@ -1,0 +1,164 @@
+---
+title: "HTML slides with revealjs"
+format: revealjs
+author: "R Workshop"
+urlcolor: blue
+---
+
+
+```{r setup, include=FALSE}
+# Here you customize global options for how
+# code will translate into the PDF
+# It won't show in the document
+library(knitr)
+opts_chunk$set(echo = FALSE, 
+               message = FALSE, 
+               warning = FALSE, 
+               results = "asis", 
+               out.width = "100%")
+
+# Load additional R packages here
+library(tidyverse) # Data manipulation
+library(tinytable) # tables
+library(palmerpenguins) # Practice data
+
+# ggplot global options
+# Always make font size bigger than what you think!
+theme_set(theme_gray(base_size = 20))
+```
+
+## About revealjs
+
+- Quarto uses revealjs to create HTML presentations
+
+- HTML slides are more flexible, but harder to share as attachments
+
+- See [here](https://quarto.org/docs/presentations/revealjs/) for more information
+
+- And [here](https://quarto.org/docs/presentations/revealjs/themes.html) for themes
+
+## Code
+
+Our code chunk settings make it so that code is hidden from the pdf by default. We can override this with [code chunk options](https://quarto.org/docs/computations/execution-options.html).
+
+For example, here I am forcing the code to appear in the pdf.
+
+```{r}
+#| echo: TRUE
+
+1+1
+```
+
+## R Figures
+
+```{r}
+#| label: fig-penguins
+#| fig-cap: "An example of how to make figures using `ggplot2`"
+#| out-width: "80%"
+
+ggplot(penguins) +
+  aes(x = flipper_length_mm,
+      y = body_mass_g) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Penguin size, Palmer Station LTER",
+       subtitle = "Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.2, 0.7),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+```
+
+## Interactive panels
+
+::: {.panel-tabset}
+## Code
+
+```{r}
+#| echo: TRUE
+#| eval: FALSE
+
+ggplot(penguins) +
+  aes(x = flipper_length_mm,
+      y = body_mass_g) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Penguin size, Palmer Station LTER",
+       subtitle = "Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.2, 0.7),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+```
+
+
+## Figure
+
+```{r}
+ggplot(penguins) +
+  aes(x = flipper_length_mm,
+      y = body_mass_g) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Penguin size, Palmer Station LTER",
+       subtitle = "Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.2, 0.7),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+```
+
+
+:::
+
+## External figures
+
+You can include GIFs!
+
+::: {#fig-import}
+![](https://scholar.harvard.edu/sites/scholar.harvard.edu/files/styles/os_files_xxlarge/public/ellaudet/files/the_least_squares_method_new.gif){fig-align="center" width=50%}
+
+An example of how to plot an external figure
+:::
+
+## Pipe tables
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+## R Tables
+
+```{r}
+#| label: tbl-tidy
+#| tbl-cap: "An example of a table made from tidy data with `tinytable`"
+
+# table1 is a sample table from the tidyr package
+table1 %>% tt()
+```
+

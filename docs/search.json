@@ -1,56 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R Workshop",
-    "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#fall-2024-schedule",
-    "href": "index.html#fall-2024-schedule",
-    "title": "R Workshop",
-    "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#details",
-    "href": "index.html#details",
-    "title": "R Workshop",
-    "section": "Details",
-    "text": "Details\nThe R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nMost workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nThe aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "writing_papers/index.html",
-    "href": "writing_papers/index.html",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
-  },
-  {
-    "objectID": "writing_papers/index.html#overview",
-    "href": "writing_papers/index.html#overview",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
-  },
-  {
-    "objectID": "writing_papers/index.html#resources",
-    "href": "writing_papers/index.html#resources",
-    "title": "Writing Papers in Quarto",
-    "section": "Resources",
-    "text": "Resources\n\n Guide\n Template\n Sample bibliography"
-  },
-  {
     "objectID": "writing_papers/guide.html#roadmap",
     "href": "writing_papers/guide.html#roadmap",
     "title": "Writing Papers in Quarto",
@@ -154,5 +103,105 @@
     "title": "Writing Papers in Quarto",
     "section": "Citation manager",
     "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
+  },
+  {
+    "objectID": "writing_papers/index.html",
+    "href": "writing_papers/index.html",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
+  },
+  {
+    "objectID": "writing_papers/index.html#overview",
+    "href": "writing_papers/index.html#overview",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
+  },
+  {
+    "objectID": "writing_papers/index.html#resources",
+    "href": "writing_papers/index.html#resources",
+    "title": "Writing Papers in Quarto",
+    "section": "Resources",
+    "text": "Resources\n\n Guide\n Template\n Sample bibliography"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R Workshop",
+    "section": "",
+    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#fall-2024-schedule",
+    "href": "index.html#fall-2024-schedule",
+    "title": "R Workshop",
+    "section": "",
+    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#details",
+    "href": "index.html#details",
+    "title": "R Workshop",
+    "section": "Details",
+    "text": "Details\nThe R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nMost workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nThe aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#about-revealjs",
+    "href": "posters_presentations/html_slides.html#about-revealjs",
+    "title": "HTML slides with revealjs",
+    "section": "About revealjs",
+    "text": "About revealjs\n\nQuarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#code",
+    "href": "posters_presentations/html_slides.html#code",
+    "title": "HTML slides with revealjs",
+    "section": "Code",
+    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#r-figures",
+    "href": "posters_presentations/html_slides.html#r-figures",
+    "title": "HTML slides with revealjs",
+    "section": "R Figures",
+    "text": "R Figures\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#interactive-panels",
+    "href": "posters_presentations/html_slides.html#interactive-panels",
+    "title": "HTML slides with revealjs",
+    "section": "Interactive panels",
+    "text": "Interactive panels\n\nCodeFigure\n\n\nggplot(penguins) +\n  aes(x = flipper_length_mm,\n      y = body_mass_g) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")"
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#external-figures",
+    "href": "posters_presentations/html_slides.html#external-figures",
+    "title": "HTML slides with revealjs",
+    "section": "External figures",
+    "text": "External figures\nYou can include GIFs!\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#pipe-tables",
+    "href": "posters_presentations/html_slides.html#pipe-tables",
+    "title": "HTML slides with revealjs",
+    "section": "Pipe tables",
+    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "posters_presentations/html_slides.html#r-tables",
+    "href": "posters_presentations/html_slides.html#r-tables",
+    "title": "HTML slides with revealjs",
+    "section": "R Tables",
+    "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
   }
 ]

@@ -1,0 +1,126 @@
+---
+title: "PDF Slides with beamer"
+author: "R Workshop"
+format: beamer
+theme: Madrid
+urlcolor: blue
+# The packages and options below are required
+# to make kableExtra tables work
+# You can delete them if you are not using the package
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+  - \usepackage{array}
+  - \usepackage{multirow}
+  - \usepackage{wrapfig}
+  - \usepackage{float}
+  - \usepackage{colortbl}
+  - \usepackage{pdflscape}
+  - \usepackage{tabu}
+  - \usepackage{threeparttable}
+  - \usepackage{threeparttablex}
+  - \usepackage[normalem]{ulem}
+  - \usepackage{makecell}
+  - \usepackage{xcolor}
+  - \newcommand{\theHtable}{\thetable}
+---
+
+```{r setup, include=FALSE}
+# Here you customize global options for how
+# code will translate into the PDF
+# It won't show in the document
+library(knitr)
+opts_chunk$set(echo = FALSE, 
+               message = FALSE, 
+               warning = FALSE, 
+               results = "asis", 
+               out.width = "100%")
+
+# Load additional R packages here
+library(tidyverse) # Data manipulation
+library(kableExtra) # tables
+library(palmerpenguins) # Practice data
+
+# ggplot global options
+# Always make font size bigger than what you think!
+theme_set(theme_gray(base_size = 20))
+```
+
+## About Beamer
+
+- Quarto uses Beamer to create PDF presentations
+
+- Similar to [LaTeX Beamer](https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_1)—Getting_Started) but using Markdown language
+
+- See [here](https://quarto.org/docs/presentations/beamer.html) for more information
+
+- And [here](https://latex-beamer.com/tutorials/beamer-themes/) for themes
+
+## Code
+
+Our code chunk settings make it so that code is hidden from the pdf by default. We can override this with [code chunk options](https://quarto.org/docs/computations/execution-options.html).
+
+For example, here I am forcing the code to appear in the pdf.
+
+```{r}
+#| echo: TRUE
+
+1+1
+```
+
+## R Figures
+
+```{r}
+#| label: fig-penguins
+#| fig-cap: "An example of how to make figures using `ggplot2`"
+#| out-width: "80%"
+
+ggplot(penguins) +
+  aes(x = flipper_length_mm,
+      y = body_mass_g) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3,
+             alpha = 0.8) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  labs(title = "Penguin size, Palmer Station LTER",
+       subtitle = "Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species",
+       shape = "Penguin species") +
+  theme(legend.position = c(0.2, 0.7),
+        plot.title.position = "plot",
+        plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.caption.position = "plot")
+```
+
+## External figures
+
+::: {#fig-import}
+![](https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2024-01-31-making-pdf-with-quarto-typst-latex/featured.png){fig-align="center" width=50%}
+
+An example of how to plot an external figure
+:::
+
+## Pipe tables
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+## R Tables
+
+We will use the [`kableExtra`](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_pdf.pdf) package because `tinytable` faces issues with Beamer.
+
+```{r}
+#| label: tbl-tidy
+#| tbl-cap: "An example of a table made from tidy data with `tinytable`"
+
+# table1 is a sample table from the tidyr package
+table1 %>% kbl(booktabs = TRUE)
+```
