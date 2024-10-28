@@ -421,7 +421,7 @@ R Workshop
 <section id="r-figures" class="slide level2">
 <h2>R Figures</h2>
 
-<img data-src="html_slides_files/figure-revealjs/fig-penguins-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">
+<img data-src="html_slides_files/figure-html/fig-penguins-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">
 Figure&nbsp;1: An example of how to make figures using <code>ggplot2</code>
 </p></section>
 <section id="interactive-panels" class="slide level2">
@@ -450,7 +450,7 @@ Figure&nbsp;1: An example of how to make figures using <code>ggplot2</code>
 <span id="cb2-18"><a></a>        <span class="at">plot.caption.position =</span> <span class="st">"plot"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="tabset-1-2">
-<p><img data-src="html_slides_files/figure-revealjs/unnamed-chunk-4-1.png" style="width:100.0%"></p>
+<p><img data-src="html_slides_files/figure-html/unnamed-chunk-4-1.png" style="width:100.0%"></p>
 </div>
 </div>
 </div>
@@ -507,12 +507,12 @@ Table&nbsp;1: An example of a table made from tidy data with <code>tinytable</co
 <!-- preamble start -->
 
     <script>
-      function styleCell_s5hrj51cyad1pcso1c8k(i, j, css_id) {
-        var table = document.getElementById("tinytable_s5hrj51cyad1pcso1c8k");
+      function styleCell_6apsmuvovt7t573jezg0(i, j, css_id) {
+        var table = document.getElementById("tinytable_6apsmuvovt7t573jezg0");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_s5hrj51cyad1pcso1c8k');
+        var table = document.getElementById('tinytable_6apsmuvovt7t573jezg0');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -520,8 +520,8 @@ Table&nbsp;1: An example of a table made from tidy data with <code>tinytable</co
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_s5hrj51cyad1pcso1c8k(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_s5hrj51cyad1pcso1c8k");
+      function spanCell_6apsmuvovt7t573jezg0(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_6apsmuvovt7t573jezg0");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -547,17 +547,17 @@ Table&nbsp;1: An example of a table made from tidy data with <code>tinytable</co
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_s5hrj51cyad1pcso1c8k(0, 0, 'tinytable_css_idpiohy6ovvkmzvf66hlju') })
-window.addEventListener('load', function () { styleCell_s5hrj51cyad1pcso1c8k(0, 1, 'tinytable_css_idpiohy6ovvkmzvf66hlju') })
-window.addEventListener('load', function () { styleCell_s5hrj51cyad1pcso1c8k(0, 2, 'tinytable_css_idpiohy6ovvkmzvf66hlju') })
-window.addEventListener('load', function () { styleCell_s5hrj51cyad1pcso1c8k(0, 3, 'tinytable_css_idpiohy6ovvkmzvf66hlju') })
+window.addEventListener('load', function () { styleCell_6apsmuvovt7t573jezg0(0, 0, 'tinytable_css_id87eeaxf64lw30cd6nwva') })
+window.addEventListener('load', function () { styleCell_6apsmuvovt7t573jezg0(0, 1, 'tinytable_css_id87eeaxf64lw30cd6nwva') })
+window.addEventListener('load', function () { styleCell_6apsmuvovt7t573jezg0(0, 2, 'tinytable_css_id87eeaxf64lw30cd6nwva') })
+window.addEventListener('load', function () { styleCell_6apsmuvovt7t573jezg0(0, 3, 'tinytable_css_id87eeaxf64lw30cd6nwva') })
     </script>
 
     <style>
-    .table td.tinytable_css_idpiohy6ovvkmzvf66hlju, .table th.tinytable_css_idpiohy6ovvkmzvf66hlju {  border-bottom: solid 0.1em #d3d8dc; }
+    .table td.tinytable_css_id87eeaxf64lw30cd6nwva, .table th.tinytable_css_id87eeaxf64lw30cd6nwva {  border-bottom: solid 0.1em #d3d8dc; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_s5hrj51cyad1pcso1c8k" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_6apsmuvovt7t573jezg0" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -829,44 +829,6 @@ window.addEventListener('load', function () { styleCell_s5hrj51cyad1pcso1c8k(0, 
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

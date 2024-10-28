@@ -1,136 +1,59 @@
 [
   {
-    "objectID": "writing_papers/guide.html#roadmap",
-    "href": "writing_papers/guide.html#roadmap",
-    "title": "Writing Papers in Quarto",
-    "section": "Roadmap",
-    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
+    "objectID": "presentations/html_slides.html#about-revealjs",
+    "href": "presentations/html_slides.html#about-revealjs",
+    "title": "HTML slides with revealjs",
+    "section": "About revealjs",
+    "text": "About revealjs\n\nQuarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
   },
   {
-    "objectID": "writing_papers/guide.html#elements-of-an-academic-paper",
-    "href": "writing_papers/guide.html#elements-of-an-academic-paper",
-    "title": "Writing Papers in Quarto",
-    "section": "Elements of an (academic) paper",
-    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
+    "objectID": "presentations/html_slides.html#code",
+    "href": "presentations/html_slides.html#code",
+    "title": "HTML slides with revealjs",
+    "section": "Code",
+    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
   },
   {
-    "objectID": "writing_papers/guide.html#default-option-word-processors",
-    "href": "writing_papers/guide.html#default-option-word-processors",
-    "title": "Writing Papers in Quarto",
-    "section": "Default option: Word processors",
-    "text": "Default option: Word processors\n\n\nLanguage: Awesome\nFormatting: Excruciating\nVisualization: Harrowing (but see StatTag)\nCollaboration: Ok (Word) to great (Google Docs)\nCitations: Great (Zotero, Mendeley, RefWorks)"
+    "objectID": "presentations/html_slides.html#r-figures",
+    "href": "presentations/html_slides.html#r-figures",
+    "title": "HTML slides with revealjs",
+    "section": "R Figures",
+    "text": "R Figures\n\n\nFigure 1: An example of how to make figures using ggplot2"
   },
   {
-    "objectID": "writing_papers/guide.html#alternative-typesetting",
-    "href": "writing_papers/guide.html#alternative-typesetting",
-    "title": "Writing Papers in Quarto",
-    "section": "Alternative: Typesetting",
-    "text": "Alternative: Typesetting\n\n\nRemove frustrations with formatting and visualization\nWord processors: Write, then format\nTypesetting: Format, then write"
+    "objectID": "presentations/html_slides.html#interactive-panels",
+    "href": "presentations/html_slides.html#interactive-panels",
+    "title": "HTML slides with revealjs",
+    "section": "Interactive panels",
+    "text": "Interactive panels\n\nCodeFigure\n\n\nggplot(penguins) +\n  aes(x = flipper_length_mm,\n      y = body_mass_g) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")"
   },
   {
-    "objectID": "writing_papers/guide.html#latex",
-    "href": "writing_papers/guide.html#latex",
-    "title": "Writing Papers in Quarto",
-    "section": "LaTeX",
-    "text": "LaTeX"
+    "objectID": "presentations/html_slides.html#external-figures",
+    "href": "presentations/html_slides.html#external-figures",
+    "title": "HTML slides with revealjs",
+    "section": "External figures",
+    "text": "External figures\nYou can include GIFs!\n\n\nFigure 2: An example of how to plot an external figure"
   },
   {
-    "objectID": "writing_papers/guide.html#popular-option-overleaf",
-    "href": "writing_papers/guide.html#popular-option-overleaf",
-    "title": "Writing Papers in Quarto",
-    "section": "Popular option: Overleaf",
-    "text": "Popular option: Overleaf"
+    "objectID": "presentations/html_slides.html#pipe-tables",
+    "href": "presentations/html_slides.html#pipe-tables",
+    "title": "HTML slides with revealjs",
+    "section": "Pipe tables",
+    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
   },
   {
-    "objectID": "writing_papers/guide.html#for-rstudio-users-rmarkdown",
-    "href": "writing_papers/guide.html#for-rstudio-users-rmarkdown",
-    "title": "Writing Papers in Quarto",
-    "section": "For RStudio Users: RMarkdown",
-    "text": "For RStudio Users: RMarkdown"
-  },
-  {
-    "objectID": "writing_papers/guide.html#newer-option-quarto",
-    "href": "writing_papers/guide.html#newer-option-quarto",
-    "title": "Writing Papers in Quarto",
-    "section": "Newer option: Quarto",
-    "text": "Newer option: Quarto"
-  },
-  {
-    "objectID": "writing_papers/guide.html#why-papers-in-rstudio",
-    "href": "writing_papers/guide.html#why-papers-in-rstudio",
-    "title": "Writing Papers in Quarto",
-    "section": "Why papers in RStudio?",
-    "text": "Why papers in RStudio?\n\n\nLanguage: Fine\nFormatting: Flexible\nVisualization: Excellent! Connects directly to data analysis \\(\\rightarrow\\) Reproducible workflow\nCollaboration: Great, but not real-time (GitHub)\nCitations: Also great (Connect to .bib files)"
-  },
-  {
-    "objectID": "writing_papers/guide.html#but-why-quarto-in-particular",
-    "href": "writing_papers/guide.html#but-why-quarto-in-particular",
-    "title": "Writing Papers in Quarto",
-    "section": "But why Quarto in particular?",
-    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
-  },
-  {
-    "objectID": "writing_papers/guide.html#what-you-need-to-write-papers",
-    "href": "writing_papers/guide.html#what-you-need-to-write-papers",
-    "title": "Writing Papers in Quarto",
-    "section": "What you need to write papers",
-    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
-  },
-  {
-    "objectID": "writing_papers/guide.html#what-you-need-to-write-papers-1",
-    "href": "writing_papers/guide.html#what-you-need-to-write-papers-1",
-    "title": "Writing Papers in Quarto",
-    "section": "What you need to write papers",
-    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
-  },
-  {
-    "objectID": "writing_papers/guide.html#latex-distribution-tinytex",
-    "href": "writing_papers/guide.html#latex-distribution-tinytex",
-    "title": "Writing Papers in Quarto",
-    "section": "LaTeX distribution: tinyTex",
-    "text": "LaTeX distribution: tinyTex"
-  },
-  {
-    "objectID": "writing_papers/guide.html#in-r",
-    "href": "writing_papers/guide.html#in-r",
-    "title": "Writing Papers in Quarto",
-    "section": "In R",
-    "text": "In R\n\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()\n\n\n\nRepeat after installing a new version of R\ntinyTeX will install/update required LaTeX packages as you create documents"
-  },
-  {
-    "objectID": "writing_papers/guide.html#citation-manager",
-    "href": "writing_papers/guide.html#citation-manager",
-    "title": "Writing Papers in Quarto",
-    "section": "Citation manager",
-    "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
-  },
-  {
-    "objectID": "writing_papers/index.html",
-    "href": "writing_papers/index.html",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
-  },
-  {
-    "objectID": "writing_papers/index.html#overview",
-    "href": "writing_papers/index.html#overview",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
-  },
-  {
-    "objectID": "writing_papers/index.html#resources",
-    "href": "writing_papers/index.html#resources",
-    "title": "Writing Papers in Quarto",
-    "section": "Resources",
-    "text": "Resources\n\n Guide\n Template\n Sample bibliography"
+    "objectID": "presentations/html_slides.html#r-tables",
+    "href": "presentations/html_slides.html#r-tables",
+    "title": "HTML slides with revealjs",
+    "section": "R Tables",
+    "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "R Workshop",
     "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
     "crumbs": [
       "Home"
     ]
@@ -140,7 +63,7 @@
     "href": "index.html#fall-2024-schedule",
     "title": "R Workshop",
     "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
     "crumbs": [
       "Home"
     ]
@@ -156,52 +79,164 @@
     ]
   },
   {
-    "objectID": "posters_presentations/html_slides.html#about-revealjs",
-    "href": "posters_presentations/html_slides.html#about-revealjs",
-    "title": "HTML slides with revealjs",
-    "section": "About revealjs",
-    "text": "About revealjs\n\nQuarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
   },
   {
-    "objectID": "posters_presentations/html_slides.html#code",
-    "href": "posters_presentations/html_slides.html#code",
-    "title": "HTML slides with revealjs",
-    "section": "Code",
-    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
+    "objectID": "papers/index.html#overview",
+    "href": "papers/index.html#overview",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
   },
   {
-    "objectID": "posters_presentations/html_slides.html#r-figures",
-    "href": "posters_presentations/html_slides.html#r-figures",
-    "title": "HTML slides with revealjs",
-    "section": "R Figures",
-    "text": "R Figures\n\n\nFigure 1: An example of how to make figures using ggplot2"
+    "objectID": "papers/index.html#resources",
+    "href": "papers/index.html#resources",
+    "title": "Writing Papers in Quarto",
+    "section": "Resources",
+    "text": "Resources\n\n Guide\n Template\n Sample bibliography"
   },
   {
-    "objectID": "posters_presentations/html_slides.html#interactive-panels",
-    "href": "posters_presentations/html_slides.html#interactive-panels",
-    "title": "HTML slides with revealjs",
-    "section": "Interactive panels",
-    "text": "Interactive panels\n\nCodeFigure\n\n\nggplot(penguins) +\n  aes(x = flipper_length_mm,\n      y = body_mass_g) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")"
+    "objectID": "presentations/index.html",
+    "href": "presentations/index.html",
+    "title": "Presentations and Posters",
+    "section": "",
+    "text": "We review three options to incorporate data analysis in R into presentations, as well as two options to do so for academic posters.\nUnlike the previous section about writing papers, in which we highlighted not having to manually format a document as one of the advantages of typesetting languages like LaTeX or Quarto Markdown, there is not a strong reason to choose one alternative over the other besides aesthetic preferences and presentation goals.\nFor presentations, we can easily incorporate output into different formats:\n\nPowerPoint. This requires exporting figures as .svg files and tables as Word documents1\nPDF through Beamer\nHTML through revealjs\n\nThe options are similar for posters. Since they are just static content, the most important part is choosing the right template. The options are:\n\nPowerPoint templates for either classic or billboard posters\nUsing RMarkdown to create both HTML and PDF posters with the posterdown package, with several template options"
   },
   {
-    "objectID": "posters_presentations/html_slides.html#external-figures",
-    "href": "posters_presentations/html_slides.html#external-figures",
-    "title": "HTML slides with revealjs",
-    "section": "External figures",
-    "text": "External figures\nYou can include GIFs!\n\n\nFigure 2: An example of how to plot an external figure"
+    "objectID": "presentations/index.html#overview",
+    "href": "presentations/index.html#overview",
+    "title": "Presentations and Posters",
+    "section": "",
+    "text": "We review three options to incorporate data analysis in R into presentations, as well as two options to do so for academic posters.\nUnlike the previous section about writing papers, in which we highlighted not having to manually format a document as one of the advantages of typesetting languages like LaTeX or Quarto Markdown, there is not a strong reason to choose one alternative over the other besides aesthetic preferences and presentation goals.\nFor presentations, we can easily incorporate output into different formats:\n\nPowerPoint. This requires exporting figures as .svg files and tables as Word documents1\nPDF through Beamer\nHTML through revealjs\n\nThe options are similar for posters. Since they are just static content, the most important part is choosing the right template. The options are:\n\nPowerPoint templates for either classic or billboard posters\nUsing RMarkdown to create both HTML and PDF posters with the posterdown package, with several template options"
   },
   {
-    "objectID": "posters_presentations/html_slides.html#pipe-tables",
-    "href": "posters_presentations/html_slides.html#pipe-tables",
-    "title": "HTML slides with revealjs",
-    "section": "Pipe tables",
-    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+    "objectID": "presentations/index.html#resources",
+    "href": "presentations/index.html#resources",
+    "title": "Presentations and Posters",
+    "section": "Resources",
+    "text": "Resources\n\n Export figures and tables to PowerPoint\n PowerPoint slides example\n PDF slides template\n HTML slides template"
   },
   {
-    "objectID": "posters_presentations/html_slides.html#r-tables",
-    "href": "posters_presentations/html_slides.html#r-tables",
-    "title": "HTML slides with revealjs",
-    "section": "R Tables",
-    "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
+    "objectID": "presentations/index.html#additional-resources",
+    "href": "presentations/index.html#additional-resources",
+    "title": "Presentations and Posters",
+    "section": "Additional Resources",
+    "text": "Additional Resources"
+  },
+  {
+    "objectID": "presentations/index.html#footnotes",
+    "href": "presentations/index.html#footnotes",
+    "title": "Presentations and Posters",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTechnically, you can create PowerPoint slides within RStudio through Quarto, but I think skipping the point-and-click interface defeats the purpose.↩︎"
+  },
+  {
+    "objectID": "papers/guide.html#roadmap",
+    "href": "papers/guide.html#roadmap",
+    "title": "Writing Papers in Quarto",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
+  },
+  {
+    "objectID": "papers/guide.html#elements-of-an-academic-paper",
+    "href": "papers/guide.html#elements-of-an-academic-paper",
+    "title": "Writing Papers in Quarto",
+    "section": "Elements of an (academic) paper",
+    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
+  },
+  {
+    "objectID": "papers/guide.html#default-option-word-processors",
+    "href": "papers/guide.html#default-option-word-processors",
+    "title": "Writing Papers in Quarto",
+    "section": "Default option: Word processors",
+    "text": "Default option: Word processors\n\n\nLanguage: Awesome\nFormatting: Excruciating\nVisualization: Harrowing (but see StatTag)\nCollaboration: Ok (Word) to great (Google Docs)\nCitations: Great (Zotero, Mendeley, RefWorks)"
+  },
+  {
+    "objectID": "papers/guide.html#alternative-typesetting",
+    "href": "papers/guide.html#alternative-typesetting",
+    "title": "Writing Papers in Quarto",
+    "section": "Alternative: Typesetting",
+    "text": "Alternative: Typesetting\n\n\nRemove frustrations with formatting and visualization\nWord processors: Write, then format\nTypesetting: Format, then write"
+  },
+  {
+    "objectID": "papers/guide.html#latex",
+    "href": "papers/guide.html#latex",
+    "title": "Writing Papers in Quarto",
+    "section": "LaTeX",
+    "text": "LaTeX"
+  },
+  {
+    "objectID": "papers/guide.html#popular-option-overleaf",
+    "href": "papers/guide.html#popular-option-overleaf",
+    "title": "Writing Papers in Quarto",
+    "section": "Popular option: Overleaf",
+    "text": "Popular option: Overleaf"
+  },
+  {
+    "objectID": "papers/guide.html#for-rstudio-users-rmarkdown",
+    "href": "papers/guide.html#for-rstudio-users-rmarkdown",
+    "title": "Writing Papers in Quarto",
+    "section": "For RStudio Users: RMarkdown",
+    "text": "For RStudio Users: RMarkdown"
+  },
+  {
+    "objectID": "papers/guide.html#newer-option-quarto",
+    "href": "papers/guide.html#newer-option-quarto",
+    "title": "Writing Papers in Quarto",
+    "section": "Newer option: Quarto",
+    "text": "Newer option: Quarto"
+  },
+  {
+    "objectID": "papers/guide.html#why-papers-in-rstudio",
+    "href": "papers/guide.html#why-papers-in-rstudio",
+    "title": "Writing Papers in Quarto",
+    "section": "Why papers in RStudio?",
+    "text": "Why papers in RStudio?\n\n\nLanguage: Fine\nFormatting: Flexible\nVisualization: Excellent! Connects directly to data analysis \\(\\rightarrow\\) Reproducible workflow\nCollaboration: Great, but not real-time (GitHub)\nCitations: Also great (Connect to .bib files)"
+  },
+  {
+    "objectID": "papers/guide.html#but-why-quarto-in-particular",
+    "href": "papers/guide.html#but-why-quarto-in-particular",
+    "title": "Writing Papers in Quarto",
+    "section": "But why Quarto in particular?",
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
+  },
+  {
+    "objectID": "papers/guide.html#what-you-need-to-write-papers",
+    "href": "papers/guide.html#what-you-need-to-write-papers",
+    "title": "Writing Papers in Quarto",
+    "section": "What you need to write papers",
+    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
+  },
+  {
+    "objectID": "papers/guide.html#what-you-need-to-write-papers-1",
+    "href": "papers/guide.html#what-you-need-to-write-papers-1",
+    "title": "Writing Papers in Quarto",
+    "section": "What you need to write papers",
+    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
+  },
+  {
+    "objectID": "papers/guide.html#latex-distribution-tinytex",
+    "href": "papers/guide.html#latex-distribution-tinytex",
+    "title": "Writing Papers in Quarto",
+    "section": "LaTeX distribution: tinyTex",
+    "text": "LaTeX distribution: tinyTex"
+  },
+  {
+    "objectID": "papers/guide.html#in-r",
+    "href": "papers/guide.html#in-r",
+    "title": "Writing Papers in Quarto",
+    "section": "In R",
+    "text": "In R\n\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()\n\n\n\nRepeat after installing a new version of R\ntinyTeX will install/update required LaTeX packages as you create documents"
+  },
+  {
+    "objectID": "papers/guide.html#citation-manager",
+    "href": "papers/guide.html#citation-manager",
+    "title": "Writing Papers in Quarto",
+    "section": "Citation manager",
+    "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
   }
 ]

@@ -19,13 +19,14 @@ library(markdown)
 - {{< fa location-dot >}} &nbsp; Scott Hall 212
 - {{< fa video >}} &nbsp; [Zoom meeting](https://northwestern.zoom.us/j/94652528071?pwd=bfBocxKncYkfZbTYiCIlJqhqxwx7EY.1)
 - {{< fa file-pdf >}} &nbsp; [Full AY 2024-25 schedule](schedule.pdf)
+- {{< fa file-excel >}} &nbsp; [Attendance sheet](https://forms.office.com/r/m8ZT8aDpVr)
 
 ```{r schedule, include = FALSE}
 schedule =
   tribble(
     ~Date, ~Topic,
-    "October 7", "[Writing papers in Quarto](writing_papers/)",
-    "October 28", "Presentations and posters",
+    "October 7", "[Writing papers in Quarto](papers/)",
+    "October 28", "[Presentations and posters](presentations/)",
     "November 25", "Coding session",
     )
 ```

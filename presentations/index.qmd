@@ -1,0 +1,46 @@
+---
+title: "Presentations and Posters"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+We review three options to incorporate data analysis in R into presentations, as well as two options to do so for academic posters.
+
+Unlike the previous section about writing papers, in which we highlighted not having to manually format a document as one of the advantages of typesetting languages like LaTeX or Quarto Markdown, there is not a strong reason to choose one alternative over the other besides aesthetic preferences and presentation goals.
+
+For presentations, we can easily incorporate output into different formats:
+
+1. PowerPoint. This requires exporting figures as .svg files and tables as Word documents^[Technically, you can [create PowerPoint slides](https://quarto.org/docs/presentations/powerpoint.html) within RStudio through Quarto, but I think skipping the point-and-click interface defeats the purpose.]
+
+2. PDF through [Beamer](https://quarto.org/docs/presentations/beamer.html)
+
+3. HTML through [revealjs](https://quarto.org/docs/presentations/revealjs/)
+
+The options are similar for posters. Since they are just static content, the most important part is choosing the right template. The options are:
+
+1. PowerPoint templates for either [classic](https://www.posternerd.com/sciposters-templates) or [billboard](https://www.posternerd.com/billboard-poster-templates) posters
+
+2. Using RMarkdown to create both HTML and PDF posters with the [`posterdown`](https://github.com/brentthorne/posterdown#getting-started) package, with several template options
+
+## Resources
+
+- {{< fa brands r-project >}} Export figures and tables to PowerPoint
+
+- {{< fa brands r-project >}} PDF slides template
+
+- {{< fa brands r-project >}} HTML slides template
+
+- {{< fa file-powerpoint >}} PowerPoint poster templates
+
+- {{< fa brands r-project >}} `posterdown` package for RMarkdown templates
+
+## Tips
+
+The general tip for presentations and posters is that you should treat them as advertisement for a paper or project, so you should keep presentation simple and not try to summarize everything.
+
+[Carlisle Rainey]() shared [some general tips]() for conference presentations or invited talks
+
+[Mike Morrison](https://x.com/mikemorrison) is an advocate of user-friendly science and has promoted "billboard" posters or [posters 2.0](https://youtu.be/SYk29tnxASs?si=FbEdWWjP7f33dBEv) as a more efficient template
+
