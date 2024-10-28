@@ -18,6 +18,6 @@ Each one has its advantages, and what you do is ultimately a matter of convenien
 ## Resources
 
 - {{< fa tv >}} [Guide](guide.html)
-- {{< fa file-code >}} [Template](https://github.com/gustavo-diaz/rworkshop/blob/main/writing_papers/template.qmd)
-- {{< fa book >}} [Sample bibliography](https://github.com/gustavo-diaz/rworkshop/blob/main/writing_papers/references.bib)
+- {{< fa file-code >}} [Template](https://github.com/gustavo-diaz/rworkshop/blob/main/papers/template.qmd)
+- {{< fa book >}} [Sample bibliography](https://github.com/gustavo-diaz/rworkshop/blob/main/papers/references.bib)
 

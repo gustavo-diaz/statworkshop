@@ -26,21 +26,23 @@ The options are similar for posters. Since they are just static content, the mos
 
 ## Resources
 
-- {{< fa brands r-project >}} Export figures and tables to PowerPoint
+- {{< fa brands r-project >}} [Export figures and tables to PowerPoint](https://github.com/gustavo-diaz/rworkshop/blob/main/presentations/export_to_ppt.R)
 
-- {{< fa brands r-project >}} PDF slides template
+- {{< fa brands r-project >}} [PDF slides template](https://github.com/gustavo-diaz/rworkshop/blob/main/presentations/pdf_slides.qmd)
 
-- {{< fa brands r-project >}} HTML slides template
+- {{< fa brands r-project >}} [HTML slides template](https://github.com/gustavo-diaz/rworkshop/blob/main/presentations/html_slides.qmd)
 
-- {{< fa file-powerpoint >}} PowerPoint poster templates
+- {{< fa file-powerpoint >}} [Classic PowerPoint poster templates](https://www.posternerd.com/sciposters-templates)
 
-- {{< fa brands r-project >}} `posterdown` package for RMarkdown templates
+- {{< fa file-powerpoint >}} [Billboard PowerPoint poster templates](https://www.posternerd.com/billboard-poster-templates)
+
+- {{< fa brands r-project >}} [`posterdown` package](https://github.com/brentthorne/posterdown) for RMarkdown templates
 
 ## Tips
 
-The general tip for presentations and posters is that you should treat them as advertisement for a paper or project, so you should keep presentation simple and not try to summarize everything.
+Treat presentations and posters as advertisement for a paper or project, that means keeping exposure simple and resisting the urge to cram everything in.
 
-[Carlisle Rainey]() shared [some general tips]() for conference presentations or invited talks
+[Carlisle Rainey](https://www.carlislerainey.com) shared [some general tips](https://bsky.app/profile/carlislerainey.bsky.social/post/3kihtjfjgac2a) for conference presentations or invited talks that are continuously repeated but rarely applied.
 
-[Mike Morrison](https://x.com/mikemorrison) is an advocate of user-friendly science and has promoted "billboard" posters or [posters 2.0](https://youtu.be/SYk29tnxASs?si=FbEdWWjP7f33dBEv) as a more efficient template
+[Mike Morrison](https://x.com/mikemorrison) is an advocate of user-friendly science and has promoted "billboard" posters or [posters 2.0](https://youtu.be/SYk29tnxASs?si=FbEdWWjP7f33dBEv) as a more efficient template.
 

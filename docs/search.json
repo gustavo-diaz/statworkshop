@@ -118,7 +118,7 @@
     "href": "presentations/index.html#resources",
     "title": "Presentations and Posters",
     "section": "Resources",
-    "text": "Resources\n\n Export figures and tables to PowerPoint\n PowerPoint slides example\n PDF slides template\n HTML slides template"
+    "text": "Resources\n\n Export figures and tables to PowerPoint\n PDF slides template\n HTML slides template\n Classic PowerPoint poster templates\n Billboard PowerPoint poster templates\n posterdown package for RMarkdown templates"
   },
   {
     "objectID": "presentations/index.html#additional-resources",
@@ -238,5 +238,12 @@
     "title": "Writing Papers in Quarto",
     "section": "Citation manager",
     "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
+  },
+  {
+    "objectID": "presentations/index.html#tips",
+    "href": "presentations/index.html#tips",
+    "title": "Presentations and Posters",
+    "section": "Tips",
+    "text": "Tips\nTreat presentations and posters as advertisement for a paper or project, that means keeping exposure simple and resisting the urge to cram everything in.\nCarlisle Rainey shared some general tips for conference presentations or invited talks that are continuously repeated but rarely applied.\nMike Morrison is an advocate of user-friendly science and has promoted “billboard” posters or posters 2.0 as a more efficient template."
   }
 ]
