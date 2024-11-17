@@ -48,10 +48,11 @@ The aim is to present topics that are equally useful for new and advanced users.
 ## Winter
 
 ### Meeting 4: Interpreting statistical results
-<!-- Vincent Arel-Bundock -->
+**Guest speaker:** Vincent Arel-Bundock -- Université de Montréal
 
-### Meeting 5: Geographical and census data
-<!-- Michelle Bueno Vasquez -->
+
+### Meeting 5: Geographical and census data 
+**Guest speaker:** Michelle Bueno Vásquez -- Northwestern University
 
 
 
