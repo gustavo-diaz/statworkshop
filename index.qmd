@@ -27,7 +27,7 @@ schedule =
     ~Date, ~Topic,
     "October 7", "[Writing papers in Quarto](papers/)",
     "October 28", "[Presentations and posters](presentations/)",
-    "November 25", "Coding session",
+    "November 25", "[Coding session](open_fall/)",
     )
 ```
 

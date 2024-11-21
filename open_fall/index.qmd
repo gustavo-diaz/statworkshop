@@ -1,0 +1,15 @@
+---
+title: "Fall Coding Session"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+This is the first open-ended coding session of the academic year. The goal is for each of us to bring a coding-related goal that we want to accomplish within the time allotted.
+
+We will start by taking turns describing what we seek to accomplish, or what we are particularly stuck on, then we will proceed work independent and help each other if needed.
+
+If we happen to stumble into an important topic, we will link to the appropriate resources here.
+
+
