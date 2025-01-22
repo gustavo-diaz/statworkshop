@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Gustavo Diaz">
+<meta name="author" content="Gustavo Díaz">
+<meta name="author" content="Second Author">
+<meta name="dcterms.date" content="2025-01-22">
 
-<title>R Workshop</title>
+<title>Quarto Paper Template – R Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,28 +23,80 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,11 +124,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+</head><body class="nav-sidebar docked">\usepackage{setspace}
+\doublespacing
+\usepackage{float}
+\floatplacement{figure}{t}
+\floatplacement{table}{t}
+\usepackage{flafter}
+\usepackage[section]{placeins}
 
 
-</head>
 
-<body class="nav-sidebar docked">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +144,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      R Workshop
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -93,12 +156,12 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">R Workshop</a> 
+      <a href="../">R Workshop</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/gustavo-diaz/rworkshop" title="GitHub repository" class="quarto-navigation-tool px-1" aria-label="GitHub repository"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -114,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -123,54 +186,163 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="template.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Workshop</h1>
-<p class="subtitle lead">Northwestern University – Political Science</p>
+<h1 class="title">Quarto Paper Template</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p><a href="https://gustavodiaz.org/">Gustavo Diaz</a> </p>
+             <p>Gustavo Díaz<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> </p>
+             <p>Second Author<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 22, 2025</p>
+    </div>
+  </div>
   
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    This is a template to write an academic paper in Quarto. In this space, you normally write the abstract, which is a summary of the paper in no more than 120-200 words.
+  </div>
+</div>
 
 
 </header>
 
 
-<section id="winter-2025-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="winter-2025-schedule">Winter 2025 Schedule</h2>
-<!-- -  &nbsp; 3:00 -- 4:20 PM -->
-<!-- -  &nbsp; Scott Hall 212 -->
-<ul>
-<li><i class="fa-solid fa-video" aria-hidden="true"></i> &nbsp; <a href="https://northwestern.zoom.us/j/94652528071?pwd=bfBocxKncYkfZbTYiCIlJqhqxwx7EY.1">Zoom meeting</a></li>
-<li><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> &nbsp; <a href="schedule.pdf">Full AY 2024-25 schedule</a></li>
-<li><i class="fa-solid fa-file-excel" aria-hidden="true"></i> &nbsp; <a href="https://forms.office.com/r/m8ZT8aDpVr">Attendance sheet for registered students</a></li>
-</ul>
+<div style="page-break-after: always;"></div>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<!-- This line is a comment, it will not render in the PDF. You introduce by placing your cursor in a text line and then input  ctrl + shift + C in Windows and cmd + shift + C in Mac.-->
+<p>Papers usually start with an introduction. See <a href="https://anthlittle.github.io/files/little_intros.pdf">this link</a> for some tips on how to write introductions.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+</section>
+<section id="code" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Code</h1>
+<p>Our code chunk settings make it so that code is hidden from the pdf by default. We can override this with <a href="https://quarto.org/docs/computations/execution-options.html">code chunk options</a>.</p>
+<p>For example, here I am forcing the code to appear in the pdf.</p>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">+</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 2</p>
+</section>
+<section id="citations" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Citations</h1>
+<p>Citations by default are in Chicago style. For example, you can see <span class="citation" data-cites="Wickham2016a">Wickham (<a href="#ref-Wickham2016a" role="doc-biblioref">2016b</a>)</span> to learn more about working with R and RStudio. See <a href="https://quarto.org/docs/authoring/citations.html">here</a> for more information on how to use other citation styles.</p>
+</section>
+<section id="figures" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Figures</h1>
+<section id="from-r" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="from-r"><span class="header-section-number">4.1</span> From R</h2>
+<p><a href="#fig-penguins" class="quarto-xref">Figure&nbsp;1</a> shows how to plot a figure from R code. See <span class="citation" data-cites="Wickham2016">Wickham (<a href="#ref-Wickham2016" role="doc-biblioref">2016a</a>)</span> for more on how to make pretty plots.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<div id="fig-penguins" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-penguins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="template_files/figure-html/fig-penguins-1.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-penguins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: An example of how to make figures using <code>ggplot2</code>
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="from-external-sources" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="from-external-sources"><span class="header-section-number">4.2</span> From external sources</h2>
+<p>Sometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. <a href="#fig-import" class="quarto-xref">Figure&nbsp;2</a> shows an example using a URL. In practice, you would use the path of file in your working directory.</p>
+<div id="fig-import" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-import-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://raw.githubusercontent.com/nrennie/nrennie.rbind.io/main/content/blog/2024-01-31-making-pdf-with-quarto-typst-latex/featured.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-import-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: An example of how to plot an external figure
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="tables" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Tables</h1>
+<section id="pipe-tables" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="pipe-tables"><span class="header-section-number">5.1</span> Pipe tables</h2>
+<p>You can make tables “by hand” using pipe tables. Like <a href="#tbl-pipe" class="quarto-xref">Table&nbsp;1</a> shows.</p>
+<div id="tbl-pipe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-pipe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Demonstration of pipe table syntax
+</figcaption>
+<div aria-describedby="tbl-pipe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Default</th>
+<th style="text-align: left;">Left</th>
+<th style="text-align: right;">Right</th>
+<th style="text-align: center;">Center</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>12</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr class="even">
+<td>123</td>
+<td style="text-align: left;">123</td>
+<td style="text-align: right;">123</td>
+<td style="text-align: center;">123</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>You can even use a <a href="https://www.tablesgenerator.com/markdown_tables">Tables Generator</a> to make them interactively and then copy and paste in your .qmd file.</p>
+</section>
+<section id="from-r-1" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="from-r-1"><span class="header-section-number">5.2</span> From R</h2>
+<p>Of course, you can also make tables in R and then print them in a nice format. I like to use the <a href="https://vincentarelbundock.github.io/tinytable/"><code>tinytable</code></a> for simple tables.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+<p>For example, <a href="#tbl-r" class="quarto-xref">Table&nbsp;2</a> is made “by hand” with R code. Of course, you can also plot tidy data objects, like <a href="#tbl-tidy" class="quarto-xref">Table&nbsp;3</a> shows.</p>
+<div id="tbl-r" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-r-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: An example of a table made with <code>tinytable</code>
+</figcaption>
+<div aria-describedby="tbl-r-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <!-- preamble start -->
 
     <script>
-      function styleCell_qrl995b2fve76qxl2pkf(i, j, css_id) {
-        var table = document.getElementById("tinytable_qrl995b2fve76qxl2pkf");
+      function styleCell_dvzbf6idlluxj3n05h3b(i, j, css_id) {
+        var table = document.getElementById("tinytable_dvzbf6idlluxj3n05h3b");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_qrl995b2fve76qxl2pkf');
+        var table = document.getElementById('tinytable_dvzbf6idlluxj3n05h3b');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -178,8 +350,8 @@ ul.task-list li input[type="checkbox"] {
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_qrl995b2fve76qxl2pkf(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_qrl995b2fve76qxl2pkf");
+      function spanCell_dvzbf6idlluxj3n05h3b(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_dvzbf6idlluxj3n05h3b");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -205,64 +377,68 @@ ul.task-list li input[type="checkbox"] {
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_qrl995b2fve76qxl2pkf(0, 0, 'tinytable_css_id9d3ux5poh2fakttn1077') })
-window.addEventListener('load', function () { styleCell_qrl995b2fve76qxl2pkf(0, 1, 'tinytable_css_id9d3ux5poh2fakttn1077') })
-window.addEventListener('load', function () { styleCell_qrl995b2fve76qxl2pkf(0, 2, 'tinytable_css_id9d3ux5poh2fakttn1077') })
+window.addEventListener('load', function () { styleCell_dvzbf6idlluxj3n05h3b(0, 0, 'tinytable_css_idca5zq2z6ul9fw2zwdpjf') })
+window.addEventListener('load', function () { styleCell_dvzbf6idlluxj3n05h3b(0, 1, 'tinytable_css_idca5zq2z6ul9fw2zwdpjf') })
+window.addEventListener('load', function () { styleCell_dvzbf6idlluxj3n05h3b(0, 2, 'tinytable_css_idca5zq2z6ul9fw2zwdpjf') })
+window.addEventListener('load', function () { styleCell_dvzbf6idlluxj3n05h3b(0, 3, 'tinytable_css_idca5zq2z6ul9fw2zwdpjf') })
     </script>
 
     <style>
-    .table td.tinytable_css_id9d3ux5poh2fakttn1077, .table th.tinytable_css_id9d3ux5poh2fakttn1077 {  border-bottom: solid 0.1em #d3d8dc; }
+    .table td.tinytable_css_idca5zq2z6ul9fw2zwdpjf, .table th.tinytable_css_idca5zq2z6ul9fw2zwdpjf {  border-bottom: solid 0.1em #d3d8dc; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_qrl995b2fve76qxl2pkf" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_dvzbf6idlluxj3n05h3b" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
-                <th scope="col">Date</th>
-                <th scope="col">Time</th>
-                <th scope="col">Topic</th>
+                <th scope="col">Default</th>
+                <th scope="col">Left</th>
+                <th scope="col">Right</th>
+                <th scope="col">Center</th>
               </tr>
         </thead>
         
         <tbody>
                 <tr>
-                  <td>Monday, February 10</td>
-                  <td>12:00 – 1:20</td>
-                  <td><a href="models/">Interpreting statistical models (<em>guest:</em> Vincent Arel-Bundock)</a></td>
+                  <td> 12</td>
+                  <td> 12</td>
+                  <td> 12</td>
+                  <td> 12</td>
                 </tr>
                 <tr>
-                  <td>TBD                </td>
-                  <td>TBD</td>
-                  <td><a href="census/">Geographical and census data (<em>guest:</em> Michelle Bueno Vasquez)</a></td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
                 </tr>
                 <tr>
-                  <td>Wednesday, March 5 </td>
-                  <td>1:30 – 2:50</td>
-                  <td><a href="open_winter/">Open-ended coding session</a></td>
+                  <td>  1</td>
+                  <td>  1</td>
+                  <td>  1</td>
+                  <td>  1</td>
                 </tr>
         </tbody>
       </table>
     </div>
 <!-- hack to avoid NA insertion in last line -->
-</section>
-<section id="details" class="level2">
-<h2 class="anchored" data-anchor-id="details">Details</h2>
-<p>The R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.</p>
-<p>Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g.&nbsp;incorporating generative AI into our coding workflow).</p>
-<p>The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the <strong>Spring</strong> quarter.</p>
-<p>The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.</p>
-</section>
-<section id="previous-terms" class="level2">
-<h2 class="anchored" data-anchor-id="previous-terms">Previous Terms</h2>
+</div>
+</figure>
+</div>
+<div id="tbl-tidy" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-tidy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: An example of a table made from tidy data with <code>tinytable</code>
+</figcaption>
+<div aria-describedby="tbl-tidy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <!-- preamble start -->
 
     <script>
-      function styleCell_9g52vzc1uw1wlkpanbl0(i, j, css_id) {
-        var table = document.getElementById("tinytable_9g52vzc1uw1wlkpanbl0");
+      function styleCell_u95sxdsxkhshyx4pclur(i, j, css_id) {
+        var table = document.getElementById("tinytable_u95sxdsxkhshyx4pclur");
         table.rows[i].cells[j].classList.add(css_id);
       }
       function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_9g52vzc1uw1wlkpanbl0');
+        var table = document.getElementById('tinytable_u95sxdsxkhshyx4pclur');
         var newRow = table.insertRow(i);
         var newCell = newRow.insertCell(0);
         newCell.setAttribute("colspan", colspan);
@@ -270,8 +446,8 @@ window.addEventListener('load', function () { styleCell_qrl995b2fve76qxl2pkf(0, 
         // this may be unsafe, but innerText does not interpret <br>
         newCell.innerHTML = content;
       }
-      function spanCell_9g52vzc1uw1wlkpanbl0(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_9g52vzc1uw1wlkpanbl0");
+      function spanCell_u95sxdsxkhshyx4pclur(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_u95sxdsxkhshyx4pclur");
         const targetRow = table.rows[i];
         const targetCell = targetRow.cells[j];
         for (let r = 0; r < rowspan; r++) {
@@ -297,41 +473,107 @@ window.addEventListener('load', function () { styleCell_qrl995b2fve76qxl2pkf(0, 
         targetCell.rowSpan = rowspan;
         targetCell.colSpan = colspan;
       }
-window.addEventListener('load', function () { styleCell_9g52vzc1uw1wlkpanbl0(0, 0, 'tinytable_css_idlyn0alj9i0kveqtyndeb') })
-window.addEventListener('load', function () { styleCell_9g52vzc1uw1wlkpanbl0(0, 1, 'tinytable_css_idlyn0alj9i0kveqtyndeb') })
+window.addEventListener('load', function () { styleCell_u95sxdsxkhshyx4pclur(0, 0, 'tinytable_css_iduecvuki0tm9gso164wlt') })
+window.addEventListener('load', function () { styleCell_u95sxdsxkhshyx4pclur(0, 1, 'tinytable_css_iduecvuki0tm9gso164wlt') })
+window.addEventListener('load', function () { styleCell_u95sxdsxkhshyx4pclur(0, 2, 'tinytable_css_iduecvuki0tm9gso164wlt') })
+window.addEventListener('load', function () { styleCell_u95sxdsxkhshyx4pclur(0, 3, 'tinytable_css_iduecvuki0tm9gso164wlt') })
     </script>
 
     <style>
-    .table td.tinytable_css_idlyn0alj9i0kveqtyndeb, .table th.tinytable_css_idlyn0alj9i0kveqtyndeb {  border-bottom: solid 0.1em #d3d8dc; }
+    .table td.tinytable_css_iduecvuki0tm9gso164wlt, .table th.tinytable_css_iduecvuki0tm9gso164wlt {  border-bottom: solid 0.1em #d3d8dc; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_9g52vzc1uw1wlkpanbl0" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_u95sxdsxkhshyx4pclur" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
-                <th scope="col">Topic</th>
-                <th scope="col">Last offered</th>
+                <th scope="col">country</th>
+                <th scope="col">year</th>
+                <th scope="col">cases</th>
+                <th scope="col">population</th>
               </tr>
         </thead>
         
         <tbody>
                 <tr>
-                  <td><a href="papers/">Writing papers in Quarto</a></td>
-                  <td>Fall 2024</td>
+                  <td>Afghanistan</td>
+                  <td>1999</td>
+                  <td>   745</td>
+                  <td>  19987071</td>
                 </tr>
                 <tr>
-                  <td><a href="presentations/">Presentations and Posters</a></td>
-                  <td>Fall 2024</td>
+                  <td>Afghanistan</td>
+                  <td>2000</td>
+                  <td>  2666</td>
+                  <td>  20595360</td>
+                </tr>
+                <tr>
+                  <td>Brazil     </td>
+                  <td>1999</td>
+                  <td> 37737</td>
+                  <td> 172006362</td>
+                </tr>
+                <tr>
+                  <td>Brazil     </td>
+                  <td>2000</td>
+                  <td> 80488</td>
+                  <td> 174504898</td>
+                </tr>
+                <tr>
+                  <td>China      </td>
+                  <td>1999</td>
+                  <td>212258</td>
+                  <td>1272915272</td>
+                </tr>
+                <tr>
+                  <td>China      </td>
+                  <td>2000</td>
+                  <td>213766</td>
+                  <td>1280428583</td>
                 </tr>
         </tbody>
       </table>
     </div>
 <!-- hack to avoid NA insertion in last line -->
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="conclusion" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Conclusion</h1>
+<p>You can use this template to start writing your paper, then make it your own by customizing it in any way you would like. You can use a <a href="https://quarto.org/docs/journals/">journal-style template</a> or <a href="https://quarto.org/docs/journals/formats.html">make your own</a>.</p>
+</section>
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<!-- References go in the end by default, you can specify their placement with the following divider. -->
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Wickham2016" class="csl-entry" role="listitem">
+Wickham, Hadley. 2016a. <em>Ggplot2</em>. <em>Use R!</em> Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-24277-4">https://doi.org/10.1007/978-3-319-24277-4</a>.
+</div>
+<div id="ref-Wickham2016a" class="csl-entry" role="listitem">
+———. 2016b. <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em>. Edited by Garrett Grolemund. First edition. Beijing: O’Reilly.
+</div>
+</div>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Assistant Professor of Instruction. Northwestern University. Email: <a href="mailto:gustavo.diaz@northwestern.edu" class="email">gustavo.diaz@northwestern.edu</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Postdoctoral Fellow, Fake University, Email : <a href="mailto:second.author@fake.edu" class="email">second.author@fake.edu</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Assistant Professor of Instruction. Northwestern University. Email: <a href="mailto:gustavo.diaz@northwestern.edu" class="email">gustavo.diaz@northwestern.edu</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Postdoctoral Fellow, Fake University, Email : <a href="mailto:second.author@fake.edu" class="email">second.author@fake.edu</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Assistant Professor of Instruction. Northwestern University. Email: <a href="mailto:gustavo.diaz@northwestern.edu" class="email">gustavo.diaz@northwestern.edu</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Postdoctoral Fellow, Fake University, Email : <a href="mailto:second.author@fake.edu" class="email">second.author@fake.edu</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>You can also try the full URL: <a href="https://anthlittle.github.io/files/little_intros.pdf" class="uri">https://anthlittle.github.io/files/little_intros.pdf</a>. Oh, this is how you make footnotes.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Notice how we use cross-reference to automate figure labels and citations.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>You should also consider <a href="https://modelsummary.com"><code>modelsummary</code></a> for regression-like result tables.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

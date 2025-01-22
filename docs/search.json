@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "R Workshop",
     "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
+    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Monday, February 10\n                  12:00 – 1:20\n                  Interpreting statistical models (guest: Vincent Arel-Bundock)\n                \n                \n                  TBD                \n                  TBD\n                  Geographical and census data (guest: Michelle Bueno Vasquez)\n                \n                \n                  Wednesday, March 5 \n                  1:30 – 2:50\n                  Open-ended coding session",
     "crumbs": [
       "Home"
     ]
@@ -382,6 +382,194 @@
   {
     "objectID": "papers/template.html#footnotes",
     "href": "papers/template.html#footnotes",
+    "title": "Quarto Paper Template",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
+  },
+  {
+    "objectID": "index.html#winter-2025-schedule",
+    "href": "index.html#winter-2025-schedule",
+    "title": "R Workshop",
+    "section": "",
+    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Monday, February 10\n                  12:00 – 1:20\n                  Interpreting statistical models (guest: Vincent Arel-Bundock)\n                \n                \n                  TBD                \n                  TBD\n                  Geographical and census data (guest: Michelle Bueno Vasquez)\n                \n                \n                  Wednesday, March 5 \n                  1:30 – 2:50\n                  Open-ended coding session",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#previous-terms",
+    "href": "index.html#previous-terms",
+    "title": "R Workshop",
+    "section": "Previous Terms",
+    "text": "Previous Terms\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Last offered\n              \n        \n        \n        \n                \n                  Writing papers in Quarto\n                  Fall 2024\n                \n                \n                  Presentations and Posters\n                  Fall 2024",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "models/index.html",
+    "href": "models/index.html",
+    "title": "Interpreting Statistical Models",
+    "section": "",
+    "text": "On February 10, 2025, the R Workshop hosted Vincent Arel-Bundock (Université de Montréal) for a demonstration based on his upcoming book “How to Interpret Statistical Results Using marginaleffects for R and Python.”\nThe book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.\nDr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of numerous contributions to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle."
+  },
+  {
+    "objectID": "models/index.html#overview",
+    "href": "models/index.html#overview",
+    "title": "Interpreting Statistical Models",
+    "section": "",
+    "text": "On February 10, 2025, the R Workshop hosted Vincent Arel-Bundock (Université de Montréal) for a demonstration based on his upcoming book “How to Interpret Statistical Results Using marginaleffects for R and Python.”\nThe book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.\nDr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of numerous contributions to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle."
+  },
+  {
+    "objectID": "models/index.html#resources",
+    "href": "models/index.html#resources",
+    "title": "Interpreting Statistical Models",
+    "section": "Resources",
+    "text": "Resources\n\n marginaleffects book\n marginaleffects journal article"
+  },
+  {
+    "objectID": "models/guide.html",
+    "href": "models/guide.html",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "Why Quarto?\nRequirements\nTemplate"
+  },
+  {
+    "objectID": "models/guide.html#roadmap",
+    "href": "models/guide.html#roadmap",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "Why Quarto?\nRequirements\nTemplate"
+  },
+  {
+    "objectID": "models/guide.html#elements-of-an-academic-paper",
+    "href": "models/guide.html#elements-of-an-academic-paper",
+    "title": "Writing Papers in Quarto",
+    "section": "Elements of an (academic) paper",
+    "text": "Elements of an (academic) paper\n. . .\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n. . .\n\nData/info visualization (tables, figures, flowcharts)\n\n. . .\n\nCollaboration\n\n. . .\n\nCitations"
+  },
+  {
+    "objectID": "models/guide.html#default-option-word-processors",
+    "href": "models/guide.html#default-option-word-processors",
+    "title": "Writing Papers in Quarto",
+    "section": "Default option: Word processors",
+    "text": "Default option: Word processors\n\n\nLanguage: Awesome\nFormatting: Excruciating\nVisualization: Harrowing (but see StatTag)\nCollaboration: Ok (Word) to great (Google Docs)\nCitations: Great (Zotero, Mendeley, RefWorks)"
+  },
+  {
+    "objectID": "models/guide.html#alternative-typesetting",
+    "href": "models/guide.html#alternative-typesetting",
+    "title": "Writing Papers in Quarto",
+    "section": "Alternative: Typesetting",
+    "text": "Alternative: Typesetting\n\n\nRemove frustrations with formatting and visualization\nWord processors: Write, then format\nTypesetting: Format, then write"
+  },
+  {
+    "objectID": "models/guide.html#latex",
+    "href": "models/guide.html#latex",
+    "title": "Writing Papers in Quarto",
+    "section": "LaTeX",
+    "text": "LaTeX"
+  },
+  {
+    "objectID": "models/guide.html#popular-option-overleaf",
+    "href": "models/guide.html#popular-option-overleaf",
+    "title": "Writing Papers in Quarto",
+    "section": "Popular option: Overleaf",
+    "text": "Popular option: Overleaf"
+  },
+  {
+    "objectID": "models/guide.html#for-rstudio-users-rmarkdown",
+    "href": "models/guide.html#for-rstudio-users-rmarkdown",
+    "title": "Writing Papers in Quarto",
+    "section": "For RStudio Users: RMarkdown",
+    "text": "For RStudio Users: RMarkdown"
+  },
+  {
+    "objectID": "models/guide.html#newer-option-quarto",
+    "href": "models/guide.html#newer-option-quarto",
+    "title": "Writing Papers in Quarto",
+    "section": "Newer option: Quarto",
+    "text": "Newer option: Quarto"
+  },
+  {
+    "objectID": "models/guide.html#why-papers-in-rstudio",
+    "href": "models/guide.html#why-papers-in-rstudio",
+    "title": "Writing Papers in Quarto",
+    "section": "Why papers in RStudio?",
+    "text": "Why papers in RStudio?\n\n\nLanguage: Fine\nFormatting: Flexible\nVisualization: Excellent! Connects directly to data analysis \\(\\rightarrow\\) Reproducible workflow\nCollaboration: Great, but not real-time (GitHub)\nCitations: Also great (Connect to .bib files)"
+  },
+  {
+    "objectID": "models/guide.html#but-why-quarto-in-particular",
+    "href": "models/guide.html#but-why-quarto-in-particular",
+    "title": "Writing Papers in Quarto",
+    "section": "But why Quarto in particular?",
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n. . .\nIn one word, CONVENIENCE"
+  },
+  {
+    "objectID": "models/guide.html#what-you-need-to-write-papers",
+    "href": "models/guide.html#what-you-need-to-write-papers",
+    "title": "Writing Papers in Quarto",
+    "section": "What you need to write papers",
+    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
+  },
+  {
+    "objectID": "models/guide.html#what-you-need-to-write-papers-1",
+    "href": "models/guide.html#what-you-need-to-write-papers-1",
+    "title": "Writing Papers in Quarto",
+    "section": "What you need to write papers",
+    "text": "What you need to write papers\n\nA recent version of R and RStudio\nA LaTeX distribution\nA citation manager that makes .bib files"
+  },
+  {
+    "objectID": "models/guide.html#latex-distribution-tinytex",
+    "href": "models/guide.html#latex-distribution-tinytex",
+    "title": "Writing Papers in Quarto",
+    "section": "LaTeX distribution: tinyTex",
+    "text": "LaTeX distribution: tinyTex"
+  },
+  {
+    "objectID": "models/guide.html#in-r",
+    "href": "models/guide.html#in-r",
+    "title": "Writing Papers in Quarto",
+    "section": "In R",
+    "text": "In R\n\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()\n\n\n\nRepeat after installing a new version of R\ntinyTeX will install/update required LaTeX packages as you create documents"
+  },
+  {
+    "objectID": "models/guide.html#citation-manager",
+    "href": "models/guide.html#citation-manager",
+    "title": "Writing Papers in Quarto",
+    "section": "Citation manager",
+    "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
+  },
+  {
+    "objectID": "models/template.html#from-r",
+    "href": "models/template.html#from-r",
+    "title": "Quarto Paper Template",
+    "section": "4.1 From R",
+    "text": "4.1 From R\nFigure 1 shows how to plot a figure from R code. See Wickham (2016a) for more on how to make pretty plots.8\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "models/template.html#from-external-sources",
+    "href": "models/template.html#from-external-sources",
+    "title": "Quarto Paper Template",
+    "section": "4.2 From external sources",
+    "text": "4.2 From external sources\nSometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. Figure 2 shows an example using a URL. In practice, you would use the path of file in your working directory.\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "models/template.html#pipe-tables",
+    "href": "models/template.html#pipe-tables",
+    "title": "Quarto Paper Template",
+    "section": "5.1 Pipe tables",
+    "text": "5.1 Pipe tables\nYou can make tables “by hand” using pipe tables. Like Table 1 shows.\n\n\n\nTable 1: Demonstration of pipe table syntax\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\nYou can even use a Tables Generator to make them interactively and then copy and paste in your .qmd file."
+  },
+  {
+    "objectID": "models/template.html#from-r-1",
+    "href": "models/template.html#from-r-1",
+    "title": "Quarto Paper Template",
+    "section": "5.2 From R",
+    "text": "5.2 From R\nOf course, you can also make tables in R and then print them in a nice format. I like to use the tinytable for simple tables.9\nFor example, Table 2 is made “by hand” with R code. Of course, you can also plot tidy data objects, like Table 3 shows.\n\n\n\nTable 2: An example of a table made with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Default\n                Left\n                Right\n                Center\n              \n        \n        \n        \n                \n                   12\n                   12\n                   12\n                   12\n                \n                \n                  123\n                  123\n                  123\n                  123\n                \n                \n                    1\n                    1\n                    1\n                    1\n                \n        \n      \n    \n\n\n\n\n\n\n\nTable 3: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
+  },
+  {
+    "objectID": "models/template.html#footnotes",
+    "href": "models/template.html#footnotes",
     "title": "Quarto Paper Template",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"

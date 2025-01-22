@@ -1,0 +1,20 @@
+---
+title: "Interpreting Statistical Models"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+On February 10, 2025, the R Workshop hosted [Vincent Arel-Bundock](https://arelbundock.com) (Université de Montréal) for a demonstration based on his upcoming book "How to Interpret Statistical Results Using `marginaleffects` for R and Python."
+
+The book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.
+
+Dr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of [numerous contributions](https://vincentarelbundock.github.io) to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle.
+
+## Resources
+
+- {{< fa book >}} [`marginaleffects` book](https://marginaleffects.com)
+
+- {{< fa file-lines >}} [`marginaleffects` journal article](https://www.jstatsoft.org/article/view/v111i09)
+

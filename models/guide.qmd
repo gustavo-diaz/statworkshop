@@ -1,0 +1,171 @@
+---
+title: "Writing Papers in Quarto"
+author: "R Workshop"
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+---
+
+## Roadmap
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      warning = FALSE,
+                      message = FALSE,
+                      eval = FALSE,
+                      tidy = TRUE,
+                      tidy.opts=list(width.cutoff=80))
+```
+
+
+- Why Quarto?
+
+- Requirements
+
+- Template
+
+
+# Why Quarto?
+
+
+## Elements of an (academic) paper
+
+. . .
+
+- Text
+    
+    - Language (grammar)
+    - Formatting (font size, type, page numbers headers)
+    
+. . .
+
+- Data/info visualization (tables, figures, flowcharts)
+
+. . .
+
+- Collaboration
+
+. . .
+
+- Citations
+
+## Default option: Word processors
+
+::: incremental
+- **Language:** Awesome
+- **Formatting:** Excruciating
+- **Visualization:** Harrowing (but see [StatTag](https://sites.northwestern.edu/stattag/))
+- **Collaboration:** Ok (Word) to great (Google Docs)
+- **Citations:** Great (Zotero, Mendeley, RefWorks)
+:::
+
+## Alternative: Typesetting
+
+::: incremental
+- Remove frustrations with **formatting** and **visualization**
+- **Word processors:** Write, then format
+- **Typesetting:** Format, then write
+:::
+
+## LaTeX
+
+
+![](fig/latex.png)
+
+## Popular option: [Overleaf](https://www.overleaf.com)
+
+![](fig/overleaf.png){fig-align="center"}
+
+## For RStudio Users: [RMarkdown](https://rmarkdown.rstudio.com)
+
+![](fig/rmd_example.png){fig-align="center"}
+
+---
+
+![](fig/rmd.png){fig-align="center"}
+
+## Newer option: [Quarto](https://quarto.org)
+
+```{=html}
+<iframe width="1000" height="600" src="https://quarto.org/" title="Quarto Documentation"></iframe>
+```
+
+---
+
+![](fig/quarto.png){fig-align="center"}
+
+## Why papers in RStudio?
+
+::: incremental
+- **Language:** Fine
+- **Formatting:** Flexible
+- **Visualization:** Excellent! Connects directly to data analysis $\rightarrow$ Reproducible workflow
+- **Collaboration:** Great, but not real-time ([GitHub](https://github.com))
+- **Citations:** Also great (Connect to .bib files)
+:::
+
+## But why Quarto in particular?
+
+::: incremental
+- Multiple coding languages (R, Python, Julia, JavaScript)
+- Multiple output options (PDF, HTML, Word)
+- Not just for papers (websites, CVs, etc)
+- Markdown is easier to learn than LaTeX
+- Typst is *crazy fast*
+- New, open-source, large developer base
+:::
+
+. . .
+
+In one word, **CONVENIENCE**
+
+# Requirements
+
+## What you need to write papers
+
+1. A recent version of R and RStudio
+
+2. A LaTeX distribution
+
+3. A citation manager that makes .bib files
+
+## What you need to write papers
+
+1. A recent version of R and RStudio
+
+2. **A LaTeX distribution**
+
+3. **A citation manager that makes .bib files**
+
+## LaTeX distribution: [*tiny*Tex](https://yihui.org/tinytex/)
+
+```{=html}
+<iframe width="1000" height="600" src="https://yihui.org/tinytex/" title="tinyTex"></iframe>
+```
+
+## In R
+
+```{r}
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
+::: incremental
+- Repeat after installing a new version of R
+- *tiny*TeX will install/update required LaTeX packages as you create documents
+:::
+
+## Citation manager
+
+- Zotero <https://www.zotero.org>
+
+- EndNote <https://endnote.com/>
+
+- Mendeley <https://www.mendeley.com>
+
+- JabRef <https://www.jabref.org>
+
+# Template
+
+[github.com/gustavo-diaz/r-workshop](https://github.com/gustavo-diaz/r-workshop/blob/main/2024-25/1_writing_papers/template.qmd)
+

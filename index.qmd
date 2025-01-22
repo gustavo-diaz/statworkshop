@@ -13,21 +13,21 @@ library(tinytable)
 library(markdown)
 ```
 
-## Fall 2024 Schedule
+## Winter 2025 Schedule
 
-- {{< fa clock >}} &nbsp; 3:00 -- 4:20 PM
-- {{< fa location-dot >}} &nbsp; Scott Hall 212
+<!-- - {{< fa clock >}} &nbsp; 3:00 -- 4:20 PM -->
+<!-- - {{< fa location-dot >}} &nbsp; Scott Hall 212 -->
 - {{< fa video >}} &nbsp; [Zoom meeting](https://northwestern.zoom.us/j/94652528071?pwd=bfBocxKncYkfZbTYiCIlJqhqxwx7EY.1)
 - {{< fa file-pdf >}} &nbsp; [Full AY 2024-25 schedule](schedule.pdf)
-- {{< fa file-excel >}} &nbsp; [Attendance sheet](https://forms.office.com/r/m8ZT8aDpVr)
+- {{< fa file-excel >}} &nbsp; [Attendance sheet for registered students](https://forms.office.com/r/m8ZT8aDpVr)
 
 ```{r schedule, include = FALSE}
 schedule =
   tribble(
-    ~Date, ~Topic,
-    "October 7", "[Writing papers in Quarto](papers/)",
-    "October 28", "[Presentations and posters](presentations/)",
-    "November 25", "[Coding session](open_fall/)",
+    ~Date, ~Time, ~Topic,
+    "Monday, February 10", "12:00 -- 1:20", "[Interpreting statistical models (*guest:* Vincent Arel-Bundock)](models/)",
+    "TBD", "TBD", "[Geographical and census data (*guest:* Michelle Bueno Vasquez)](census/)",
+    "Wednesday, March 5", "1:30 -- 2:50", "[Open-ended coding session](open_winter/)",
     )
 ```
 
@@ -35,10 +35,9 @@ schedule =
 ```{r show-schedule, echo = FALSE, results = "asis"}
 schedule %>% 
   tt(width = 1) %>% 
-  format_tt(j = 2, markdown = TRUE)
+  format_tt(j = 2:3, markdown = TRUE)
 ```
 
-<!-- # Previous Terms -->
 
 ## Details
 
@@ -49,5 +48,22 @@ Most workshop meetings will feature an introduction to a new tool/method/approac
 The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter.
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
+
+## Previous Terms
+
+```{r previous, include = FALSE}
+previous = tribble(
+  ~Topic, ~`Last offered`,
+  "[Writing papers in Quarto](papers/)", "Fall 2024",
+  "[Presentations and Posters](presentations/)", "Fall 2024"
+)
+```
+
+```{r show-previous, echo = FALSE, results = "asis"}
+previous %>% 
+  tt(width = 1) %>% 
+  format_tt(j = 1, markdown = TRUE)
+```
+
 
 
