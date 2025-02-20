@@ -25,9 +25,9 @@ library(markdown)
 schedule =
   tribble(
     ~Date, ~Time, ~Topic,
-    "Monday, February 10", "12:00 -- 1:20", "[Interpreting statistical models (*guest:* Vincent Arel-Bundock)](models/)",
-    "TBD", "TBD", "[Geographical and census data (*guest:* Michelle Bueno Vasquez)](census/)",
-    "Wednesday, March 5", "1:30 -- 2:50", "[Open-ended coding session](open_winter/)",
+    "Monday, February 10", "12:00 -- 1:20 PM", "[Interpreting statistical models (*guest:* Vincent Arel-Bundock)](models/)",
+    "Monday, February 24", "2:00 -- 3:20 PM", "[Geographical and census data (*guest:* Michelle Bueno Vasquez)](census/)",
+    "Wednesday, March 5", "1:30 -- 2:50 PM", "[Open-ended coding session](open_winter/)",
     )
 ```
 
