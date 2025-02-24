@@ -16,3 +16,5 @@ scales
 statebins
 RColorBrewer
 patchwork
+viridisLite
+viridis

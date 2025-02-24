@@ -371,7 +371,11 @@ income_sf <- get_acs(geography = "state",
 Now we can create different types of visualizations
 
 ```{r}
+# Install viridis color package
+# install.packages('viridis')
+library(viridis)
 
+# Plot
 ggplot(income_sf) +
   geom_sf(aes(fill = estimate), 
           color = "white") +
@@ -429,6 +433,131 @@ ggplot(top_income, aes(x = reorder(NAME, estimate), y = estimate)) +
   labs(title = "Top 10 States by Median Income (2023)",
        x = "State", y = "Median Income",
        caption = "Source: U.S. Census Bureau ACS 2023")
+
+```
+
+### We can also use scatter plots along with maps to display population
+
+For this, gathering population per county and mapping it onto states may be best
+
+```{r}
+
+# Get county-level population data
+county_pop <- get_acs(
+  geography = "county",
+  variables = "B01003_001",  # Total population variable
+  year = 2023,
+  geometry = TRUE,
+  progress_bar = FALSE
+) %>% 
+  shift_geometry()
+
+# Extract centroid coordinates for plotting as points
+county_pop <- county_pop %>%
+  mutate(
+    lon = st_coordinates(st_centroid(geometry))[,1],  # Longitude
+    lat = st_coordinates(st_centroid(geometry))[,2]   # Latitude
+  )  
+#  filter(estimate >= 50000) # only keep counties with more than 50k people
+
+# Check data structure
+head(county_pop)
+
+```
+
+Aggregate Population Data to State Level
+
+```{r}
+state_pop <- county_pop %>%
+  group_by(GEOID = substr(GEOID, 1, 2)) %>%  # Use first 2 digits of GEOID (State FIPS)
+  summarise(total_population = sum(estimate, na.rm = TRUE))
+
+# Load state geometries
+states_sf <- get_acs(
+  geography = "state",
+  variables = "B01003_001",  # Total population variable
+  year = 2023,
+  geometry = TRUE,
+  progress_bar = FALSE
+) %>% 
+  shift_geometry()
+
+```
+
+Now we plot:
+
+```{r}
+ggplot() +
+  # Draw state boundaries
+  geom_sf(data = states_sf, fill = "gray90", color = "white", size = 0.3) +
+
+  # Overlay county population as proportional dots using geom_point()
+  geom_point(data = county_pop, aes(x = lon, y = lat, size = estimate), 
+             color = "coral", alpha = 0.2) +
+
+  # Scale dot sizes to be visually proportional
+  scale_size_continuous(
+    range = c(1, 10),  # Adjust min/max dot sizes
+    labels = comma,  # Format population labels with commas
+    name = "County Population"
+  ) +
+
+  # Titles and theme
+  theme_void() +
+  labs(
+    title = "County Population Distribution in the U.S.",
+    subtitle = "Larger circles represent higher county populations",
+    caption = "Source: U.S. Census Bureau ACS 2022"
+  ) 
+
+```
+
+We can also adjust color to the population size:
+
+```{r}
+
+# Plot
+ggplot() +
+  # Draw state boundaries
+  geom_sf(data = states_sf, 
+          fill = "gray70", 
+          color = "white", 
+          size = 0.3) +
+
+  # Overlay county population as proportional dots, with adjusted transparency
+  geom_point(data = county_pop, 
+             aes(x = lon, 
+                 y = lat, 
+                 size = estimate, 
+                 color = estimate, 
+                 alpha = estimate)) +
+
+  # Adjust alpha (transparency): Larger values = more opaque
+  scale_alpha_continuous(range = c(0.4, 1), 
+                         guide = "none") +  # Avoid cluttering the legend
+
+  # Unified legend for size and color (ordered ascending)
+  scale_size_area(
+    max_size = 10,  # Adjust max dot size
+    labels = comma,  # Format population labels with commas
+    name = "County Population",
+    guide = guide_legend(order = 1)  # Ensure size legend comes first
+  ) +
+  scale_color_viridis_c(
+    #option = "mako",  # Color scheme (magma = best for ordered data)
+    labels = comma,  # Format labels
+    direction = -1,   # reverse so darker = larger population
+    name = "County Population",
+    guide = guide_colorbar(order = 2)  # Ensure color legend comes second
+  ) +
+
+  # Titles and theme
+  theme_void() +
+  labs(
+    title = "County Population Distribution (50K+ Population)",
+    subtitle = "Larger and darker circles represent more populous counties (more opaque)",
+    caption = "Source: U.S. Census Bureau ACS 2022"
+  ) 
 
 ```
 
@@ -571,7 +700,7 @@ head(data)
 
 ```
 
-Notice how our variables are all listed under the variable column. For our analyses, it would be fruitful to have the variables as their own columns. 
+Notice how our variables are all listed under the variable column. For our analyses, it would be fruitful to have the variables as their own columns.
 
 To do this, we will pivot the data long-ways so that each variable is its own column.
 
@@ -606,15 +735,6 @@ head(data_wide)
 
 library(RColorBrewer)  # For color scales
 
-# Define breaks using quantiles
-income_breaks <- quantile(data_wide$income, 
-                          probs = seq(0, 1, length.out = 4), 
-                          na.rm = TRUE)
-poverty_breaks <- quantile(data_wide$poverty_rate, 
-                           probs = seq(0, 1, length.out = 4), 
-                           na.rm = TRUE)
-
-
 # Define bivariate color scale using ColorBrewer
 bivariate_palette <- c(
   "Low-Low" = brewer.pal(9, "PuBuGn")[1],  # Light green
@@ -648,8 +768,45 @@ data_wide <- data_wide %>%
                      poverty_cat, 
                      sep = "-")  # Create bivariate categories
   )
+```
 
+## How This Works
 
+Each state (or region) falls into one of nine possible categories based on:
+
+-   Income level: Low, Medium, or High
+-   Poverty rate: Low, Medium, or High
+
+Each category is assigned a unique color using three different ColorBrewer palettes:
+
+-   PuBuGn (Blue-Green shades) → Used for Low Income
+-   Purples (Purple shades) → Used for Medium Income
+-   Oranges (Orange shades) → Used for High Income
+
+Darker colors indicate higher poverty rates, making the map intuitive:
+
+-   "Low-Low" (Low income, Low poverty) → Lightest Green
+-   "Low-High" (Low income, High poverty) → Darker Green
+-   "High-Low" (High income, Low poverty) → Light Orange
+-   "High-High" (High income, High poverty) → Darkest Orange
+
+### Breakdown of Color Assignments
+
+I chose the colors using the link for the [Brewer Color Palettes](https://r-graph-gallery.com/38-rcolorbrewers-palettes.html).
+
+| Category (Income-Poverty)                     | Color Palette Used            | Shade                  |
+|:----------------------------------------------|:------------------------------|:-----------------------|
+| Low-Low (Low income, Low poverty)             | PuBuGn (Blue-Green)           | Lightest Green (\[1\]) |
+| Low-Medium (Low income, Medium poverty)       | PuBuGn                        | Medium Green (\[3\])   |
+| Low-High (Low income, High poverty)           | PuBuGn                        | Darker Green (\[5\])   |
+| Medium-Low (Medium income, Low poverty)       | Purples                       | Light Purple (\[3\])   |
+| Medium-Medium (Medium income, Medium poverty) | Purples                       | Medium Purple (\[5\])  |
+| Medium-High (Medium income, High poverty)     | Purples Darker Purple (\[7\]) |                        |
+| High-Low (High income, Low poverty)           | Oranges                       | Light Orange (\[3\])   |
+| High-Medium (High income, Medium poverty)     | Oranges                       | Medium Orange (\[5\])  |
+| High-High (High income, High poverty)         | Oranges                       | Darkest Orange (\[7\]) |
+
+```{r}
 # Create plot
 
 ggplot(data_wide) +

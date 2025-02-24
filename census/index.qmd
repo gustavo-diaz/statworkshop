@@ -12,7 +12,9 @@ Bueno Vásquez is a sixth-year candidate in the Political Science department and
 
 ## Resources
 
-- [Code](census/maps_workshop.qmd)
+- [HTML guide](maps_workshop.html)
 
-- [HTML](census/maps_workshop.html)
+- [Code](https://github.com/gustavo-diaz/rworkshop/blob/main/census/maps_workshop.qmd)
+
+- Recording (coming soon!)
 
