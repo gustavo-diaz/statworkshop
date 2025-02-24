@@ -573,5 +573,152 @@
     "title": "Quarto Paper Template",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
+  },
+  {
+    "objectID": "census/index.html",
+    "href": "census/index.html",
+    "title": "Geographic and census data",
+    "section": "",
+    "text": "On February 24, 2025, the R workshop hosts PhD candidate Michelle Bueno Vásquez for an intensive hands-on workshop exploring advanced R techniques for spatial demographic analysis and visualization. This workshop will equip participants with practical skills to harness Census data alongside complementary datasets to create compelling geographic visualizations that illuminate demographic patterns and social phenomena\nBueno Vásquez is a sixth-year candidate in the Political Science department and recently completed her MS in Applied Statistics. She brings her expertise in race and ethnic politics, along with her extensive experience working with demographic data, to guide participants through real-world applications of spatial analysis and will demonstrate how these technical skills can be applied to critical questions in social science research and policy analysis."
+  },
+  {
+    "objectID": "census/index.html#overview",
+    "href": "census/index.html#overview",
+    "title": "Geographic and census data",
+    "section": "",
+    "text": "On February 24, 2025, the R workshop hosts PhD candidate Michelle Bueno Vásquez for an intensive hands-on workshop exploring advanced R techniques for spatial demographic analysis and visualization. This workshop will equip participants with practical skills to harness Census data alongside complementary datasets to create compelling geographic visualizations that illuminate demographic patterns and social phenomena\nBueno Vásquez is a sixth-year candidate in the Political Science department and recently completed her MS in Applied Statistics. She brings her expertise in race and ethnic politics, along with her extensive experience working with demographic data, to guide participants through real-world applications of spatial analysis and will demonstrate how these technical skills can be applied to critical questions in social science research and policy analysis."
+  },
+  {
+    "objectID": "census/index.html#resources",
+    "href": "census/index.html#resources",
+    "title": "Geographic and census data",
+    "section": "Resources",
+    "text": "Resources\n\nCode\nHTML"
+  },
+  {
+    "objectID": "census/maps_workshop.html",
+    "href": "census/maps_workshop.html",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "",
+    "text": "Setting up a Census API Key\n\n\n\nBefore we get started, I will have you all go ahead and request a Census API key which will allow us to access Census data for our analyses. It takes about 2-5 minutes to send, so let’s get started with this while we chat a little about spatial data 😊"
+  },
+  {
+    "objectID": "census/maps_workshop.html#what-is-geospatial-data",
+    "href": "census/maps_workshop.html#what-is-geospatial-data",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "What is Geospatial Data?",
+    "text": "What is Geospatial Data?\nGeospatial data refers to any data that has a geographic component, meaning it is tied to specific locations on the Earth’s surface. This data is used in mapping, spatial analysis, and geographic visualization.\nThere are two primary types of geospatial data:\n1. Vector Data: Represents geographic features as points, lines, or polygons.\nExamples:\n- Points: Locations of schools, stores, or crime incidents\n- Lines: Roads, rivers, or flight paths\n- Polygons: State boundaries, land parcels, Census tracts\n\nRaster Data: Represents spatial data as a grid of pixels, commonly used for continuous data like elevation, temperature, and satellite imagery.\n\nExample: A satellite image of land cover, where each pixel represents vegetation, water, or urban areas."
+  },
+  {
+    "objectID": "census/maps_workshop.html#common-geospatial-data-formats",
+    "href": "census/maps_workshop.html#common-geospatial-data-formats",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Common Geospatial Data Formats",
+    "text": "Common Geospatial Data Formats\nDifferent formats are used to store and exchange geospatial data. Some of the most common include:\n\nShapefiles (.shp) – A widely used vector format consisting of multiple files that store geometry and attribute data.\n\nGeoJSON (.geojson) – A JSON-based format for encoding spatial data, commonly used for web mapping.\n\nKML (.kml) – A format developed by Google for geographic visualization in Google Earth and Maps.\n\nCensus Data (via API or TIGER/Line Shapefiles) – Demographic and boundary data provided by the U.S. Census Bureau."
+  },
+  {
+    "objectID": "census/maps_workshop.html#summary",
+    "href": "census/maps_workshop.html#summary",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Summary",
+    "text": "Summary\n\nGeospatial data is any data with a geographic component, stored in vector (points, lines, polygons) or raster (grids) formats.\nCommon formats include Shapefiles, GeoJSON, KML, and Census data.\nKey R packages:\n\nsf for spatial data manipulation.\ntidycensus for retrieving Census data.\ntigris for downloading geographic boundaries.\nmaps for built-in map data.\nggplot2 for visualization."
+  },
+  {
+    "objectID": "census/maps_workshop.html#exercise-plot-your-home-state-and-city",
+    "href": "census/maps_workshop.html#exercise-plot-your-home-state-and-city",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Exercise: plot your home state and city",
+    "text": "Exercise: plot your home state and city\nI’ll do the same for Illinois and Chicago\n\n# get the data for IL counties\n# get data\nil_counties &lt;- map_data(\"county\", \"illinois\") %&gt;% \n  select(lon = long, lat, group, id = subregion)\n\n\n# Chicago and Evanston lon and lat (looked it up on Google)\n# Chicago: 41.8781° N, -87.6298° W\n# Evanston: 42.0521° N, -87.6848° W\nil_city_data &lt;- tibble(\n  city_name = c(\"Chicago\", \"Evanston\"),\n  lon = c(-87.6298, -87.6848),\n  lat = c(41.8781, 42.0521)\n)\n\n\n# Make map with cities\nggplot(il_counties, aes(lon, lat)) +\n  geom_polygon(aes(group = group), \n               fill = \"slateblue\", \n               col = 'grey50') +\n  ggstar::geom_star(data = il_city_data, \n                    size = 4,\n                    fill = \"gold\",\n                    mapping = aes(fill = city_name)) +\n geom_label(data = il_city_data, \n            aes(label = city_name), \n            nudge_x = c(-.5, -.8),\n            nudge_y = c(-.3, 0),\n            size = 3.2) +\n  coord_quickmap() +\n  theme_void() +\n  ggtitle(\"Illinois: the Lincoln State\")"
+  },
+  {
+    "objectID": "census/maps_workshop.html#your-turn",
+    "href": "census/maps_workshop.html#your-turn",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "YOUR TURN 🙌 :",
+    "text": "YOUR TURN 🙌 :"
+  },
+  {
+    "objectID": "census/maps_workshop.html#using-my-code-above-as-a-guide-plot-your-home-stateany-state-of-your-choosing-and-its-capital-andor-your-home-town.",
+    "href": "census/maps_workshop.html#using-my-code-above-as-a-guide-plot-your-home-stateany-state-of-your-choosing-and-its-capital-andor-your-home-town.",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Using my code above as a guide, plot your home state/any state of your choosing and its capital and/or your home town.",
+    "text": "Using my code above as a guide, plot your home state/any state of your choosing and its capital and/or your home town."
+  },
+  {
+    "objectID": "census/maps_workshop.html#what-is-tidycensus",
+    "href": "census/maps_workshop.html#what-is-tidycensus",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "What is tidycensus?",
+    "text": "What is tidycensus?\nThe tidycensus package is an R interface to the U.S. Census Bureau API. It is useful for mapping, analyzing, and visualizing demographic data in R.\nIt allows users to retrieve demographic and socioeconomic data from:\n\nThe American Community Survey (ACS) (yearly estimates)\nThe Decennial Census (10-year population counts)\nOther Census datasets\n\nHere are a few of the commands you can use to access Census Bureau products:\n\nget_acs(), which requests data from the 1-year and 5-year American Community Survey samples. Data are available from the 1-year ACS back to 2005 and the 5-year ACS back to 2005-2009.\nget_estimates(), an interface to the Population Estimates APIs. These datasets include yearly estimates of population characteristics by state, county, and metropolitan area, along with components of change demographic estimates like births, deaths, and migration rates.\nget_flows(), an interface to the ACS Migration Flows APIs. Includes information on in- and out-flows from various geographies for the 5-year ACS samples, enabling origin-destination analyses.\nget_pums(), which accesses data from the ACS Public Use Microdata Sample APIs. These samples include anonymized individual-level records from the ACS organized by household and are highly useful for many different social science analyses.1"
+  },
+  {
+    "objectID": "census/maps_workshop.html#install-and-load-tidycensus-in-r",
+    "href": "census/maps_workshop.html#install-and-load-tidycensus-in-r",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Install and Load tidycensus in R",
+    "text": "Install and Load tidycensus in R\nYou should have received a Census API key to the email you entered earlier.\n\n# Install the `tidycensus`\n# install.packages(\"tidycensus\")\n\n# Load the package\nlibrary(tidycensus)\n\n### Register API key \n## Option 1: temporary, save it only for this session \n## (delete # in front of the following line when ready to run code)\n\n# census_api_key(\"YOUR_API_KEY_HERE\")\n\n# Option 2 (my recommendation): Save the API Key for Future Use \n## to avoid entering the key every time, store it permanently: \n## (delete # in front of the following line when ready to run code)\n\n# census_api_key(\"YOUR_API_KEY_HERE\", install = TRUE)\n\nReplace \"YOUR_API_KEY_HERE\" with the key you received.\nOption 2 will save the key to your .Renviron file, so it loads automatically in future R sessions. Restart R for the change to take effect."
+  },
+  {
+    "objectID": "census/maps_workshop.html#getting-acs-data",
+    "href": "census/maps_workshop.html#getting-acs-data",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Getting ACS Data",
+    "text": "Getting ACS Data\nThe ACS provides yearly estimates on income, education, race, and other demographics. Use get_acs() to retrieve ACS data.\n\nExample: Get median household income by state for 2024\n\n\nLet’s get some ACS data and test the API Key\nTo verify that the key is working, try fetching some ACS (American Community Survey) data.\nFirst, let’s load the variables in the ACS for the year we’d like to gather data from. We use the call load_variables\nWe can also find them listed on the Census website\n\n# Load variable list\nvars23 &lt;- load_variables(2023, \"acs5\", cache = TRUE)\n\n# We can take a look and search for variables of interest\nview(vars23)\n\nBut as you can see, it can be overwhelming to search. Here is a trick to quicken our search:\n\n# Let's filter all variables with 'median household income' in the label column\nincome_vars &lt;- vars23 %&gt;% \n    filter(grepl('median household income', label, ignore.case = TRUE))\n\nview(income_vars)\n\nThe variable B19013_001 with label Estimate!!Median household income in the past 12 months (in 2023 inflation-adjusted dollars) and concept Median Household Income in the Past 12 Months (in 2023 Inflation-Adjusted Dollars) looks perfect for our needs.\nNow that we know our variable of interest, let’s define our ACS call by state for 2023:\n\n# Using the get_acs function, we can get Census data for specific geogprahies and specific variables\ndf &lt;- get_acs(geography = \"state\", \n              variables = \"B19013_001\",  # Median Household Income\n              year = 2023,\n              progress_bar = FALSE)\n\n# Let's take a sneak peak of our data frame\nhead(df)\n\n# A tibble: 6 × 5\n  GEOID NAME       variable   estimate   moe\n  &lt;chr&gt; &lt;chr&gt;      &lt;chr&gt;         &lt;dbl&gt; &lt;dbl&gt;\n1 01    Alabama    B19013_001    62027   400\n2 02    Alaska     B19013_001    89336  1374\n3 04    Arizona    B19013_001    76872   414\n4 05    Arkansas   B19013_001    58773   503\n5 06    California B19013_001    96334   298\n6 08    Colorado   B19013_001    92470   483\n\n\n\nIf the data loads without errors, your API key is successfully set up!\n\nThe dataset includes:\n\nGEOID (geographic ID)\nNAME (state name)\nestimate (median income value)\nmoe (margin of error)"
+  },
+  {
+    "objectID": "census/maps_workshop.html#combining-census-data-with-geospatial-data",
+    "href": "census/maps_workshop.html#combining-census-data-with-geospatial-data",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Combining Census Data with Geospatial Data",
+    "text": "Combining Census Data with Geospatial Data\nWe can skip a step by requesting geographic data simultaneously with Census data, using the argument geometry = TRUE\n\nincome_sf &lt;- get_acs(geography = \"state\", \n                     variables = c(median_income = \"B19013_001\"), \n                     year = 2023, \n                     geometry = TRUE,\n                     progress_bar = FALSE) %&gt;% # Get spatial data\n              shift_geometry()            # Don't forget or else we get a weird map!\n\nNow we can create different types of visualizations\n\nggplot(income_sf) +\n  geom_sf(aes(fill = estimate), \n          color = \"white\") +\n  scale_fill_viridis_c(option = \"magma\", \n                       name = \"Median Income\") +\n  theme_void() +\n  labs(title = \"Median Household Income by State (2023)\",\n       caption = \"Source: U.S. Census Bureau ACS 2023\\n*note: Puerto Rico not included\")\n\n\n\n\n\n\n\n\nKey Features of this Plot:\n\naes(fill = estimate) colors states by income\nscale_fill_viridis_c() improves color contrast\ntheme_minimal() gives a clean look\n\nOkay, the map looks good but that scaling on the legend is kind of ugly.\nLet’s fix that:\n\n# Install and load the 'scales' library\n# install.packages('scales')\nlibrary(scales)\n\n# Plot with pretty numbers\noptions(scipen = 999)        # this will prevent the plots from producing a default scientific notation \n\nggplot(income_sf) +\n  geom_sf(aes(fill = estimate), \n          color = \"white\") +\n  scale_fill_viridis_c(option = \"magma\", \n                       name = \"Median Income\",\n                       labels = scales::comma) +    # this will add  a comma for thousands\n  theme_void() +\n  labs(title = \"Median Household Income by State (2023)\",\n       caption = \"Source: U.S. Census Bureau ACS 2023\\n*note: Puerto Rico not included\")"
+  },
+  {
+    "objectID": "census/maps_workshop.html#top-states-by-income",
+    "href": "census/maps_workshop.html#top-states-by-income",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Top states by income",
+    "text": "Top states by income\n\ntop_income &lt;- income_sf %&gt;%\n  arrange(desc(estimate)) %&gt;%\n  slice(1:10)\n\nggplot(top_income, aes(x = reorder(NAME, estimate), y = estimate)) +\n  geom_col(fill = \"steelblue\") +\n  coord_flip() +  # Flip for readability\n  theme_minimal() +\n  scale_y_continuous(labels = scales::comma) +       # same scale trick, but note we use `scale_y_continuous` since this time we are targeting the x-axis\n  labs(title = \"Top 10 States by Median Income (2023)\",\n       x = \"State\", y = \"Median Income\",\n       caption = \"Source: U.S. Census Bureau ACS 2023\")"
+  },
+  {
+    "objectID": "census/maps_workshop.html#your-turn-1",
+    "href": "census/maps_workshop.html#your-turn-1",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "YOUR TURN 🙌 :",
+    "text": "YOUR TURN 🙌 :"
+  },
+  {
+    "objectID": "census/maps_workshop.html#choose-another-variable-of-interest-and-gather-census-acs-data-plot-it-using-the-above-code-as-a-guide",
+    "href": "census/maps_workshop.html#choose-another-variable-of-interest-and-gather-census-acs-data-plot-it-using-the-above-code-as-a-guide",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Choose another variable of interest and gather Census ACS data & plot it using the above code as a guide",
+    "text": "Choose another variable of interest and gather Census ACS data & plot it using the above code as a guide\n\nCommon ACS Variables\nHere are a few frequently used variables:\n\n\n\nVariable Name\nDescription\n\n\n\n\nB19013_001\nMedian Household Income\n\n\nB17001_002\nPopulation Below Poverty Level\n\n\nB25077_001\nMedian Home Value\n\n\nB01003_001\nTotal Population\n\n\nB03002_003\nNon-Hispanic White Population\n\n\nB03002_004\nBlack Population\n\n\nB03002_012\nHispanic or Latino Population\n\n\n\nHere are other examples of useful variables:\n\nDemographic Analysis (Population by Race, Ethnicity, Age, Gender)\n\n\n🔸 Use Case: Population distributions, racial/ethnic composition, gender breakdowns.\n\n\nVariable Name\nDescription\n\n\n\n\nB01003_001\nTotal Population\n\n\nB01002_001\nMedian Age\n\n\nB01001_002\nMale Population\n\n\nB01001_026\nFemale Population\n\n\nB03002_003\nNon-Hispanic White Population\n\n\nB03002_004\nBlack or African American Population\n\n\nB03002_012\nHispanic or Latino Population\n\n\nB03002_006\nAsian Population\n\n\n\n\nSocioeconomic Status (SES) & Income Inequality\n\n\n🔸 Use Case: Economic disparities, income inequality, housing affordability.\n\n\nVariable Name\nDescription\n\n\n\n\nB19013_001\nMedian Household Income\n\n\nB19001_002 – B19001_017\nHousehold Income Brackets\n\n\nB17001_002\nPopulation Below Poverty Level\n\n\nB19301_001\nPer Capita Income\n\n\nB25077_001\nMedian Home Value\n\n\nB25064_001\nMedian Gross Rent\n\n\n\n\nEducation & Employment\n\n\n🔸 Use Case: Workforce analysis, educational attainment, economic mobility.\n\n\nVariable Name\nDescription\n\n\n\n\nB15003_022\nBachelor’s Degree or Higher\n\n\nB15003_017\nHigh School Graduates\n\n\nB23025_002\nCivilian Labor Force\n\n\nB23025_005\nUnemployment Count\n\n\nB23025_007\nUnemployment Rate\n\n\n\n\nHousing & Urban Development\n\n\n🔸 Use Case: Gentrification studies, housing affordability, displacement trends.\n\n\nVariable Name\nDescription\n\n\n\n\nB25077_001\nMedian Home Value\n\n\nB25064_001\nMedian Gross Rent\n\n\nB25034_001\nHousing Units by Year Built\n\n\nB25002_003\nVacant Housing Units\n\n\nB25024_002\nSingle-Family Homes\n\n\nB25024_010\nMobile Homes\n\n\n\n\nHealth & Disability\n\n\n🔸 Use Case: Healthcare access, disability prevalence, environmental health.\n\n\nVariable Name\nDescription\n\n\n\n\nB18101_001\nPopulation with a Disability\n\n\nB27010_001\nPopulation with Health Insurance Coverage\n\n\nB27010_017\nPopulation Uninsured\n\n\nB25099_001\nHouseholds with No Plumbing Facilities"
+  },
+  {
+    "objectID": "census/maps_workshop.html#using-state-bins",
+    "href": "census/maps_workshop.html#using-state-bins",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Using state bins",
+    "text": "Using state bins\nThis is another approach for data visualization of state data where we ditch the state’s natural shape to emphasize comparisons among them.\n\n# Install and load 'statebins'\n# install.packages('statebins')\nlibrary(statebins)\n\n\n# Using the income dataframe from earlier, let's add income levels\nUS_income &lt;- mutate(\n  income_sf,\n  income_bins = cut(\n    ifelse(is.na(estimate), 25000, estimate),\n    breaks = c(0, 40000, 50000, 60000, 70000, 80000, 150000),\n    labels = c(\"&lt; $40k\", \"$40k to $50k\", \n               \"$50k to $60k\", \"$60k to $70k\", \"$70k - $80k\", \" &gt; $80k\"),\n    right = FALSE\n  )\n)\n\n# Plotting\nUS_income %&gt;% \n  ggplot() +\n  statebins::geom_statebins(aes(geometry = geometry,\n                                state = NAME, \n                                fill = income_bins)) +\n  scale_fill_viridis_d() +\n  theme_statebins() +\n  labs(title = \"Median Household Income by State (2023)\",\n       caption = \"Source: U.S. Census Bureau ACS 2023. Note: Puerto Rico not included\")"
+  },
+  {
+    "objectID": "census/maps_workshop.html#lets-use-the-income-poverty-data-and-compare-it-to-red-vs-blue-states.",
+    "href": "census/maps_workshop.html#lets-use-the-income-poverty-data-and-compare-it-to-red-vs-blue-states.",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Let’s use the income-poverty data and compare it to red vs blue states.",
+    "text": "Let’s use the income-poverty data and compare it to red vs blue states.\nFirst let’s make a data frame with the states and their respective 2024 vote\n\n# Using data from Politico on 2024 Presidential election\n\n#red_states ~ \"#fb5c44\"\n#blue_states ~ \"#336fba\"\n\nstate_colors &lt;- c(\"Idaho\" = \"#fb5c44\",\n                \"Montana\" = \"#fb5c44\",\n                \"North Dakota\" = \"#fb5c44\",\n                \"South Dakota\" = \"#fb5c44\",\n                \"Wyoming\" = \"#fb5c44\",\n                \"Utah\" = \"#fb5c44\",\n                \"Nebraska\" = \"#fb5c44\",\n                \"Kansas\" = \"#fb5c44\",\n                \"Oklahoma\" = \"#fb5c44\",\n                \"Texas\" = \"#fb5c44\",\n                \"Louisiana\" = \"#fb5c44\",\n                \"Mississippi\" = \"#fb5c44\",\n                \"Alabama\" = \"#fb5c44\",\n                \"Iowa\" = \"#fb5c44\",\n                \"Missouri\" = \"#fb5c44\",\n                \"Arkansas\" = \"#fb5c44\",\n                \"Tennessee\" = \"#fb5c44\",\n                \"Kentucky\" = \"#fb5c44\",\n                \"Indiana\" = \"#fb5c44\",\n                \"Ohio\" = \"#fb5c44\",\n                \"Nevada\" = \"#fb5c44\",\n                \"Arizona\" = \"#fb5c44\",\n                \"Pennsylvania\" = \"#fb5c44\",\n                \"Georgia\" = \"#fb5c44\",\n                \"Michigan\" = \"#fb5c44\",\n                \"Wisconsin\" = \"#fb5c44\",\n                \"West Virginia\" = \"#fb5c44\",\n                \"North Carolina\" = \"#fb5c44\",\n                \"South Carolina\" = \"#fb5c44\",\n                \"Florida\" = \"#fb5c44\",\n                \"Alaska\" = \"#fb5c44\",\n                \"Washington\" = \"#336fba\",\n                 \"Oregon\" = \"#336fba\",\n                 \"California\" = \"#336fba\",\n                 \"Colorado\" = \"#336fba\",\n                 \"New Mexico\" = \"#336fba\",\n                 \"Minnesota\" = \"#336fba\",\n                 \"Massachusetts\" = \"#336fba\",\n                 \"Illinois\" = \"#336fba\",\n                 \"Virginia\" = \"#336fba\",\n                 \"Maryland\" = \"#336fba\",\n                 \"District Of Columbia\" = \"#336fba\",\n                 \"Connecticut\" = \"#336fba\",\n                 \"Rhode Island\" = \"#336fba\",\n                 \"Delaware\" = \"#336fba\",\n                 \"Maine\" = \"#336fba\",\n                 \"New York\" = \"#336fba\",\n                 \"New Jersey\" = \"#336fba\",\n                 \"Hawaii\" = \"#336fba\",\n                 \"New Hampshire\" = \"#336fba\",\n                 \"Vermont\" = \"#336fba\"\n                 )\n\ncolor_vote &lt;- as.data.frame(state_colors)\n\ncolor_vote &lt;- tibble::rownames_to_column(color_vote, \"state\")\n\nNext, let’s modify the data set to sort by top poverty rate and income, respectively, and make two different plots\n\n# Let's plot poverty rate and income\npoverty_colors &lt;- \n  # let's join the data sets while also sorting by top poverty rate\n  data_wide %&gt;% \n  inner_join(color_vote, by = \"state\") %&gt;% \n  filter(state != \"Puerto Rico\") %&gt;% \n  mutate_if(is.numeric, round, 2) %&gt;% \n  top_n(10, poverty_rate) %&gt;% \n  # Now we can plot\n  ggplot(aes(x = reorder(state, poverty_rate), \n               y = poverty_rate,\n             fill = state_colors)) +\n  geom_col() +\n  scale_fill_manual(\n    name = \"2024 Presidential Election Result\",\n    labels = c(\"Blue\", \"Red\"),\n    values = c(\"#336fba\",\"#fb5c44\"),\n    guide = \"none\"\n  ) +\n  coord_flip() +\n  geom_text(aes(label = poverty_rate), \n            color = \"white\",\n            hjust = 1.1,\n            size = 3) +\n  theme_bw()  +\n  labs(\n    y = \"Poverty Rate\",\n    title = 'Top 10 states by poverty rate\\n& 2024 Presidential vote'\n  ) +\n  theme(\n        axis.title.y = element_blank(),\n        axis.ticks.x = element_blank())\n\nincome_colors &lt;-  \n  # let's join the data sets while also sorting by top income\n  data_wide %&gt;% \n  inner_join(color_vote, by = \"state\") %&gt;% \n  filter(state != \"Puerto Rico\") %&gt;% \n  mutate_if(is.numeric, round, 2) %&gt;% \n  top_n(10, income) %&gt;% \n  # Now we can plot\n  ggplot(aes(x = reorder(state, income), \n               y = income,\n             fill = state_colors)) +\n  geom_col() +\n  scale_fill_manual(\n    name = \"2024 Presidential Election Result\",\n    labels = c(\"Blue\", \"Red\"),\n    values = c(\"#336fba\",\"#fb5c44\"),\n    guide = \"none\"\n  ) +\n  scale_y_continuous(labels = scales::comma) +\n  coord_flip() +\n  geom_text(aes(label = scales::comma(income)), \n            color = \"white\",\n            hjust = 1.1,\n            size = 3) +\n  theme_bw()  +\n  labs(\n    y = \"Median Household Income\",\n    title = 'Top 10 states by income\\n& 2024 Presidential vote',\n    caption = \"\\nU.S. Census Bureau 2023 ACS 5-Year Population Estimates \\n Politico 2024 Election Mapping.\"\n  ) +\n  theme(\n        axis.title.y = element_blank(),\n        axis.ticks.x = element_blank())\n\nFinally, let’s view these plots side by side and see if there are interesting conclusions we can make about the interactions between poverty/income and 2024 vote choice.\n\n# Install patchwork to view these side by side\n# install.packages('patchwork')\nlibrary(patchwork)\n\npoverty_colors + income_colors"
+  },
+  {
+    "objectID": "census/maps_workshop.html#your-turn-using-the-color_vote-data-from-the-2024-election-find-another-variable-you-are-interested-in-to-visualize-along-with-vote-choice.",
+    "href": "census/maps_workshop.html#your-turn-using-the-color_vote-data-from-the-2024-election-find-another-variable-you-are-interested-in-to-visualize-along-with-vote-choice.",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "YOUR TURN 🙌 : Using the color_vote data from the 2024 election, find another variable you are interested in to visualize along with vote choice.",
+    "text": "YOUR TURN 🙌 : Using the color_vote data from the 2024 election, find another variable you are interested in to visualize along with vote choice."
+  },
+  {
+    "objectID": "census/maps_workshop.html#footnotes",
+    "href": "census/maps_workshop.html#footnotes",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSource: Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker↩︎"
   }
 ]

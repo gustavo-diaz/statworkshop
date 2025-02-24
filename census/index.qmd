@@ -1,0 +1,18 @@
+---
+title: "Geographic and census data"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+On February 24, 2025, the R workshop hosts PhD candidate [Michelle Bueno Vásquez](https://polisci.northwestern.edu/people/graduate-students/michelle-bueno-vásquez.html) for an intensive hands-on workshop exploring advanced R techniques for spatial demographic analysis and visualization. This workshop will equip participants with practical skills to harness Census data alongside complementary datasets to create compelling geographic visualizations that illuminate demographic patterns and social phenomena
+
+Bueno Vásquez is a sixth-year candidate in the Political Science department and recently completed her MS in Applied Statistics. She brings her expertise in race and ethnic politics, along with her extensive experience working with demographic data, to guide participants through real-world applications of spatial analysis and will demonstrate how these technical skills can be applied to critical questions in social science research and policy analysis.
+
+## Resources
+
+- [Code](census/maps_workshop.qmd)
+
+- [HTML](census/maps_workshop.html)
+
