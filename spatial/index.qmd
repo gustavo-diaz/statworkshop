@@ -1,0 +1,17 @@
+---
+title: "Spatial Data in R"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+This workshop will introduce different types of spatial data and cover the basics of reading in, manipulating, and plotting spatial data in R, with a focus on common errors and challenges. Time permitting, the workshop will also briefly introduce different ways to incorporate spatial data into regression models.
+
+[Nicole Wilson](https://www.nicoleewilson.com/) is a College Fellow and incoming Assistant Professor at Northwestern University. Her research focuses on state capacity and urban politics in the Global South. Methodologically, she is interested in developing field methods to access difficult-to-reach populations, primarily using surveys and administrative data, and in taking space seriously.
+
+
+## Resources
+
+Coming soon!
+

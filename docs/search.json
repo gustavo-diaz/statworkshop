@@ -1,103 +1,24 @@
 [
   {
-    "objectID": "presentations/html_slides.html#about-revealjs",
-    "href": "presentations/html_slides.html#about-revealjs",
-    "title": "HTML slides with revealjs",
+    "objectID": "spatial/index.html",
+    "href": "spatial/index.html",
+    "title": "Spatial Data in R",
     "section": "",
-    "text": "Quarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+    "text": "This workshop will introduce different types of spatial data and cover the basics of reading in, manipulating, and plotting spatial data in R, with a focus on common errors and challenges. Time permitting, the workshop will also briefly introduce different ways to incorporate spatial data into regression models.\nNicole Wilson is a College Fellow and incoming Assistant Professor at Northwestern University. Her research focuses on state capacity and urban politics in the Global South. Methodologically, she is interested in developing field methods to access difficult-to-reach populations, primarily using surveys and administrative data, and in taking space seriously."
   },
   {
-    "objectID": "presentations/html_slides.html#code",
-    "href": "presentations/html_slides.html#code",
-    "title": "HTML slides with revealjs",
-    "section": "Code",
-    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
-  },
-  {
-    "objectID": "presentations/html_slides.html#r-figures",
-    "href": "presentations/html_slides.html#r-figures",
-    "title": "HTML slides with revealjs",
-    "section": "R Figures",
-    "text": "R Figures\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
-  },
-  {
-    "objectID": "presentations/html_slides.html#interactive-panels",
-    "href": "presentations/html_slides.html#interactive-panels",
-    "title": "HTML slides with revealjs",
-    "section": "Interactive panels",
-    "text": "Interactive panels\n\nCodeFigure\n\n\nggplot(penguins) +\n  aes(x = flipper_length_mm,\n      y = body_mass_g) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")"
-  },
-  {
-    "objectID": "presentations/html_slides.html#external-figures",
-    "href": "presentations/html_slides.html#external-figures",
-    "title": "HTML slides with revealjs",
-    "section": "External figures",
-    "text": "External figures\nYou can include GIFs!\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
-  },
-  {
-    "objectID": "presentations/html_slides.html#pipe-tables",
-    "href": "presentations/html_slides.html#pipe-tables",
-    "title": "HTML slides with revealjs",
-    "section": "Pipe tables",
-    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
-  },
-  {
-    "objectID": "presentations/html_slides.html#r-tables",
-    "href": "presentations/html_slides.html#r-tables",
-    "title": "HTML slides with revealjs",
-    "section": "R Tables",
-    "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R Workshop",
+    "objectID": "spatial/index.html#overview",
+    "href": "spatial/index.html#overview",
+    "title": "Spatial Data in R",
     "section": "",
-    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Monday, February 10\n                  12:00 – 1:20 PM\n                  Interpreting statistical models (guest: Vincent Arel-Bundock)\n                \n                \n                  Monday, February 24\n                  2:00 – 3:20 PM\n                  Geographical and census data (guest: Michelle Bueno Vasquez)\n                \n                \n                  Wednesday, March 5 \n                  1:30 – 2:50 PM\n                  Open-ended coding session",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "This workshop will introduce different types of spatial data and cover the basics of reading in, manipulating, and plotting spatial data in R, with a focus on common errors and challenges. Time permitting, the workshop will also briefly introduce different ways to incorporate spatial data into regression models.\nNicole Wilson is a College Fellow and incoming Assistant Professor at Northwestern University. Her research focuses on state capacity and urban politics in the Global South. Methodologically, she is interested in developing field methods to access difficult-to-reach populations, primarily using surveys and administrative data, and in taking space seriously."
   },
   {
-    "objectID": "index.html#fall-2024-schedule",
-    "href": "index.html#fall-2024-schedule",
-    "title": "R Workshop",
-    "section": "",
-    "text": "3:00 – 4:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n              \n        \n        \n        \n                \n                  October 7  \n                  Writing papers in Quarto\n                \n                \n                  October 28 \n                  Presentations and posters\n                \n                \n                  November 25\n                  Coding session",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#details",
-    "href": "index.html#details",
-    "title": "R Workshop",
-    "section": "Details",
-    "text": "Details\nThe R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nMost workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nThe aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "papers/index.html",
-    "href": "papers/index.html",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
-  },
-  {
-    "objectID": "papers/index.html#overview",
-    "href": "papers/index.html#overview",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
-  },
-  {
-    "objectID": "papers/index.html#resources",
-    "href": "papers/index.html#resources",
-    "title": "Writing Papers in Quarto",
+    "objectID": "spatial/index.html#resources",
+    "href": "spatial/index.html#resources",
+    "title": "Spatial Data in R",
     "section": "Resources",
-    "text": "Resources\n\n Guide\n Template\n Sample bibliography"
+    "text": "Resources\nComing soon!"
   },
   {
     "objectID": "presentations/index.html",
@@ -121,11 +42,11 @@
     "text": "Resources\n\n Export figures and tables to PowerPoint\n PDF slides template\n HTML slides template\n Classic PowerPoint poster templates\n Billboard PowerPoint poster templates\n posterdown package for RMarkdown templates"
   },
   {
-    "objectID": "presentations/index.html#additional-resources",
-    "href": "presentations/index.html#additional-resources",
+    "objectID": "presentations/index.html#tips",
+    "href": "presentations/index.html#tips",
     "title": "Presentations and Posters",
-    "section": "Additional Resources",
-    "text": "Additional Resources"
+    "section": "Tips",
+    "text": "Tips\nTreat presentations and posters as advertisement for a paper or project, that means keeping exposure simple and resisting the urge to cram everything in.\nCarlisle Rainey shared some general tips for conference presentations or invited talks that are continuously repeated but rarely applied.\nMike Morrison is an advocate of user-friendly science and has promoted “billboard” posters or posters 2.0 as a more efficient template."
   },
   {
     "objectID": "presentations/index.html#footnotes",
@@ -138,15 +59,15 @@
     "objectID": "papers/guide.html#roadmap",
     "href": "papers/guide.html#roadmap",
     "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "Why Quarto?\nRequirements\nTemplate"
+    "section": "Roadmap",
+    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
   },
   {
     "objectID": "papers/guide.html#elements-of-an-academic-paper",
     "href": "papers/guide.html#elements-of-an-academic-paper",
     "title": "Writing Papers in Quarto",
     "section": "Elements of an (academic) paper",
-    "text": "Elements of an (academic) paper\n. . .\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n. . .\n\nData/info visualization (tables, figures, flowcharts)\n\n. . .\n\nCollaboration\n\n. . .\n\nCitations"
+    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
   },
   {
     "objectID": "papers/guide.html#default-option-word-processors",
@@ -202,7 +123,7 @@
     "href": "papers/guide.html#but-why-quarto-in-particular",
     "title": "Writing Papers in Quarto",
     "section": "But why Quarto in particular?",
-    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n. . .\nIn one word, CONVENIENCE"
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
   },
   {
     "objectID": "papers/guide.html#what-you-need-to-write-papers",
@@ -240,213 +161,18 @@
     "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
   },
   {
-    "objectID": "presentations/index.html#tips",
-    "href": "presentations/index.html#tips",
-    "title": "Presentations and Posters",
-    "section": "Tips",
-    "text": "Tips\nTreat presentations and posters as advertisement for a paper or project, that means keeping exposure simple and resisting the urge to cram everything in.\nCarlisle Rainey shared some general tips for conference presentations or invited talks that are continuously repeated but rarely applied.\nMike Morrison is an advocate of user-friendly science and has promoted “billboard” posters or posters 2.0 as a more efficient template."
-  },
-  {
-    "objectID": "open_fall/index.html",
-    "href": "open_fall/index.html",
-    "title": "Fall Coding Session",
-    "section": "",
-    "text": "This is the first open-ended coding session of the academic year. The goal is for each of us to bring a coding-related goal that we want to accomplish within the time allotted.\nWe will start by taking turns describing what we seek to accomplish, or what we are particularly stuck on, then we will proceed work independent and help each other if needed.\nIf we happen to stumble into an important topic, we will link to the appropriate resources here."
-  },
-  {
-    "objectID": "open_fall/index.html#overview",
-    "href": "open_fall/index.html#overview",
-    "title": "Fall Coding Session",
-    "section": "",
-    "text": "This is the first open-ended coding session of the academic year. The goal is for each of us to bring a coding-related goal that we want to accomplish within the time allotted.\nWe will start by taking turns describing what we seek to accomplish, or what we are particularly stuck on, then we will proceed work independent and help each other if needed.\nIf we happen to stumble into an important topic, we will link to the appropriate resources here."
-  },
-  {
-    "objectID": "presentations/html_slides.html",
-    "href": "presentations/html_slides.html",
-    "title": "HTML slides with revealjs",
-    "section": "",
-    "text": "Quarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html",
-    "href": "presentations/pdf_slides.html",
-    "title": "PDF Slides with beamer",
-    "section": "",
-    "text": "Quarto uses Beamer to create PDF presentations\nSimilar to LaTeX Beamer but using Markdown language\nSee here for more information\nAnd here for themes"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html#about-beamer",
-    "href": "presentations/pdf_slides.html#about-beamer",
-    "title": "PDF Slides with beamer",
-    "section": "",
-    "text": "Quarto uses Beamer to create PDF presentations\nSimilar to LaTeX Beamer but using Markdown language\nSee here for more information\nAnd here for themes"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html#code",
-    "href": "presentations/pdf_slides.html#code",
-    "title": "PDF Slides with beamer",
-    "section": "Code",
-    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html#r-figures",
-    "href": "presentations/pdf_slides.html#r-figures",
-    "title": "PDF Slides with beamer",
-    "section": "R Figures",
-    "text": "R Figures\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html#external-figures",
-    "href": "presentations/pdf_slides.html#external-figures",
-    "title": "PDF Slides with beamer",
-    "section": "External figures",
-    "text": "External figures\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html#pipe-tables",
-    "href": "presentations/pdf_slides.html#pipe-tables",
-    "title": "PDF Slides with beamer",
-    "section": "Pipe tables",
-    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
-  },
-  {
-    "objectID": "presentations/pdf_slides.html#r-tables",
-    "href": "presentations/pdf_slides.html#r-tables",
-    "title": "PDF Slides with beamer",
-    "section": "R Tables",
-    "text": "R Tables\nWe will use the kableExtra package because tinytable faces issues with Beamer.\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n\ncountry\nyear\ncases\npopulation\n\n\n\n\nAfghanistan\n1999\n745\n19987071\n\n\nAfghanistan\n2000\n2666\n20595360\n\n\nBrazil\n1999\n37737\n172006362\n\n\nBrazil\n2000\n80488\n174504898\n\n\nChina\n1999\n212258\n1272915272\n\n\nChina\n2000\n213766\n1280428583"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "",
-    "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nTime and place: Varies by quarter. See below\nGitHub Repository: https://github.com/gustavo-diaz/r-workshop\nOffice Hours: https://calendly.com/gustavo-diaz-nu/f24-meetings"
-  },
-  {
-    "objectID": "schedule.html#fall-300-420-pm-scott-hall-212",
-    "href": "schedule.html#fall-300-420-pm-scott-hall-212",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "Fall (3:00 – 4:20 PM, Scott Hall 212)",
-    "text": "Fall (3:00 – 4:20 PM, Scott Hall 212)\n\nOctober 7: Writing papers in Quarto\n\n\nOctober 28: Presentations and posters\n\n\nNovember 25: Coding session"
-  },
-  {
-    "objectID": "schedule.html#winter",
-    "href": "schedule.html#winter",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "Winter",
-    "text": "Winter\n\nMeeting 4: Interpreting statistical results\nGuest speaker: Vincent Arel-Bundock – Université de Montréal\n\n\nMeeting 5: Geographical and census data\nGuest speaker: Michelle Bueno Vásquez – Northwestern University\n\n\nMeeting 6: Coding session"
-  },
-  {
-    "objectID": "schedule.html#spring",
-    "href": "schedule.html#spring",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
-    "section": "Spring",
-    "text": "Spring\n\nMeeting 7: Text as data\n\n\n\nMeeting 8: Data visualization extensions\n\n\n\nMeeting 9: Coding session"
-  },
-  {
-    "objectID": "papers/guide.html",
-    "href": "papers/guide.html",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "Why Quarto?\nRequirements\nTemplate"
-  },
-  {
-    "objectID": "papers/template.html#from-r",
-    "href": "papers/template.html#from-r",
-    "title": "Quarto Paper Template",
-    "section": "4.1 From R",
-    "text": "4.1 From R\nFigure 1 shows how to plot a figure from R code. See Wickham (2016a) for more on how to make pretty plots.8\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
-  },
-  {
-    "objectID": "papers/template.html#from-external-sources",
-    "href": "papers/template.html#from-external-sources",
-    "title": "Quarto Paper Template",
-    "section": "4.2 From external sources",
-    "text": "4.2 From external sources\nSometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. Figure 2 shows an example using a URL. In practice, you would use the path of file in your working directory.\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
-  },
-  {
-    "objectID": "papers/template.html#pipe-tables",
-    "href": "papers/template.html#pipe-tables",
-    "title": "Quarto Paper Template",
-    "section": "5.1 Pipe tables",
-    "text": "5.1 Pipe tables\nYou can make tables “by hand” using pipe tables. Like Table 1 shows.\n\n\n\nTable 1: Demonstration of pipe table syntax\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\nYou can even use a Tables Generator to make them interactively and then copy and paste in your .qmd file."
-  },
-  {
-    "objectID": "papers/template.html#from-r-1",
-    "href": "papers/template.html#from-r-1",
-    "title": "Quarto Paper Template",
-    "section": "5.2 From R",
-    "text": "5.2 From R\nOf course, you can also make tables in R and then print them in a nice format. I like to use the tinytable for simple tables.9\nFor example, Table 2 is made “by hand” with R code. Of course, you can also plot tidy data objects, like Table 3 shows.\n\n\n\nTable 2: An example of a table made with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Default\n                Left\n                Right\n                Center\n              \n        \n        \n        \n                \n                   12\n                   12\n                   12\n                   12\n                \n                \n                  123\n                  123\n                  123\n                  123\n                \n                \n                    1\n                    1\n                    1\n                    1\n                \n        \n      \n    \n\n\n\n\n\n\n\nTable 3: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
-  },
-  {
-    "objectID": "papers/template.html#footnotes",
-    "href": "papers/template.html#footnotes",
-    "title": "Quarto Paper Template",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
-  },
-  {
-    "objectID": "index.html#winter-2025-schedule",
-    "href": "index.html#winter-2025-schedule",
-    "title": "R Workshop",
-    "section": "",
-    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Monday, February 10\n                  12:00 – 1:20 PM\n                  Interpreting statistical models (guest: Vincent Arel-Bundock)\n                \n                \n                  Monday, February 24\n                  2:00 – 3:20 PM\n                  Geographical and census data (guest: Michelle Bueno Vasquez)\n                \n                \n                  Wednesday, March 5 \n                  1:30 – 2:50 PM\n                  Open-ended coding session",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#previous-terms",
-    "href": "index.html#previous-terms",
-    "title": "R Workshop",
-    "section": "Previous Terms",
-    "text": "Previous Terms\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Last offered\n              \n        \n        \n        \n                \n                  Writing papers in Quarto\n                  Fall 2024\n                \n                \n                  Presentations and Posters\n                  Fall 2024",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "models/index.html",
-    "href": "models/index.html",
-    "title": "Interpreting Statistical Models",
-    "section": "",
-    "text": "On February 10, 2025, the R Workshop hosted Vincent Arel-Bundock (Université de Montréal) for a demonstration based on his upcoming book “How to Interpret Statistical Results Using marginaleffects for R and Python.”\nThe book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.\nDr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of numerous contributions to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle."
-  },
-  {
-    "objectID": "models/index.html#overview",
-    "href": "models/index.html#overview",
-    "title": "Interpreting Statistical Models",
-    "section": "",
-    "text": "On February 10, 2025, the R Workshop hosted Vincent Arel-Bundock (Université de Montréal) for a demonstration based on his upcoming book “How to Interpret Statistical Results Using marginaleffects for R and Python.”\nThe book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.\nDr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of numerous contributions to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle."
-  },
-  {
-    "objectID": "models/index.html#resources",
-    "href": "models/index.html#resources",
-    "title": "Interpreting Statistical Models",
-    "section": "Resources",
-    "text": "Resources\n\n marginaleffects book\n marginaleffects journal article"
-  },
-  {
-    "objectID": "models/guide.html",
-    "href": "models/guide.html",
-    "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "Why Quarto?\nRequirements\nTemplate"
-  },
-  {
     "objectID": "models/guide.html#roadmap",
     "href": "models/guide.html#roadmap",
     "title": "Writing Papers in Quarto",
-    "section": "",
-    "text": "Why Quarto?\nRequirements\nTemplate"
+    "section": "Roadmap",
+    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
   },
   {
     "objectID": "models/guide.html#elements-of-an-academic-paper",
     "href": "models/guide.html#elements-of-an-academic-paper",
     "title": "Writing Papers in Quarto",
     "section": "Elements of an (academic) paper",
-    "text": "Elements of an (academic) paper\n. . .\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n. . .\n\nData/info visualization (tables, figures, flowcharts)\n\n. . .\n\nCollaboration\n\n. . .\n\nCitations"
+    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
   },
   {
     "objectID": "models/guide.html#default-option-word-processors",
@@ -502,7 +228,7 @@
     "href": "models/guide.html#but-why-quarto-in-particular",
     "title": "Writing Papers in Quarto",
     "section": "But why Quarto in particular?",
-    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n. . .\nIn one word, CONVENIENCE"
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
   },
   {
     "objectID": "models/guide.html#what-you-need-to-write-papers",
@@ -540,39 +266,25 @@
     "text": "Citation manager\n\nZotero https://www.zotero.org\nEndNote https://endnote.com/\nMendeley https://www.mendeley.com\nJabRef https://www.jabref.org"
   },
   {
-    "objectID": "models/template.html#from-r",
-    "href": "models/template.html#from-r",
-    "title": "Quarto Paper Template",
-    "section": "4.1 From R",
-    "text": "4.1 From R\nFigure 1 shows how to plot a figure from R code. See Wickham (2016a) for more on how to make pretty plots.8\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
+    "objectID": "images/index.html",
+    "href": "images/index.html",
+    "title": "Images as Data in Social Science Research",
+    "section": "",
+    "text": "This workshop will provide a broad introduction to the principles and tools of image analysis from a social science perspective. Participants will engage with hands-on exercises using Python, leaning how to process and analyze visual data.\nHyein Ko is a Postdoctoral Research Associate at the University of Illinois Urbana-Champaign. Her research explores political communication, protest, and authoritarian politics, with a methodological focus on computational tools such as image analysis and large language models. She holds a Ph.D. in Political Science from the University of Iowa."
   },
   {
-    "objectID": "models/template.html#from-external-sources",
-    "href": "models/template.html#from-external-sources",
-    "title": "Quarto Paper Template",
-    "section": "4.2 From external sources",
-    "text": "4.2 From external sources\nSometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. Figure 2 shows an example using a URL. In practice, you would use the path of file in your working directory.\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
+    "objectID": "images/index.html#overview",
+    "href": "images/index.html#overview",
+    "title": "Images as Data in Social Science Research",
+    "section": "",
+    "text": "This workshop will provide a broad introduction to the principles and tools of image analysis from a social science perspective. Participants will engage with hands-on exercises using Python, leaning how to process and analyze visual data.\nHyein Ko is a Postdoctoral Research Associate at the University of Illinois Urbana-Champaign. Her research explores political communication, protest, and authoritarian politics, with a methodological focus on computational tools such as image analysis and large language models. She holds a Ph.D. in Political Science from the University of Iowa."
   },
   {
-    "objectID": "models/template.html#pipe-tables",
-    "href": "models/template.html#pipe-tables",
-    "title": "Quarto Paper Template",
-    "section": "5.1 Pipe tables",
-    "text": "5.1 Pipe tables\nYou can make tables “by hand” using pipe tables. Like Table 1 shows.\n\n\n\nTable 1: Demonstration of pipe table syntax\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\nYou can even use a Tables Generator to make them interactively and then copy and paste in your .qmd file."
-  },
-  {
-    "objectID": "models/template.html#from-r-1",
-    "href": "models/template.html#from-r-1",
-    "title": "Quarto Paper Template",
-    "section": "5.2 From R",
-    "text": "5.2 From R\nOf course, you can also make tables in R and then print them in a nice format. I like to use the tinytable for simple tables.9\nFor example, Table 2 is made “by hand” with R code. Of course, you can also plot tidy data objects, like Table 3 shows.\n\n\n\nTable 2: An example of a table made with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Default\n                Left\n                Right\n                Center\n              \n        \n        \n        \n                \n                   12\n                   12\n                   12\n                   12\n                \n                \n                  123\n                  123\n                  123\n                  123\n                \n                \n                    1\n                    1\n                    1\n                    1\n                \n        \n      \n    \n\n\n\n\n\n\n\nTable 3: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
-  },
-  {
-    "objectID": "models/template.html#footnotes",
-    "href": "models/template.html#footnotes",
-    "title": "Quarto Paper Template",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
+    "objectID": "images/index.html#resources",
+    "href": "images/index.html#resources",
+    "title": "Images as Data in Social Science Research",
+    "section": "Resources",
+    "text": "Resources\nComing soon!"
   },
   {
     "objectID": "census/index.html",
@@ -701,6 +413,13 @@
     "text": "Using state bins\nThis is another approach for data visualization of state data where we ditch the state’s natural shape to emphasize comparisons among them.\n\n# Install and load 'statebins'\n# install.packages('statebins')\nlibrary(statebins)\n\n\n# Using the income dataframe from earlier, let's add income levels\nUS_income &lt;- mutate(\n  income_sf,\n  income_bins = cut(\n    ifelse(is.na(estimate), 25000, estimate),\n    breaks = c(0, 40000, 50000, 60000, 70000, 80000, 150000),\n    labels = c(\"&lt; $40k\", \"$40k to $50k\", \n               \"$50k to $60k\", \"$60k to $70k\", \"$70k - $80k\", \" &gt; $80k\"),\n    right = FALSE\n  )\n)\n\n# Plotting\nUS_income %&gt;% \n  ggplot() +\n  statebins::geom_statebins(aes(geometry = geometry,\n                                state = NAME, \n                                fill = income_bins)) +\n  scale_fill_viridis_d() +\n  theme_statebins() +\n  labs(title = \"Median Household Income by State (2023)\",\n       caption = \"Source: U.S. Census Bureau ACS 2023. Note: Puerto Rico not included\")"
   },
   {
+    "objectID": "census/maps_workshop.html#how-this-works",
+    "href": "census/maps_workshop.html#how-this-works",
+    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
+    "section": "How This Works",
+    "text": "How This Works\nEach state (or region) falls into one of nine possible categories based on:\n\nIncome level: Low, Medium, or High\nPoverty rate: Low, Medium, or High\n\nEach category is assigned a unique color using three different ColorBrewer palettes:\n\nPuBuGn (Blue-Green shades) → Used for Low Income\nPurples (Purple shades) → Used for Medium Income\nOranges (Orange shades) → Used for High Income\n\nDarker colors indicate higher poverty rates, making the map intuitive:\n\n“Low-Low” (Low income, Low poverty) → Lightest Green\n“Low-High” (Low income, High poverty) → Darker Green\n“High-Low” (High income, Low poverty) → Light Orange\n“High-High” (High income, High poverty) → Darkest Orange\n\n\nBreakdown of Color Assignments\nI chose the colors using the link for the Brewer Color Palettes.\n\n\n\n\n\n\n\n\nCategory (Income-Poverty)\nColor Palette Used\nShade\n\n\n\n\nLow-Low (Low income, Low poverty)\nPuBuGn (Blue-Green)\nLightest Green ([1])\n\n\nLow-Medium (Low income, Medium poverty)\nPuBuGn\nMedium Green ([3])\n\n\nLow-High (Low income, High poverty)\nPuBuGn\nDarker Green ([5])\n\n\nMedium-Low (Medium income, Low poverty)\nPurples\nLight Purple ([3])\n\n\nMedium-Medium (Medium income, Medium poverty)\nPurples\nMedium Purple ([5])\n\n\nMedium-High (Medium income, High poverty)\nPurples Darker Purple ([7])\n\n\n\nHigh-Low (High income, Low poverty)\nOranges\nLight Orange ([3])\n\n\nHigh-Medium (High income, Medium poverty)\nOranges\nMedium Orange ([5])\n\n\nHigh-High (High income, High poverty)\nOranges\nDarkest Orange ([7])\n\n\n\n\n# Create plot\n\nggplot(data_wide) +\n  geom_sf(aes(fill = category), \n          color = \"white\", \n          size = 0.2) +\n  scale_fill_manual(values = bivariate_palette, \n                    name = \"Income-Poverty Scale\") +  # Add legend\n  theme_void() +\n  labs(\n    title = \"Income & Poverty Rate by U.S. State (2023)\",\n    subtitle = \"Bivariate Choropleth Map\",\n    caption = \"Source: U.S. Census Bureau ACS 2023\"\n  )"
+  },
+  {
     "objectID": "census/maps_workshop.html#lets-use-the-income-poverty-data-and-compare-it-to-red-vs-blue-states.",
     "href": "census/maps_workshop.html#lets-use-the-income-poverty-data-and-compare-it-to-red-vs-blue-states.",
     "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
@@ -722,10 +441,148 @@
     "text": "Footnotes\n\n\nSource: Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker↩︎"
   },
   {
-    "objectID": "census/maps_workshop.html#how-this-works",
-    "href": "census/maps_workshop.html#how-this-works",
-    "title": "R Workshop: Geographic and Demographic Data Analysis and Visualization",
-    "section": "How This Works",
-    "text": "How This Works\nEach state (or region) falls into one of nine possible categories based on:\n\nIncome level: Low, Medium, or High\nPoverty rate: Low, Medium, or High\n\nEach category is assigned a unique color using three different ColorBrewer palettes:\n\nPuBuGn (Blue-Green shades) → Used for Low Income\nPurples (Purple shades) → Used for Medium Income\nOranges (Orange shades) → Used for High Income\n\nDarker colors indicate higher poverty rates, making the map intuitive:\n\n“Low-Low” (Low income, Low poverty) → Lightest Green\n“Low-High” (Low income, High poverty) → Darker Green\n“High-Low” (High income, Low poverty) → Light Orange\n“High-High” (High income, High poverty) → Darkest Orange\n\n\nBreakdown of Color Assignments\nI chose the colors using the link for the Brewer Color Palettes.\n\n\n\n\n\n\n\n\nCategory (Income-Poverty)\nColor Palette Used\nShade\n\n\n\n\nLow-Low (Low income, Low poverty)\nPuBuGn (Blue-Green)\nLightest Green ([1])\n\n\nLow-Medium (Low income, Medium poverty)\nPuBuGn\nMedium Green ([3])\n\n\nLow-High (Low income, High poverty)\nPuBuGn\nDarker Green ([5])\n\n\nMedium-Low (Medium income, Low poverty)\nPurples\nLight Purple ([3])\n\n\nMedium-Medium (Medium income, Medium poverty)\nPurples\nMedium Purple ([5])\n\n\nMedium-High (Medium income, High poverty)\nPurples Darker Purple ([7])\n\n\n\nHigh-Low (High income, Low poverty)\nOranges\nLight Orange ([3])\n\n\nHigh-Medium (High income, Medium poverty)\nOranges\nMedium Orange ([5])\n\n\nHigh-High (High income, High poverty)\nOranges\nDarkest Orange ([7])\n\n\n\n\n# Create plot\n\nggplot(data_wide) +\n  geom_sf(aes(fill = category), \n          color = \"white\", \n          size = 0.2) +\n  scale_fill_manual(values = bivariate_palette, \n                    name = \"Income-Poverty Scale\") +  # Add legend\n  theme_void() +\n  labs(\n    title = \"Income & Poverty Rate by U.S. State (2023)\",\n    subtitle = \"Bivariate Choropleth Map\",\n    caption = \"Source: U.S. Census Bureau ACS 2023\"\n  )"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R Workshop",
+    "section": "",
+    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n \n\n  \n    \n    \n    tinytable_bzamicks2o1pbejgcap8\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Tuesday, April 29\n                  9:30 – 10:50 AM\n                  Spatial Data (guest: Nicole Wilson)\n                \n                \n                  Tuesday, May 13  \n                  9:30 – 10:50 AM\n                  Images as Data (guest: Hyein Ko)\n                \n                \n                  Tuesday, June 3  \n                  9:30 – 10:50 AM\n                  Open-ended coding session",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#spring-2025-schedule",
+    "href": "index.html#spring-2025-schedule",
+    "title": "R Workshop",
+    "section": "",
+    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n \n\n  \n    \n    \n    tinytable_bzamicks2o1pbejgcap8\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Tuesday, April 29\n                  9:30 – 10:50 AM\n                  Spatial Data (guest: Nicole Wilson)\n                \n                \n                  Tuesday, May 13  \n                  9:30 – 10:50 AM\n                  Images as Data (guest: Hyein Ko)\n                \n                \n                  Tuesday, June 3  \n                  9:30 – 10:50 AM\n                  Open-ended coding session",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#details",
+    "href": "index.html#details",
+    "title": "R Workshop",
+    "section": "Details",
+    "text": "Details\nThe R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nMost workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nThe aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#previous-terms",
+    "href": "index.html#previous-terms",
+    "title": "R Workshop",
+    "section": "Previous Terms",
+    "text": "Previous Terms\n \n\n  \n    \n    \n    tinytable_1i1p3w8fsr6el9ardgse\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                Topic\n                Last offered\n              \n        \n        \n        \n                \n                  Geographical and Census Data (guest: Michelle Bueno Vasquez)\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models (guest: Vincent Arel-Bundock)\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Fall 2024  \n                \n                \n                  Writing papers in Quarto\n                  Fall 2024",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "models/index.html",
+    "href": "models/index.html",
+    "title": "Interpreting Statistical Models",
+    "section": "",
+    "text": "On February 10, 2025, the R Workshop hosted Vincent Arel-Bundock (Université de Montréal) for a demonstration based on his upcoming book “How to Interpret Statistical Results Using marginaleffects for R and Python.”\nThe book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.\nDr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of numerous contributions to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle."
+  },
+  {
+    "objectID": "models/index.html#overview",
+    "href": "models/index.html#overview",
+    "title": "Interpreting Statistical Models",
+    "section": "",
+    "text": "On February 10, 2025, the R Workshop hosted Vincent Arel-Bundock (Université de Montréal) for a demonstration based on his upcoming book “How to Interpret Statistical Results Using marginaleffects for R and Python.”\nThe book presents a simple but powerful conceptual framework to help analysts make sense of over 100 different types of statistical and machine learning models in R and Python.\nDr. Arel-Bundock is an Associate Professor at the Université de Montréal. His research focuses on the politics of international taxation, foreign direct investment, and political methodology. He is the author of numerous contributions to open source statistical computing software, and recipient of the Best Statistical Software Award by The Society for Political Methodology in the 2023-24 cycle."
+  },
+  {
+    "objectID": "models/index.html#resources",
+    "href": "models/index.html#resources",
+    "title": "Interpreting Statistical Models",
+    "section": "Resources",
+    "text": "Resources\n\n marginaleffects book\n marginaleffects journal article"
+  },
+  {
+    "objectID": "open_fall/index.html",
+    "href": "open_fall/index.html",
+    "title": "Fall Coding Session",
+    "section": "",
+    "text": "This is the first open-ended coding session of the academic year. The goal is for each of us to bring a coding-related goal that we want to accomplish within the time allotted.\nWe will start by taking turns describing what we seek to accomplish, or what we are particularly stuck on, then we will proceed work independent and help each other if needed.\nIf we happen to stumble into an important topic, we will link to the appropriate resources here."
+  },
+  {
+    "objectID": "open_fall/index.html#overview",
+    "href": "open_fall/index.html#overview",
+    "title": "Fall Coding Session",
+    "section": "",
+    "text": "This is the first open-ended coding session of the academic year. The goal is for each of us to bring a coding-related goal that we want to accomplish within the time allotted.\nWe will start by taking turns describing what we seek to accomplish, or what we are particularly stuck on, then we will proceed work independent and help each other if needed.\nIf we happen to stumble into an important topic, we will link to the appropriate resources here."
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
+  },
+  {
+    "objectID": "papers/index.html#overview",
+    "href": "papers/index.html#overview",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "We discuss different alternatives to write academic papers:\n\nWord processors (Word, Google Docs)\nLaTeX and Overleaf\nRMarkdown\nQuarto\n\nEach one has its advantages, and what you do is ultimately a matter of convenience. For those attracted to Quarto’s functionality of connecting with multiple coding languages (R, Python, Julia, Observable) and producing different kinds of output (HTML, PDF, MS Word, ePub), we introduce a template to start writing academic papers using Quarto in RStudio."
+  },
+  {
+    "objectID": "papers/index.html#resources",
+    "href": "papers/index.html#resources",
+    "title": "Writing Papers in Quarto",
+    "section": "Resources",
+    "text": "Resources\n\n Guide\n Template\n Sample bibliography"
+  },
+  {
+    "objectID": "presentations/html_slides.html#about-revealjs",
+    "href": "presentations/html_slides.html#about-revealjs",
+    "title": "HTML slides with revealjs",
+    "section": "About revealjs",
+    "text": "About revealjs\n\nQuarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+  },
+  {
+    "objectID": "presentations/html_slides.html#code",
+    "href": "presentations/html_slides.html#code",
+    "title": "HTML slides with revealjs",
+    "section": "Code",
+    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
+  },
+  {
+    "objectID": "presentations/html_slides.html#r-figures",
+    "href": "presentations/html_slides.html#r-figures",
+    "title": "HTML slides with revealjs",
+    "section": "R Figures",
+    "text": "R Figures\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "presentations/html_slides.html#interactive-panels",
+    "href": "presentations/html_slides.html#interactive-panels",
+    "title": "HTML slides with revealjs",
+    "section": "Interactive panels",
+    "text": "Interactive panels\n\nCodeFigure\n\n\nggplot(penguins) +\n  aes(x = flipper_length_mm,\n      y = body_mass_g) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")"
+  },
+  {
+    "objectID": "presentations/html_slides.html#external-figures",
+    "href": "presentations/html_slides.html#external-figures",
+    "title": "HTML slides with revealjs",
+    "section": "External figures",
+    "text": "External figures\nYou can include GIFs!\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "presentations/html_slides.html#pipe-tables",
+    "href": "presentations/html_slides.html#pipe-tables",
+    "title": "HTML slides with revealjs",
+    "section": "Pipe tables",
+    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "presentations/html_slides.html#r-tables",
+    "href": "presentations/html_slides.html#r-tables",
+    "title": "HTML slides with revealjs",
+    "section": "R Tables",
+    "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
   }
 ]

@@ -1,0 +1,17 @@
+---
+title: "Images as Data in Social Science Research"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+This workshop will provide a broad introduction to the principles and tools of image analysis from a social science perspective. Participants will engage with hands-on exercises using Python, leaning how to process and analyze visual data.
+
+[Hyein Ko](https://www.heyikon.com/) is a Postdoctoral Research Associate at the University of Illinois Urbana-Champaign. Her research explores political communication, protest, and authoritarian politics, with a methodological focus on computational tools such as image analysis and large language models. She holds a Ph.D. in Political Science from the University of Iowa.
+
+
+## Resources
+
+Coming soon!
+

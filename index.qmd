@@ -13,7 +13,7 @@ library(tinytable)
 library(markdown)
 ```
 
-## Winter 2025 Schedule
+## Spring 2025 Schedule
 
 <!-- - {{< fa clock >}} &nbsp; 3:00 -- 4:20 PM -->
 <!-- - {{< fa location-dot >}} &nbsp; Scott Hall 212 -->
@@ -25,9 +25,9 @@ library(markdown)
 schedule =
   tribble(
     ~Date, ~Time, ~Topic,
-    "Monday, February 10", "12:00 -- 1:20 PM", "[Interpreting statistical models (*guest:* Vincent Arel-Bundock)](models/)",
-    "Monday, February 24", "2:00 -- 3:20 PM", "[Geographical and census data (*guest:* Michelle Bueno Vasquez)](census/)",
-    "Wednesday, March 5", "1:30 -- 2:50 PM", "[Open-ended coding session](open_winter/)",
+    "Tuesday, April 29", "9:30 -- 10:50 AM", "[Spatial Data (*guest:* Nicole Wilson)](spatial/)",
+    "Tuesday, May 13", "9:30 -- 10:50 AM", "[Images as Data (*guest:* Hyein Ko)](images/)",
+    "Tuesday, June 3", "9:30 -- 10:50 AM", "Open-ended coding session",
     )
 ```
 
@@ -54,8 +54,10 @@ The aim is to present topics that are equally useful for new and advanced users.
 ```{r previous, include = FALSE}
 previous = tribble(
   ~Topic, ~`Last offered`,
-  "[Writing papers in Quarto](papers/)", "Fall 2024",
-  "[Presentations and Posters](presentations/)", "Fall 2024"
+  "[Geographical and Census Data (*guest:* Michelle Bueno Vasquez)](census/)", "Winter 2025",
+  "[Interpreting Statistical Models (*guest:* Vincent Arel-Bundock)](models/)", "Winter 2025",
+  "[Presentations and Posters](presentations/)", "Fall 2024",
+  "[Writing papers in Quarto](papers/)", "Fall 2024"
 )
 ```
 

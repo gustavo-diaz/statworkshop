@@ -1,0 +1,17 @@
+/*-- scss:defaults --*/
+//
+// Variables
+// --------------------------------------------------
+
+//** Primary color.
+$primary: #4E2A84 !default;
+$secondary: #4E2A84 !default;
+
+//** Link hover color set via `darken()` function.
+$link-color: #4E2A84;
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+
+

@@ -18,9 +18,7 @@ fontsize: 12pt
 <!-- Remember double space for line skip -->
 **Organizer:** Gustavo Diaz  
 **Email:** <gustavo.diaz@northwestern.edu>  
-**Time and place:**  Varies by quarter. See below  
-**GitHub Repository:** <https://github.com/gustavo-diaz/r-workshop>  
-**Office Hours:** <https://calendly.com/gustavo-diaz-nu/f24-meetings> 
+**Website:** <https://gustavodiaz.org/rworkshop/>  
 
 
 # Overview
@@ -62,12 +60,12 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 ## Spring
 
-### Meeting 7: Text as data
-<!-- Sirus Bouchat or a student  -->
+### Meeting 7: Spatial Data in R
+**Guest speaker:** Nicole Wilson -- Northwestern University
 
 
-### Meeting 8: Data visualization extensions
-<!-- Evangeline Reynolds -->
+### Meeting 8: Images as Data for Social Science Research
+**Guest speaker:** Hyein Ko -- University of Illinois Urbana-Champaign
 
 
 ### Meeting 9: Coding session
