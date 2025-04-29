@@ -13,5 +13,5 @@ This workshop will introduce different types of spatial data and cover the basic
 
 ## Resources
 
-Coming soon!
+{{< fa brands dropbox >}} [Materials](https://www.dropbox.com/scl/fo/r0uh3xbl9witlx66l88fa/AKdmdaDXH9ekOmsykMBVYfo?rlkey=4kzbcf7c4s60kl0y471kthdfw&e=1&st=pr40cjjc&dl=0)
 
