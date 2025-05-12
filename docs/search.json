@@ -164,15 +164,15 @@
     "objectID": "models/guide.html#roadmap",
     "href": "models/guide.html#roadmap",
     "title": "Writing Papers in Quarto",
-    "section": "Roadmap",
-    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
+    "section": "",
+    "text": "Why Quarto?\nRequirements\nTemplate"
   },
   {
     "objectID": "models/guide.html#elements-of-an-academic-paper",
     "href": "models/guide.html#elements-of-an-academic-paper",
     "title": "Writing Papers in Quarto",
     "section": "Elements of an (academic) paper",
-    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
+    "text": "Elements of an (academic) paper\n. . .\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n. . .\n\nData/info visualization (tables, figures, flowcharts)\n\n. . .\n\nCollaboration\n\n. . .\n\nCitations"
   },
   {
     "objectID": "models/guide.html#default-option-word-processors",
@@ -228,7 +228,7 @@
     "href": "models/guide.html#but-why-quarto-in-particular",
     "title": "Writing Papers in Quarto",
     "section": "But why Quarto in particular?",
-    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n. . .\nIn one word, CONVENIENCE"
   },
   {
     "objectID": "models/guide.html#what-you-need-to-write-papers",
@@ -284,7 +284,7 @@
     "href": "images/index.html#resources",
     "title": "Images as Data in Social Science Research",
     "section": "Resources",
-    "text": "Resources\nComing soon!"
+    "text": "Resources\n Materials"
   },
   {
     "objectID": "census/index.html",
@@ -584,5 +584,75 @@
     "title": "HTML slides with revealjs",
     "section": "R Tables",
     "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
+  },
+  {
+    "objectID": "models/template.html#from-r",
+    "href": "models/template.html#from-r",
+    "title": "Quarto Paper Template",
+    "section": "4.1 From R",
+    "text": "4.1 From R\nFigure 1 shows how to plot a figure from R code. See Wickham (2016a) for more on how to make pretty plots.8\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "models/template.html#from-external-sources",
+    "href": "models/template.html#from-external-sources",
+    "title": "Quarto Paper Template",
+    "section": "4.2 From external sources",
+    "text": "4.2 From external sources\nSometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. Figure 2 shows an example using a URL. In practice, you would use the path of file in your working directory.\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "models/template.html#pipe-tables",
+    "href": "models/template.html#pipe-tables",
+    "title": "Quarto Paper Template",
+    "section": "5.1 Pipe tables",
+    "text": "5.1 Pipe tables\nYou can make tables “by hand” using pipe tables. Like Table 1 shows.\n\n\n\nTable 1: Demonstration of pipe table syntax\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\nYou can even use a Tables Generator to make them interactively and then copy and paste in your .qmd file."
+  },
+  {
+    "objectID": "models/template.html#from-r-1",
+    "href": "models/template.html#from-r-1",
+    "title": "Quarto Paper Template",
+    "section": "5.2 From R",
+    "text": "5.2 From R\nOf course, you can also make tables in R and then print them in a nice format. I like to use the tinytable for simple tables.9\nFor example, Table 2 is made “by hand” with R code. Of course, you can also plot tidy data objects, like Table 3 shows.\n\n\n\nTable 2: An example of a table made with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Default\n                Left\n                Right\n                Center\n              \n        \n        \n        \n                \n                   12\n                   12\n                   12\n                   12\n                \n                \n                  123\n                  123\n                  123\n                  123\n                \n                \n                    1\n                    1\n                    1\n                    1\n                \n        \n      \n    \n\n\n\n\n\n\n\nTable 3: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
+  },
+  {
+    "objectID": "models/template.html#footnotes",
+    "href": "models/template.html#footnotes",
+    "title": "Quarto Paper Template",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
+  },
+  {
+    "objectID": "models/guide.html",
+    "href": "models/guide.html",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "Why Quarto?\nRequirements\nTemplate"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "",
+    "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nWebsite: https://gustavodiaz.org/rworkshop/"
+  },
+  {
+    "objectID": "schedule.html#fall-300-420-pm-scott-hall-212",
+    "href": "schedule.html#fall-300-420-pm-scott-hall-212",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "Fall (3:00 – 4:20 PM, Scott Hall 212)",
+    "text": "Fall (3:00 – 4:20 PM, Scott Hall 212)\n\nOctober 7: Writing papers in Quarto\n\n\nOctober 28: Presentations and posters\n\n\nNovember 25: Coding session"
+  },
+  {
+    "objectID": "schedule.html#winter",
+    "href": "schedule.html#winter",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "Winter",
+    "text": "Winter\n\nMeeting 4: Interpreting statistical results\nGuest speaker: Vincent Arel-Bundock – Université de Montréal\n\n\nMeeting 5: Geographical and census data\nGuest speaker: Michelle Bueno Vásquez – Northwestern University\n\n\nMeeting 6: Coding session"
+  },
+  {
+    "objectID": "schedule.html#spring",
+    "href": "schedule.html#spring",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "Spring",
+    "text": "Spring\n\nMeeting 7: Spatial Data in R\nGuest speaker: Nicole Wilson – Northwestern University\n\n\nMeeting 8: Images as Data for Social Science Research\nGuest speaker: Hyein Ko – University of Illinois Urbana-Champaign\n\n\nMeeting 9: Coding session"
   }
 ]

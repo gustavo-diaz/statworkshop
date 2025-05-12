@@ -13,5 +13,5 @@ This workshop will provide a broad introduction to the principles and tools of i
 
 ## Resources
 
-Coming soon!
+{{< fa brands python >}} [Materials](https://drive.google.com/drive/folders/1yDeqaXU1dNT40xEd-J7G3cDN0K-v2zpB)
 
