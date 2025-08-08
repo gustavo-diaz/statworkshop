@@ -15,19 +15,19 @@ website:
   description: "NU Political Science R Workshop"
   search: true
   page-navigation: false
-  sidebar:
-    pinned: true
-    align: center
-    tools:
-      - icon: github
-        href: https://github.com/gustavo-diaz/rworkshop
-        text: "GitHub repository"
-    
-    style: "docked"
-    collapse-level: 1
-    contents:
-      - href: index.qmd
-        text: "Home"
+  # sidebar:
+  #   pinned: true
+  #   align: center
+  #   tools:
+  #     - icon: github
+  #       href: https://github.com/gustavo-diaz/rworkshop
+  #       text: "GitHub repository"
+  #   
+  #   style: "docked"
+  #   collapse-level: 1
+  #   contents:
+  #     - href: index.qmd
+  #       text: "Home"
         
 format:
   html:

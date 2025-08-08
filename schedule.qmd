@@ -1,7 +1,7 @@
 ---
 title: |
        | POLI SCI 490
-       | R Workshop
+       | Statistical Computing Workshop
        | 2024-2025
 format: 
   typst:
@@ -18,16 +18,16 @@ fontsize: 12pt
 <!-- Remember double space for line skip -->
 **Organizer:** Gustavo Diaz  
 **Email:** <gustavo.diaz@northwestern.edu>  
-**Website:** <https://gustavodiaz.org/rworkshop/>  
+**Website:** <https://gustavodiaz.org/statworkshop/>  
 
 
 # Overview
 
-The R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.
+The Statistical Computing Workshop (formerly R Workshop) is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science. 
 
-Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).
+Workshop meetings will feature internal or external speakers introducing a new tool, method, approach, or practice. All meetings are hybrid or fully virtual.
 
-The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter.
+The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter. You can only get credit for the workshop once.
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
 

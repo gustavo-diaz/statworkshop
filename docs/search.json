@@ -59,15 +59,15 @@
     "objectID": "papers/guide.html#roadmap",
     "href": "papers/guide.html#roadmap",
     "title": "Writing Papers in Quarto",
-    "section": "Roadmap",
-    "text": "Roadmap\n\nWhy Quarto?\nRequirements\nTemplate"
+    "section": "",
+    "text": "Why Quarto?\nRequirements\nTemplate"
   },
   {
     "objectID": "papers/guide.html#elements-of-an-academic-paper",
     "href": "papers/guide.html#elements-of-an-academic-paper",
     "title": "Writing Papers in Quarto",
     "section": "Elements of an (academic) paper",
-    "text": "Elements of an (academic) paper\n\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n\n\n\nData/info visualization (tables, figures, flowcharts)\n\n\n\n\nCollaboration\n\n\n\n\nCitations"
+    "text": "Elements of an (academic) paper\n. . .\n\nText\n\nLanguage (grammar)\nFormatting (font size, type, page numbers headers)\n\n\n. . .\n\nData/info visualization (tables, figures, flowcharts)\n\n. . .\n\nCollaboration\n\n. . .\n\nCitations"
   },
   {
     "objectID": "papers/guide.html#default-option-word-processors",
@@ -123,7 +123,7 @@
     "href": "papers/guide.html#but-why-quarto-in-particular",
     "title": "Writing Papers in Quarto",
     "section": "But why Quarto in particular?",
-    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n\nIn one word, CONVENIENCE"
+    "text": "But why Quarto in particular?\n\n\nMultiple coding languages (R, Python, Julia, JavaScript)\nMultiple output options (PDF, HTML, Word)\nNot just for papers (websites, CVs, etc)\nMarkdown is easier to learn than LaTeX\nTypst is crazy fast\nNew, open-source, large developer base\n\n\n. . .\nIn one word, CONVENIENCE"
   },
   {
     "objectID": "papers/guide.html#what-you-need-to-write-papers",
@@ -443,32 +443,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "R Workshop",
+    "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n \n\n  \n    \n    \n    tinytable_bzamicks2o1pbejgcap8\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Tuesday, April 29\n                  9:30 – 10:50 AM\n                  Spatial Data (guest: Nicole Wilson)\n                \n                \n                  Tuesday, May 13  \n                  9:30 – 10:50 AM\n                  Images as Data (guest: Hyein Ko)\n                \n                \n                  Tuesday, June 3  \n                  9:30 – 10:50 AM\n                  Open-ended coding session",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, April 29\n                  9:30 – 10:50 AM\n                  Spatial Data\n                  Nicole Wilson\n                \n                \n                  Tuesday, May 13  \n                  9:30 – 10:50 AM\n                  Images as Data\n                  Hyein Ko\n                \n                \n                  Tuesday, June 3  \n                  9:30 – 10:50 AM\n                  Coding session"
   },
   {
     "objectID": "index.html#spring-2025-schedule",
     "href": "index.html#spring-2025-schedule",
-    "title": "R Workshop",
+    "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n \n\n  \n    \n    \n    tinytable_bzamicks2o1pbejgcap8\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n              \n        \n        \n        \n                \n                  Tuesday, April 29\n                  9:30 – 10:50 AM\n                  Spatial Data (guest: Nicole Wilson)\n                \n                \n                  Tuesday, May 13  \n                  9:30 – 10:50 AM\n                  Images as Data (guest: Hyein Ko)\n                \n                \n                  Tuesday, June 3  \n                  9:30 – 10:50 AM\n                  Open-ended coding session",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "Zoom meeting\n   Full AY 2024-25 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Time\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, April 29\n                  9:30 – 10:50 AM\n                  Spatial Data\n                  Nicole Wilson\n                \n                \n                  Tuesday, May 13  \n                  9:30 – 10:50 AM\n                  Images as Data\n                  Hyein Ko\n                \n                \n                  Tuesday, June 3  \n                  9:30 – 10:50 AM\n                  Coding session"
   },
   {
     "objectID": "index.html#details",
     "href": "index.html#details",
-    "title": "R Workshop",
+    "title": "Statistical Computing Workshop",
     "section": "Details",
-    "text": "Details\nThe R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nMost workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nThe aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "Details\nThe Statistical Computing Workshop (formerly R Workshop) is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nWorkshop meetings will feature internal or external speakers introducing a new tool, method, approach, or practice. All meetings are hybrid or fully virtual.\nThe workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the Spring quarter.\nContact Gustavo Diaz for additional information."
   },
   {
     "objectID": "index.html#previous-terms",
@@ -540,8 +531,8 @@
     "objectID": "presentations/html_slides.html#about-revealjs",
     "href": "presentations/html_slides.html#about-revealjs",
     "title": "HTML slides with revealjs",
-    "section": "About revealjs",
-    "text": "About revealjs\n\nQuarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+    "section": "",
+    "text": "Quarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
   },
   {
     "objectID": "presentations/html_slides.html#code",
@@ -555,7 +546,7 @@
     "href": "presentations/html_slides.html#r-figures",
     "title": "HTML slides with revealjs",
     "section": "R Figures",
-    "text": "R Figures\n\n\nFigure 1: An example of how to make figures using ggplot2"
+    "text": "R Figures\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
   },
   {
     "objectID": "presentations/html_slides.html#interactive-panels",
@@ -569,7 +560,7 @@
     "href": "presentations/html_slides.html#external-figures",
     "title": "HTML slides with revealjs",
     "section": "External figures",
-    "text": "External figures\nYou can include GIFs!\n\n\nFigure 2: An example of how to plot an external figure"
+    "text": "External figures\nYou can include GIFs!\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
   },
   {
     "objectID": "presentations/html_slides.html#pipe-tables",
@@ -630,29 +621,162 @@
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
     "section": "",
     "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nWebsite: https://gustavodiaz.org/rworkshop/"
   },
   {
     "objectID": "schedule.html#fall-300-420-pm-scott-hall-212",
     "href": "schedule.html#fall-300-420-pm-scott-hall-212",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
     "section": "Fall (3:00 – 4:20 PM, Scott Hall 212)",
     "text": "Fall (3:00 – 4:20 PM, Scott Hall 212)\n\nOctober 7: Writing papers in Quarto\n\n\nOctober 28: Presentations and posters\n\n\nNovember 25: Coding session"
   },
   {
     "objectID": "schedule.html#winter",
     "href": "schedule.html#winter",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
     "section": "Winter",
     "text": "Winter\n\nMeeting 4: Interpreting statistical results\nGuest speaker: Vincent Arel-Bundock – Université de Montréal\n\n\nMeeting 5: Geographical and census data\nGuest speaker: Michelle Bueno Vásquez – Northwestern University\n\n\nMeeting 6: Coding session"
   },
   {
     "objectID": "schedule.html#spring",
     "href": "schedule.html#spring",
-    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
     "section": "Spring",
     "text": "Spring\n\nMeeting 7: Spatial Data in R\nGuest speaker: Nicole Wilson – Northwestern University\n\n\nMeeting 8: Images as Data for Social Science Research\nGuest speaker: Hyein Ko – University of Illinois Urbana-Champaign\n\n\nMeeting 9: Coding session"
+  },
+  {
+    "objectID": "index.html#previous-workshops",
+    "href": "index.html#previous-workshops",
+    "title": "Statistical Computing Workshop",
+    "section": "Previous Workshops",
+    "text": "Previous Workshops\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Last offered\n              \n        \n        \n        \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024  \n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
+  },
+  {
+    "objectID": "papers/template.html#from-r",
+    "href": "papers/template.html#from-r",
+    "title": "Quarto Paper Template",
+    "section": "4.1 From R",
+    "text": "4.1 From R\nFigure 1 shows how to plot a figure from R code. See Wickham (2016a) for more on how to make pretty plots.8\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "papers/template.html#from-external-sources",
+    "href": "papers/template.html#from-external-sources",
+    "title": "Quarto Paper Template",
+    "section": "4.2 From external sources",
+    "text": "4.2 From external sources\nSometimes you may want to include a figure that was not made in R. Alternatively, when your data analysis becomes too cumbersome, you may want to make your figures in a separate file, and then import them. Figure 2 shows an example using a URL. In practice, you would use the path of file in your working directory.\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "papers/template.html#pipe-tables",
+    "href": "papers/template.html#pipe-tables",
+    "title": "Quarto Paper Template",
+    "section": "5.1 Pipe tables",
+    "text": "5.1 Pipe tables\nYou can make tables “by hand” using pipe tables. Like Table 1 shows.\n\n\n\nTable 1: Demonstration of pipe table syntax\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\nYou can even use a Tables Generator to make them interactively and then copy and paste in your .qmd file."
+  },
+  {
+    "objectID": "papers/template.html#from-r-1",
+    "href": "papers/template.html#from-r-1",
+    "title": "Quarto Paper Template",
+    "section": "5.2 From R",
+    "text": "5.2 From R\nOf course, you can also make tables in R and then print them in a nice format. I like to use the tinytable for simple tables.9\nFor example, Table 2 is made “by hand” with R code. Of course, you can also plot tidy data objects, like Table 3 shows.\n\n\n\nTable 2: An example of a table made with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Default\n                Left\n                Right\n                Center\n              \n        \n        \n        \n                \n                   12\n                   12\n                   12\n                   12\n                \n                \n                  123\n                  123\n                  123\n                  123\n                \n                \n                    1\n                    1\n                    1\n                    1\n                \n        \n      \n    \n\n\n\n\n\n\n\nTable 3: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
+  },
+  {
+    "objectID": "papers/template.html#footnotes",
+    "href": "papers/template.html#footnotes",
+    "title": "Quarto Paper Template",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nAssistant Professor of Instruction. Northwestern University. Email: gustavo.diaz@northwestern.edu↩︎\nPostdoctoral Fellow, Fake University, Email : second.author@fake.edu↩︎\nYou can also try the full URL: https://anthlittle.github.io/files/little_intros.pdf. Oh, this is how you make footnotes.↩︎\nNotice how we use cross-reference to automate figure labels and citations.↩︎\nYou should also consider modelsummary for regression-like result tables.↩︎"
+  },
+  {
+    "objectID": "papers/guide.html",
+    "href": "papers/guide.html",
+    "title": "Writing Papers in Quarto",
+    "section": "",
+    "text": "Why Quarto?\nRequirements\nTemplate"
+  },
+  {
+    "objectID": "presentations/html_slides.html",
+    "href": "presentations/html_slides.html",
+    "title": "HTML slides with revealjs",
+    "section": "",
+    "text": "Quarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html",
+    "href": "presentations/pdf_slides.html",
+    "title": "PDF Slides with beamer",
+    "section": "",
+    "text": "Quarto uses Beamer to create PDF presentations\nSimilar to LaTeX Beamer but using Markdown language\nSee here for more information\nAnd here for themes"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html#about-beamer",
+    "href": "presentations/pdf_slides.html#about-beamer",
+    "title": "PDF Slides with beamer",
+    "section": "",
+    "text": "Quarto uses Beamer to create PDF presentations\nSimilar to LaTeX Beamer but using Markdown language\nSee here for more information\nAnd here for themes"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html#code",
+    "href": "presentations/pdf_slides.html#code",
+    "title": "PDF Slides with beamer",
+    "section": "Code",
+    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html#r-figures",
+    "href": "presentations/pdf_slides.html#r-figures",
+    "title": "PDF Slides with beamer",
+    "section": "R Figures",
+    "text": "R Figures\n\n\n\n\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html#external-figures",
+    "href": "presentations/pdf_slides.html#external-figures",
+    "title": "PDF Slides with beamer",
+    "section": "External figures",
+    "text": "External figures\n\n\n\n\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html#pipe-tables",
+    "href": "presentations/pdf_slides.html#pipe-tables",
+    "title": "PDF Slides with beamer",
+    "section": "Pipe tables",
+    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "presentations/pdf_slides.html#r-tables",
+    "href": "presentations/pdf_slides.html#r-tables",
+    "title": "PDF Slides with beamer",
+    "section": "R Tables",
+    "text": "R Tables\nWe will use the kableExtra package because tinytable faces issues with Beamer.\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n\ncountry\nyear\ncases\npopulation\n\n\n\n\nAfghanistan\n1999\n745\n19987071\n\n\nAfghanistan\n2000\n2666\n20595360\n\n\nBrazil\n1999\n37737\n172006362\n\n\nBrazil\n2000\n80488\n174504898\n\n\nChina\n1999\n212258\n1272915272\n\n\nChina\n2000\n213766\n1280428583"
+  },
+  {
+    "objectID": "schedule_tentative.html",
+    "href": "schedule_tentative.html",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "",
+    "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nTime and Place: TBD\nOffice Hours: TBD\nGitHub Repository: TBD"
+  },
+  {
+    "objectID": "schedule_tentative.html#fall",
+    "href": "schedule_tentative.html#fall",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "Fall",
+    "text": "Fall\n\nMeeting 1: Writing papers in Quarto\n\n\nMeeting 2: Presentations and posters\n\n\nMeeting 3: Coding session"
+  },
+  {
+    "objectID": "schedule_tentative.html#winter",
+    "href": "schedule_tentative.html#winter",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "Winter",
+    "text": "Winter\n\nMeeting 4: Figures and data visualization (guest: Gina Renolds – West Point)\n\n\n\nMeeting 5: Descriptive tables and model summaries (guest: Vincent Arel-Bundock – Université de Montréal/ Andrew Heiss – Georgia State)\n\n\n\nMeeting 6: Coding session"
+  },
+  {
+    "objectID": "schedule_tentative.html#spring",
+    "href": "schedule_tentative.html#spring",
+    "title": "POLI SCI 490\nR Workshop\n2024-2025",
+    "section": "Spring",
+    "text": "Spring\n\nMeeting 7: Text and images as data (guest: Sirus Bouchat/Nora Webb-Williams – Illinois)\n\n\n\nMeeting 8: Declaring and diagnosing research designs (guest: Alex Coppock – Yale/Graeme Blair – UCLA)\n\n\n\nMeeting 9: Coding session"
   }
 ]

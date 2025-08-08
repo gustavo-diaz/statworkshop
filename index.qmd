@@ -1,10 +1,10 @@
 ---
-title: "R Workshop"
+title: "Statistical Computing Workshop"
 subtitle: "Northwestern University -- Political Science"
-author: "[Gustavo Diaz](https://gustavodiaz.org/)"
 format: 
   html:
-    page-layout: full
+    toc: true
+    title-block-banner: true
 ---
 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
@@ -24,10 +24,10 @@ library(markdown)
 ```{r schedule, include = FALSE}
 schedule =
   tribble(
-    ~Date, ~Time, ~Topic,
-    "Tuesday, April 29", "9:30 -- 10:50 AM", "[Spatial Data (*guest:* Nicole Wilson)](spatial/)",
-    "Tuesday, May 13", "9:30 -- 10:50 AM", "[Images as Data (*guest:* Hyein Ko)](images/)",
-    "Tuesday, June 3", "9:30 -- 10:50 AM", "Open-ended coding session",
+    ~Date, ~Time, ~Topic, ~Presenter,
+    "Tuesday, April 29", "9:30 -- 10:50 AM", "[Spatial Data](spatial/)", "[Nicole Wilson](https://www.nicoleewilson.com)",
+    "Tuesday, May 13", "9:30 -- 10:50 AM", "[Images as Data](images/)", "[Hyein Ko](https://www.heyikon.com)",
+    "Tuesday, June 3", "9:30 -- 10:50 AM", "Coding session", " "
     )
 ```
 
@@ -35,36 +35,36 @@ schedule =
 ```{r show-schedule, echo = FALSE, results = "asis"}
 schedule %>% 
   tt(width = 1) %>% 
-  format_tt(j = 2:3, markdown = TRUE)
+  format_tt(j = 2:4, markdown = TRUE)
 ```
 
 
 ## Details
 
-The R Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.
+The Statistical Computing Workshop (formerly R Workshop) is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science. 
 
-Most workshop meetings will feature an introduction to a new tool/method/approach and practice. Once per term, usually toward the end of the quarter, we will have an open-ended coding session in which you can work on any project that may benefit from the group setting, or we can use that time to collective learn something new (e.g. incorporating generative AI into our coding workflow).
+Workshop meetings will feature internal or external speakers introducing a new tool, method, approach, or practice. All meetings are hybrid or fully virtual.
 
 The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter.
 
-The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
+Contact [Gustavo Diaz](https://gustavodiaz.org/) for additional information.
 
-## Previous Terms
+## Previous Workshops
 
 ```{r previous, include = FALSE}
 previous = tribble(
-  ~Topic, ~`Last offered`,
-  "[Geographical and Census Data (*guest:* Michelle Bueno Vasquez)](census/)", "Winter 2025",
-  "[Interpreting Statistical Models (*guest:* Vincent Arel-Bundock)](models/)", "Winter 2025",
-  "[Presentations and Posters](presentations/)", "Fall 2024",
-  "[Writing papers in Quarto](papers/)", "Fall 2024"
+  ~Topic, ~Presenter, ~`Last offered`,
+  "[Geographical and Census Data](census/)", "[Michelle Bueno Vasquez](https://michellebuenovasquez.wordpress.com)", "Winter 2025",
+  "[Interpreting Statistical Models](models/)", "[Vincent Arel-Bundock](https://arelbundock.com)", "Winter 2025",
+  "[Presentations and Posters](presentations/)", "[Gustavo Diaz](https://gustavodiaz.org/)", "Fall 2024",
+  "[Writing papers in Quarto](papers/)", "[Gustavo Diaz](https://gustavodiaz.org/)","Fall 2024"
 )
 ```
 
 ```{r show-previous, echo = FALSE, results = "asis"}
 previous %>% 
   tt(width = 1) %>% 
-  format_tt(j = 1, markdown = TRUE)
+  format_tt(j = 1:2, markdown = TRUE)
 ```
 
 
