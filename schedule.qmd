@@ -27,7 +27,7 @@ The Statistical Computing Workshop (formerly R Workshop) is a year-long series t
 
 Workshop meetings will feature internal or external speakers introducing a new tool, method, approach, or practice. All meetings are hybrid or fully virtual.
 
-The workshop is open to everyone, but those formally enrolled will receive full credit by attending every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter. You can only get credit for the workshop once.
+The workshop is open to everyone. Graduate students in political science formally enrolled in the corresponding version of POLI_SCI 490 will receive full credit by attending to every meeting. 
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. 
 
