@@ -2,7 +2,7 @@
 title: |
        | POLI SCI 490
        | Statistical Computing Workshop
-       | 2024-2025
+       | 2025-2026
 format: 
   typst:
     margin:
@@ -27,48 +27,32 @@ The Statistical Computing Workshop (formerly R Workshop) is a year-long series t
 
 Workshop meetings will feature internal or external speakers introducing a new tool, method, approach, or practice. All meetings are hybrid or fully virtual.
 
-The workshop is open to everyone, but those formally enrolled will receive full credits by attending to every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter. You can only get credit for the workshop once.
+The workshop is open to everyone, but those formally enrolled will receive full credit by attending every meeting. To receive credit, you must sign up to the corresponding version of POLI_SCI 490 in the **Spring** quarter. You can only get credit for the workshop once.
 
-The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. The open-ended coding sessions are also a good instance to learn some intangible skills.
+The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. 
+
+Winter and Spring schedules coming soon!
 
 # Schedule
 
-## Fall (3:00 -- 4:20 PM, Scott Hall 212)
+## Fall (2:00 -- 3:15 PM, Scott Hall 212)
 
-### October 7: Writing papers in Quarto
-
-### October 28: Presentations and posters
-
-### November 25: Coding session
-
-&nbsp;
-
-## Winter
-
-### Meeting 4: Interpreting statistical results
-**Guest speaker:** Vincent Arel-Bundock -- Université de Montréal
+### September 30: Gustavo Diaz (Northwestern University)  
+"Dos and Don'ts of Coding with AI"
 
 
-### Meeting 5: Geographical and census data 
-**Guest speaker:** Michelle Bueno Vásquez -- Northwestern University
+### October 21: Yuki Atsusaka (University of Houston)
+"A Practical Guide to Ranking Data Analysis in the Social Sciences"
+
+### November 11: Alexander Coppock (Northwestern University)
+"Declaring and Diagnosing Research Designs"
 
 
 
-### Meeting 6: Coding session
+<!-- ## Winter -->
 
-&nbsp;
+<!-- ## Spring -->
 
-## Spring
-
-### Meeting 7: Spatial Data in R
-**Guest speaker:** Nicole Wilson -- Northwestern University
-
-
-### Meeting 8: Images as Data for Social Science Research
-**Guest speaker:** Hyein Ko -- University of Illinois Urbana-Champaign
-
-
-### Meeting 9: Coding session
 
 # Details Subject to Change
 

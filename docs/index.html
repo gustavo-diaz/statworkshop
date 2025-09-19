@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#spring-2025-schedule" id="toc-spring-2025-schedule" class="nav-link active" data-scroll-target="#spring-2025-schedule">Spring 2025 Schedule</a></li>
+  <li><a href="#fall-2025-schedule" id="toc-fall-2025-schedule" class="nav-link active" data-scroll-target="#fall-2025-schedule">Fall 2025 Schedule</a></li>
   <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a></li>
   <li><a href="#previous-workshops" id="toc-previous-workshops" class="nav-link" data-scroll-target="#previous-workshops">Previous Workshops</a></li>
   </ul>
@@ -281,97 +281,105 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="spring-2025-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="spring-2025-schedule">Spring 2025 Schedule</h2>
-<!-- -  &nbsp; 3:00 -- 4:20 PM -->
-<!-- -  &nbsp; Scott Hall 212 -->
+<section id="fall-2025-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="fall-2025-schedule">Fall 2025 Schedule</h2>
 <ul>
+<li><i class="fa-solid fa-clock" aria-hidden="true"></i> &nbsp; 2:00 – 3:20 PM</li>
+<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> &nbsp; Scott Hall 212</li>
 <li><i class="fa-solid fa-video" aria-hidden="true"></i> &nbsp; <a href="https://northwestern.zoom.us/j/94652528071?pwd=bfBocxKncYkfZbTYiCIlJqhqxwx7EY.1">Zoom meeting</a></li>
-<li><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> &nbsp; <a href="schedule.pdf">Full AY 2024-25 schedule</a></li>
+<li><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> &nbsp; <a href="schedule.pdf">Full AY 2025-26 schedule</a></li>
 <li><i class="fa-solid fa-file-excel" aria-hidden="true"></i> &nbsp; <a href="https://forms.office.com/r/m8ZT8aDpVr">Attendance sheet for registered students</a></li>
 </ul>
 <!-- preamble start -->
 
     <script>
-      function styleCell_zaec1ocp10py11p8adv7(i, j, css_id) {
-        var table = document.getElementById("tinytable_zaec1ocp10py11p8adv7");
-        table.rows[i].cells[j].classList.add(css_id);
-      }
-      function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_zaec1ocp10py11p8adv7');
-        var newRow = table.insertRow(i);
-        var newCell = newRow.insertCell(0);
-        newCell.setAttribute("colspan", colspan);
-        // newCell.innerText = content;
-        // this may be unsafe, but innerText does not interpret <br>
-        newCell.innerHTML = content;
-      }
-      function spanCell_zaec1ocp10py11p8adv7(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_zaec1ocp10py11p8adv7");
-        const targetRow = table.rows[i];
-        const targetCell = targetRow.cells[j];
-        for (let r = 0; r < rowspan; r++) {
-          // Only start deleting cells to the right for the first row (r == 0)
-          if (r === 0) {
-            // Delete cells to the right of the target cell in the first row
-            for (let c = colspan - 1; c > 0; c--) {
-              if (table.rows[i + r].cells[j + c]) {
-                table.rows[i + r].deleteCell(j + c);
-              }
-            }
+
+      function styleCell_b5bun354apbylsg1tcmt(i, j, css_id) {
+          var table = document.getElementById("tinytable_b5bun354apbylsg1tcmt");
+          var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
           }
-          // For rows below the first, delete starting from the target column
-          if (r > 0) {
-            for (let c = colspan - 1; c >= 0; c--) {
-              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
-                table.rows[i + r].deleteCell(j);
-              }
+      }
+      function spanCell_b5bun354apbylsg1tcmt(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_b5bun354apbylsg1tcmt");
+        const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+        if (!targetCell) {
+          console.warn(`Cell at (${i}, ${j}) not found.`);
+        }
+
+        // Get all cells that need to be removed
+        const cellsToRemove = [];
+        for (let r = 0; r < rowspan; r++) {
+          for (let c = 0; c < colspan; c++) {
+            if (r === 0 && c === 0) continue; // Skip the target cell
+            const cell = table.querySelector(`[data-row="${i + r}"][data-col="${j + c}"]`);
+            if (cell) {
+              cellsToRemove.push(cell);
             }
           }
         }
-        // Set rowspan and colspan of the target cell
-        targetCell.rowSpan = rowspan;
-        targetCell.colSpan = colspan;
+
+        // Remove all cells
+        cellsToRemove.forEach(cell => cell.remove());
+
+        // Set rowspan and colspan of the target cell if it exists
+        if (targetCell) {
+          targetCell.rowSpan = rowspan;
+          targetCell.colSpan = colspan;
+        }
       }
-window.addEventListener('load', function () { styleCell_zaec1ocp10py11p8adv7(0, 0, 'tinytable_css_idawdg9aolpuq7luzvuwoe') })
-window.addEventListener('load', function () { styleCell_zaec1ocp10py11p8adv7(0, 1, 'tinytable_css_idawdg9aolpuq7luzvuwoe') })
-window.addEventListener('load', function () { styleCell_zaec1ocp10py11p8adv7(0, 2, 'tinytable_css_idawdg9aolpuq7luzvuwoe') })
-window.addEventListener('load', function () { styleCell_zaec1ocp10py11p8adv7(0, 3, 'tinytable_css_idawdg9aolpuq7luzvuwoe') })
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: '3', j: 0 }, { i: '3', j: 1 }, { i: '3', j: 2 },  ], css_id: 'tinytable_css_32nkm0cym63k9mpeobx9',}, 
+          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_bctze0z1ipjymc7szjhn',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_b5bun354apbylsg1tcmt(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
     </script>
 
     <style>
-    .table td.tinytable_css_idawdg9aolpuq7luzvuwoe, .table th.tinytable_css_idawdg9aolpuq7luzvuwoe {  border-bottom: solid 0.1em #d3d8dc; }
+      /* tinytable css entries after */
+      .table td.tinytable_css_32nkm0cym63k9mpeobx9, .table th.tinytable_css_32nkm0cym63k9mpeobx9 { border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_bctze0z1ipjymc7szjhn, .table th.tinytable_css_bctze0z1ipjymc7szjhn { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_zaec1ocp10py11p8adv7" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_b5bun354apbylsg1tcmt" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
-                <th scope="col">Date</th>
-                <th scope="col">Time</th>
-                <th scope="col">Topic</th>
-                <th scope="col">Presenter</th>
+                <th scope="col" data-row="0" data-col="0">Date</th>
+                <th scope="col" data-row="0" data-col="1">Topic</th>
+                <th scope="col" data-row="0" data-col="2">Presenter</th>
               </tr>
         </thead>
         
         <tbody>
                 <tr>
-                  <td>Tuesday, April 29</td>
-                  <td>9:30 – 10:50 AM</td>
-                  <td><a href="spatial/">Spatial Data</a></td>
-                  <td><a href="https://www.nicoleewilson.com">Nicole Wilson</a></td>
+                  <td data-row="1" data-col="0">Tuesday, September 30</td>
+                  <td data-row="1" data-col="1">Dos and Don’ts of Coding with AI</td>
+                  <td data-row="1" data-col="2"><a href="https://gustavodiaz.org">Gustavo Diaz</a></td>
                 </tr>
                 <tr>
-                  <td>Tuesday, May 13  </td>
-                  <td>9:30 – 10:50 AM</td>
-                  <td><a href="images/">Images as Data</a></td>
-                  <td><a href="https://www.heyikon.com">Hyein Ko</a></td>
+                  <td data-row="2" data-col="0">Tuesday, October 21</td>
+                  <td data-row="2" data-col="1">A Practical Guide to Ranking Data Analysis in the Social Sciences</td>
+                  <td data-row="2" data-col="2"><a href="https://atsusaka.org">Yuki Atsusaka</a></td>
                 </tr>
                 <tr>
-                  <td>Tuesday, June 3  </td>
-                  <td>9:30 – 10:50 AM</td>
-                  <td>Coding session</td>
-                  <td></td>
+                  <td data-row="3" data-col="0">Tuesday, November 11</td>
+                  <td data-row="3" data-col="1">Declaring and Diagnosing Research Designs</td>
+                  <td data-row="3" data-col="2"><a href="https://alexandercoppock.com">Alexander Coppock</a></td>
                 </tr>
         </tbody>
       </table>
@@ -390,85 +398,108 @@ window.addEventListener('load', function () { styleCell_zaec1ocp10py11p8adv7(0, 
 <!-- preamble start -->
 
     <script>
-      function styleCell_gg2ypx4cvw24fipcwgwk(i, j, css_id) {
-        var table = document.getElementById("tinytable_gg2ypx4cvw24fipcwgwk");
-        table.rows[i].cells[j].classList.add(css_id);
-      }
-      function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_gg2ypx4cvw24fipcwgwk');
-        var newRow = table.insertRow(i);
-        var newCell = newRow.insertCell(0);
-        newCell.setAttribute("colspan", colspan);
-        // newCell.innerText = content;
-        // this may be unsafe, but innerText does not interpret <br>
-        newCell.innerHTML = content;
-      }
-      function spanCell_gg2ypx4cvw24fipcwgwk(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_gg2ypx4cvw24fipcwgwk");
-        const targetRow = table.rows[i];
-        const targetCell = targetRow.cells[j];
-        for (let r = 0; r < rowspan; r++) {
-          // Only start deleting cells to the right for the first row (r == 0)
-          if (r === 0) {
-            // Delete cells to the right of the target cell in the first row
-            for (let c = colspan - 1; c > 0; c--) {
-              if (table.rows[i + r].cells[j + c]) {
-                table.rows[i + r].deleteCell(j + c);
-              }
-            }
+
+      function styleCell_6b8bufqqw75ec5rb6rdy(i, j, css_id) {
+          var table = document.getElementById("tinytable_6b8bufqqw75ec5rb6rdy");
+          var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
           }
-          // For rows below the first, delete starting from the target column
-          if (r > 0) {
-            for (let c = colspan - 1; c >= 0; c--) {
-              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
-                table.rows[i + r].deleteCell(j);
-              }
+      }
+      function spanCell_6b8bufqqw75ec5rb6rdy(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_6b8bufqqw75ec5rb6rdy");
+        const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+        if (!targetCell) {
+          console.warn(`Cell at (${i}, ${j}) not found.`);
+        }
+
+        // Get all cells that need to be removed
+        const cellsToRemove = [];
+        for (let r = 0; r < rowspan; r++) {
+          for (let c = 0; c < colspan; c++) {
+            if (r === 0 && c === 0) continue; // Skip the target cell
+            const cell = table.querySelector(`[data-row="${i + r}"][data-col="${j + c}"]`);
+            if (cell) {
+              cellsToRemove.push(cell);
             }
           }
         }
-        // Set rowspan and colspan of the target cell
-        targetCell.rowSpan = rowspan;
-        targetCell.colSpan = colspan;
+
+        // Remove all cells
+        cellsToRemove.forEach(cell => cell.remove());
+
+        // Set rowspan and colspan of the target cell if it exists
+        if (targetCell) {
+          targetCell.rowSpan = rowspan;
+          targetCell.colSpan = colspan;
+        }
       }
-window.addEventListener('load', function () { styleCell_gg2ypx4cvw24fipcwgwk(0, 0, 'tinytable_css_idpu6sen95yj5o2wf7m8eo') })
-window.addEventListener('load', function () { styleCell_gg2ypx4cvw24fipcwgwk(0, 1, 'tinytable_css_idpu6sen95yj5o2wf7m8eo') })
-window.addEventListener('load', function () { styleCell_gg2ypx4cvw24fipcwgwk(0, 2, 'tinytable_css_idpu6sen95yj5o2wf7m8eo') })
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: '6', j: 0 }, { i: '6', j: 1 }, { i: '6', j: 2 },  ], css_id: 'tinytable_css_s5z2q2ivynjxknx22pq4',}, 
+          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_qqiadybp3wvbee5i0p0l',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_6b8bufqqw75ec5rb6rdy(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
     </script>
 
     <style>
-    .table td.tinytable_css_idpu6sen95yj5o2wf7m8eo, .table th.tinytable_css_idpu6sen95yj5o2wf7m8eo {  border-bottom: solid 0.1em #d3d8dc; }
+      /* tinytable css entries after */
+      .table td.tinytable_css_s5z2q2ivynjxknx22pq4, .table th.tinytable_css_s5z2q2ivynjxknx22pq4 { border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_qqiadybp3wvbee5i0p0l, .table th.tinytable_css_qqiadybp3wvbee5i0p0l { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_gg2ypx4cvw24fipcwgwk" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_6b8bufqqw75ec5rb6rdy" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
-                <th scope="col">Topic</th>
-                <th scope="col">Presenter</th>
-                <th scope="col">Last offered</th>
+                <th scope="col" data-row="0" data-col="0">Topic</th>
+                <th scope="col" data-row="0" data-col="1">Presenter</th>
+                <th scope="col" data-row="0" data-col="2">Term</th>
               </tr>
         </thead>
         
         <tbody>
                 <tr>
-                  <td><a href="census/">Geographical and Census Data</a></td>
-                  <td><a href="https://michellebuenovasquez.wordpress.com">Michelle Bueno Vasquez</a></td>
-                  <td>Winter 2025</td>
+                  <td data-row="1" data-col="0"><a href="images/">Images as Data</a></td>
+                  <td data-row="1" data-col="1"><a href="https://www.heyikon.com/">Hyein Ko</a></td>
+                  <td data-row="1" data-col="2">Spring 2025</td>
                 </tr>
                 <tr>
-                  <td><a href="models/">Interpreting Statistical Models</a></td>
-                  <td><a href="https://arelbundock.com">Vincent Arel-Bundock</a></td>
-                  <td>Winter 2025</td>
+                  <td data-row="2" data-col="0"><a href="spatial/">Spatial Data</a></td>
+                  <td data-row="2" data-col="1"><a href="https://www.nicoleewilson.com/">Nicole Wilson</a></td>
+                  <td data-row="2" data-col="2">Spring 2025</td>
                 </tr>
                 <tr>
-                  <td><a href="presentations/">Presentations and Posters</a></td>
-                  <td><a href="https://gustavodiaz.org/">Gustavo Diaz</a></td>
-                  <td>Fall 2024  </td>
+                  <td data-row="3" data-col="0"><a href="census/">Geographical and Census Data</a></td>
+                  <td data-row="3" data-col="1"><a href="https://michellebuenovasquez.wordpress.com">Michelle Bueno Vasquez</a></td>
+                  <td data-row="3" data-col="2">Winter 2025</td>
                 </tr>
                 <tr>
-                  <td><a href="papers/">Writing papers in Quarto</a></td>
-                  <td><a href="https://gustavodiaz.org/">Gustavo Diaz</a></td>
-                  <td>Fall 2024  </td>
+                  <td data-row="4" data-col="0"><a href="models/">Interpreting Statistical Models</a></td>
+                  <td data-row="4" data-col="1"><a href="https://arelbundock.com">Vincent Arel-Bundock</a></td>
+                  <td data-row="4" data-col="2">Winter 2025</td>
+                </tr>
+                <tr>
+                  <td data-row="5" data-col="0"><a href="presentations/">Presentations and Posters</a></td>
+                  <td data-row="5" data-col="1"><a href="https://gustavodiaz.org/">Gustavo Diaz</a></td>
+                  <td data-row="5" data-col="2">Fall 2024</td>
+                </tr>
+                <tr>
+                  <td data-row="6" data-col="0"><a href="papers/">Writing papers in Quarto</a></td>
+                  <td data-row="6" data-col="1"><a href="https://gustavodiaz.org/">Gustavo Diaz</a></td>
+                  <td data-row="6" data-col="2">Fall 2024</td>
                 </tr>
         </tbody>
       </table>

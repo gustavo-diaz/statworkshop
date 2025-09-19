@@ -13,21 +13,21 @@ library(tinytable)
 library(markdown)
 ```
 
-## Spring 2025 Schedule
+## Fall 2025 Schedule
 
-<!-- - {{< fa clock >}} &nbsp; 3:00 -- 4:20 PM -->
-<!-- - {{< fa location-dot >}} &nbsp; Scott Hall 212 -->
+- {{< fa clock >}} &nbsp; 2:00 -- 3:20 PM
+- {{< fa location-dot >}} &nbsp; Scott Hall 212
 - {{< fa video >}} &nbsp; [Zoom meeting](https://northwestern.zoom.us/j/94652528071?pwd=bfBocxKncYkfZbTYiCIlJqhqxwx7EY.1)
-- {{< fa file-pdf >}} &nbsp; [Full AY 2024-25 schedule](schedule.pdf)
+- {{< fa file-pdf >}} &nbsp; [Full AY 2025-26 schedule](schedule.pdf)
 - {{< fa file-excel >}} &nbsp; [Attendance sheet for registered students](https://forms.office.com/r/m8ZT8aDpVr)
 
 ```{r schedule, include = FALSE}
 schedule =
   tribble(
-    ~Date, ~Time, ~Topic, ~Presenter,
-    "Tuesday, April 29", "9:30 -- 10:50 AM", "[Spatial Data](spatial/)", "[Nicole Wilson](https://www.nicoleewilson.com)",
-    "Tuesday, May 13", "9:30 -- 10:50 AM", "[Images as Data](images/)", "[Hyein Ko](https://www.heyikon.com)",
-    "Tuesday, June 3", "9:30 -- 10:50 AM", "Coding session", " "
+    ~Date, ~Topic, ~Presenter,
+    "Tuesday, September 30", "Dos and Don'ts of Coding with AI", "[Gustavo Diaz](https://gustavodiaz.org)",
+    "Tuesday, October 21", "A Practical Guide to Ranking Data Analysis in the Social Sciences", "[Yuki Atsusaka](https://atsusaka.org)",
+    "Tuesday, November 11", "Declaring and Diagnosing Research Designs", "[Alexander Coppock](https://alexandercoppock.com)"
     )
 ```
 
@@ -35,7 +35,7 @@ schedule =
 ```{r show-schedule, echo = FALSE, results = "asis"}
 schedule %>% 
   tt(width = 1) %>% 
-  format_tt(j = 2:4, markdown = TRUE)
+  format_tt(j = 2:3, markdown = TRUE)
 ```
 
 
@@ -53,7 +53,11 @@ Contact [Gustavo Diaz](https://gustavodiaz.org/) for additional information.
 
 ```{r previous, include = FALSE}
 previous = tribble(
-  ~Topic, ~Presenter, ~`Last offered`,
+  ~Topic, ~Presenter, ~`Term`,
+  "[Images as Data](images/)", "[Hyein Ko](https://www.heyikon.com/)",
+  "Spring 2025",
+  "[Spatial Data](spatial/)", 
+  "[Nicole Wilson](https://www.nicoleewilson.com/)", "Spring 2025",
   "[Geographical and Census Data](census/)", "[Michelle Bueno Vasquez](https://michellebuenovasquez.wordpress.com)", "Winter 2025",
   "[Interpreting Statistical Models](models/)", "[Vincent Arel-Bundock](https://arelbundock.com)", "Winter 2025",
   "[Presentations and Posters](presentations/)", "[Gustavo Diaz](https://gustavodiaz.org/)", "Fall 2024",
