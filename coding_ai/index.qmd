@@ -1,0 +1,27 @@
+---
+title: "Dos an Don'ts of Coding with AI"
+author: "[Gustavo Diaz](gustavodiaz.org)"
+date: last-modified
+---
+
+## Overview
+
+On Tuesday, September 30, 2025, [Gustavo Diaz](gustavodiaz.org) shared his perspective on coding with AI.
+
+The general message is to use it cautiously, as the implications of using large language models for research are not yet fully understood by the community. 
+
+A tutorial cautions against vibe coding since it is detrimental for learning. Instead, Gustavo suggests using Copilot within RStudio as a fruitful workflow that amplifies humans instead of replacing them.
+
+
+## Resources
+
+- {{< fa tv >}} [Guide](coding_ai.html)
+
+- {{< fa globe >}} [Copilot in RStudio](https://docs.posit.co/ide/user/ide/guide/tools/copilot.html)
+
+- {{< fa globe >}} [GitHub Education](https://github.com/education/)
+
+- {{< fa globe >}} [Northwestern Guidance on the Use of Generative AI](https://www.it.northwestern.edu/about/policies/guidance-on-the-use-of-generative-ai.html)
+
+- {{< fa globe >}} [Making Smart Use of Generative AI Tools](https://www.northwestern.edu/academic-support-learning/academic-resources/find-strategies-for-success/ai-in-learning/making-smart-use-of-generative-ai-tools.html)
+

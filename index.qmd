@@ -25,7 +25,7 @@ library(markdown)
 schedule =
   tribble(
     ~Date, ~Topic, ~Presenter,
-    "Tuesday, September 30", "Dos and Don'ts of Coding with AI", "[Gustavo Diaz](https://gustavodiaz.org)",
+    "Tuesday, September 30", "[Dos and Don'ts of Coding with AI](coding_ai/)", "[Gustavo Diaz](https://gustavodiaz.org)",
     "Tuesday, October 21", "A Practical Guide to Ranking Data Analysis in the Social Sciences", "[Yuki Atsusaka](https://atsusaka.org)",
     "Tuesday, November 11", "Declaring and Diagnosing Research Designs", "[Alexander Coppock](https://alexandercoppock.com)"
     )

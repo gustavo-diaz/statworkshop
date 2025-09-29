@@ -445,7 +445,7 @@
     "href": "index.html",
     "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "2:00 – 3:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  Tuesday, October 21\n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  Tuesday, November 11\n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+    "text": "2:00 – 3:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  Tuesday, October 21  \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  Tuesday, November 11 \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
   },
   {
     "objectID": "index.html#spring-2025-schedule",
@@ -623,7 +623,7 @@
     "href": "schedule.html",
     "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
     "section": "",
-    "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nWebsite: https://gustavodiaz.org/rworkshop/"
+    "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nWebsite: https://gustavodiaz.org/statworkshop/"
   },
   {
     "objectID": "schedule.html#fall-300-420-pm-scott-hall-212",
@@ -651,7 +651,7 @@
     "href": "index.html#previous-workshops",
     "title": "Statistical Computing Workshop",
     "section": "Previous Workshops",
-    "text": "Previous Workshops\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Term\n              \n        \n        \n        \n                \n                  Images as Data\n                  Hyein Ko\n                  Spring 2025\n                \n                \n                  Spatial Data\n                  Nicole Wilson\n                  Spring 2025\n                \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024\n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
+    "text": "Previous Workshops\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Term\n              \n        \n        \n        \n                \n                  Images as Data\n                  Hyein Ko\n                  Spring 2025\n                \n                \n                  Spatial Data\n                  Nicole Wilson\n                  Spring 2025\n                \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024  \n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
   },
   {
     "objectID": "papers/template.html#from-r",
@@ -784,6 +784,293 @@
     "href": "index.html#fall-2025-schedule",
     "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "2:00 – 3:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  Tuesday, October 21\n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  Tuesday, November 11\n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+    "text": "2:00 – 3:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  Tuesday, October 21  \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  Tuesday, November 11 \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#about-revealjs",
+    "href": "coding_ai/coding_ai.html#about-revealjs",
+    "title": "Coding with AI",
+    "section": "About revealjs",
+    "text": "About revealjs\n\nQuarto uses revealjs to create HTML presentations\nHTML slides are more flexible, but harder to share as attachments\nSee here for more information\nAnd here for themes"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#code",
+    "href": "coding_ai/coding_ai.html#code",
+    "title": "Coding with AI",
+    "section": "Code",
+    "text": "Code\nOur code chunk settings make it so that code is hidden from the pdf by default. We can override this with code chunk options.\nFor example, here I am forcing the code to appear in the pdf.\n1+1\n[1] 2"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#r-figures",
+    "href": "coding_ai/coding_ai.html#r-figures",
+    "title": "Coding with AI",
+    "section": "R Figures",
+    "text": "R Figures\n\n\nFigure 1: An example of how to make figures using ggplot2"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#interactive-panels",
+    "href": "coding_ai/coding_ai.html#interactive-panels",
+    "title": "Coding with AI",
+    "section": "Interactive panels",
+    "text": "Interactive panels\n\nCodeFigure\n\n\nggplot(penguins) +\n  aes(x = flipper_length_mm,\n      y = body_mass_g) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin size, Palmer Station LTER\",\n       subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n       x = \"Flipper length (mm)\",\n       y = \"Body mass (g)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme(legend.position = c(0.2, 0.7),\n        plot.title.position = \"plot\",\n        plot.caption = element_text(hjust = 0, face= \"italic\"),\n        plot.caption.position = \"plot\")"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#external-figures",
+    "href": "coding_ai/coding_ai.html#external-figures",
+    "title": "Coding with AI",
+    "section": "External figures",
+    "text": "External figures\nYou can include GIFs!\n\n\nFigure 2: An example of how to plot an external figure"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#pipe-tables",
+    "href": "coding_ai/coding_ai.html#pipe-tables",
+    "title": "Coding with AI",
+    "section": "Pipe tables",
+    "text": "Pipe tables\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#r-tables",
+    "href": "coding_ai/coding_ai.html#r-tables",
+    "title": "Coding with AI",
+    "section": "R Tables",
+    "text": "R Tables\n\n\n\nTable 1: An example of a table made from tidy data with tinytable\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                country\n                year\n                cases\n                population\n              \n        \n        \n        \n                \n                  Afghanistan\n                  1999\n                     745\n                    19987071\n                \n                \n                  Afghanistan\n                  2000\n                    2666\n                    20595360\n                \n                \n                  Brazil     \n                  1999\n                   37737\n                   172006362\n                \n                \n                  Brazil     \n                  2000\n                   80488\n                   174504898\n                \n                \n                  China      \n                  1999\n                  212258\n                  1272915272\n                \n                \n                  China      \n                  2000\n                  213766\n                  1280428583"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#coding-with-ai",
+    "href": "coding_ai/coding_ai.html#coding-with-ai",
+    "title": "Statistical Computing Workshop",
+    "section": "Coding with AI",
+    "text": "Coding with AI\n \nGustavo Diaz\nDepartment of Political Science\nNorthwestern University\ngustavo.diaz@northwestern.edu\ngustavodiaz.org\n \nMaterials: gustavodiaz.org/statworkshop"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#about-the-workshop",
+    "href": "coding_ai/coding_ai.html#about-the-workshop",
+    "title": "Statistical Computing Workshop",
+    "section": "About the workshop",
+    "text": "About the workshop\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  October 21  \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  November 11 \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#agenda",
+    "href": "coding_ai/coding_ai.html#agenda",
+    "title": "Statistical Computing Workshop",
+    "section": "Agenda",
+    "text": "Agenda\n\nShould you incorporate AI into your coding workflow?\nHow not to?\nHow to? (Github Copilot in RStudio)\nDemo"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#have-you-ever-considered-buying-a-pickup-truck",
+    "href": "coding_ai/coding_ai.html#have-you-ever-considered-buying-a-pickup-truck",
+    "title": "Statistical Computing Workshop",
+    "section": "Have you ever considered buying a pickup truck?",
+    "text": "Have you ever considered buying a pickup truck?"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#my-stance-on-using-ai",
+    "href": "coding_ai/coding_ai.html#my-stance-on-using-ai",
+    "title": "Statistical Computing Workshop",
+    "section": "My stance on using AI",
+    "text": "My stance on using AI\n\nText: No\nImages/video: No\nTeaching: Yes, I want students to learn how to use it responsibly\nCoding: Maybe? I don’t see it much different from online searches"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#it-feels-like-this",
+    "href": "coding_ai/coding_ai.html#it-feels-like-this",
+    "title": "Statistical Computing Workshop",
+    "section": "It feels like this",
+    "text": "It feels like this"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#its-problematic",
+    "href": "coding_ai/coding_ai.html#its-problematic",
+    "title": "Statistical Computing Workshop",
+    "section": "It’s problematic",
+    "text": "It’s problematic\n\n\n\n\n\n\n\n\n\nrestofworld.org/2025/ai-resource-extraction-chile-indigenous-communities/"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#hidden-ethical-implications",
+    "href": "coding_ai/coding_ai.html#hidden-ethical-implications",
+    "title": "Statistical Computing Workshop",
+    "section": "Hidden ethical implications",
+    "text": "Hidden ethical implications\n\n\n\n\n\n\n\n\n\nrestofworld.org/2025/ai-resource-extraction-chile-indigenous-communities/"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#feels-like-this",
+    "href": "coding_ai/coding_ai.html#feels-like-this",
+    "title": "Statistical Computing Workshop",
+    "section": "Feels like this",
+    "text": "Feels like this"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#it-hides-its-ethical-implications",
+    "href": "coding_ai/coding_ai.html#it-hides-its-ethical-implications",
+    "title": "Statistical Computing Workshop",
+    "section": "It hides its ethical implications",
+    "text": "It hides its ethical implications\n\n\n\n\n\n\n\nrestofworld.org/2025/ai-resource-extraction-chile-indigenous-communities/"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#it-is-not-that-reliable",
+    "href": "coding_ai/coding_ai.html#it-is-not-that-reliable",
+    "title": "Statistical Computing Workshop",
+    "section": "It is not that reliable",
+    "text": "It is not that reliable\n\n\n\n\n\n\n\nBarrie, Palmer, Spirling. 2025. “Replication for Language Models: Problems, Principles, and Best Practices for Political Science.”"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#vibe-coding",
+    "href": "coding_ai/coding_ai.html#vibe-coding",
+    "title": "Statistical Computing Workshop",
+    "section": "Vibe coding",
+    "text": "Vibe coding"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#example",
+    "href": "coding_ai/coding_ai.html#example",
+    "title": "Statistical Computing Workshop",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#vibe-coding-example",
+    "href": "coding_ai/coding_ai.html#vibe-coding-example",
+    "title": "Statistical Computing Workshop",
+    "section": "Vibe coding example",
+    "text": "Vibe coding example"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#vibe-coding-output",
+    "href": "coding_ai/coding_ai.html#vibe-coding-output",
+    "title": "Statistical Computing Workshop",
+    "section": "Vibe coding output",
+    "text": "Vibe coding output\n\n# Load required libraries\nlibrary(WDI)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(broom)\n\n# Define indicators\nindicators &lt;- c(\n  \"SH.H2O.SAFE.ZS\",   # Access to clean water (% of population)\n  \"SP.DYN.IMRT.IN\",   # Infant mortality rate (per 1,000 live births)\n  \"NY.GDP.PCAP.CD\",   # GDP per capita (current US$)\n  \"SE.PRM.CMPT.ZS\",   # Primary school completion rate (% of relevant age group)\n  \"SP.URB.TOTL.IN.ZS\" # Urban population (% of total)\n)\n\n# Download data for the last available year\ndata_raw &lt;- WDI(country = \"all\", indicator = indicators, extra = TRUE, latest = 1)\n\n# Clean and filter data\ndata_clean &lt;- data_raw %&gt;%\n  filter(region != \"Aggregates\") %&gt;%  # Remove aggregate regions\n  select(\n    country, region,\n    access_water = SH.H2O.SAFE.ZS,\n    infant_mortality = SP.DYN.IMRT.IN,\n    gdp_per_capita = NY.GDP.PCAP.CD,\n    education = SE.PRM.CMPT.ZS,\n    urban_pop = SP.URB.TOTL.IN.ZS\n  ) %&gt;%\n  na.omit()\n\n# Run linear regression\nmodel &lt;- lm(infant_mortality ~ access_water + gdp_per_capita + education + urban_pop, data = data_clean)\n\n# Summarize results\nsummary(model)\n\n# Tidy output\ntidy(model)\n\n# Optional: Plot relationship between access to water and infant mortality\nggplot(data_clean, aes(x = access_water, y = infant_mortality)) +\n  geom_point(alpha = 0.6) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    title = \"Access to Clean Water vs Infant Mortality\",\n    x = \"Access to Clean Water (% of population)\",\n    y = \"Infant Mortality (per 1,000 live births)\"\n  ) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#what-is-the-problem-with-it",
+    "href": "coding_ai/coding_ai.html#what-is-the-problem-with-it",
+    "title": "Statistical Computing Workshop",
+    "section": "What is the problem with it?",
+    "text": "What is the problem with it?"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#what-is-the-problem-with-this",
+    "href": "coding_ai/coding_ai.html#what-is-the-problem-with-this",
+    "title": "Statistical Computing Workshop",
+    "section": "What is the problem with this?",
+    "text": "What is the problem with this?\n\nGives you code that works but you don’t know why it works\nTerrible for learning\nMakes important decisions for you\nMay use outdated/deprecated packages\nMistakes may hurt you down the line"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#alternatives",
+    "href": "coding_ai/coding_ai.html#alternatives",
+    "title": "Statistical Computing Workshop",
+    "section": "Alternatives",
+    "text": "Alternatives\n\nAI as a teaching assistant\nAI as a collaborator"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#ai-as-a-ta",
+    "href": "coding_ai/coding_ai.html#ai-as-a-ta",
+    "title": "Statistical Computing Workshop",
+    "section": "AI as a TA",
+    "text": "AI as a TA"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#ai-as-a-ta-1",
+    "href": "coding_ai/coding_ai.html#ai-as-a-ta-1",
+    "title": "Statistical Computing Workshop",
+    "section": "AI as a TA",
+    "text": "AI as a TA\nPros:\n\nImproves your code\nLess intrusive than AI as collaborator\n\nCons:\n\nLacks context\nUneven learning\nMesses up your style"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#ai-as-a-collaborator",
+    "href": "coding_ai/coding_ai.html#ai-as-a-collaborator",
+    "title": "Statistical Computing Workshop",
+    "section": "AI as a collaborator",
+    "text": "AI as a collaborator\nGet auto-complete suggestions from Copilot within RStudio\n\nIngredients:\n\nR and RStudio\nGitHub Education account\nInternet connection\n\n\n\n\nYou can do this even if you do not use GitHub for version control"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#github-education-instructions",
+    "href": "coding_ai/coding_ai.html#github-education-instructions",
+    "title": "Statistical Computing Workshop",
+    "section": "GitHub Education Instructions",
+    "text": "GitHub Education Instructions\n\nCreate or associate account with Northwestern e-mail\nGet your account verified here (with proof of enrollment/employment)\nSet up in RStudio\nTools &gt; Global Options &gt; Copilot\nSet code completion\nTools &gt; Global Option &gt; Code &gt; Completion"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#options",
+    "href": "coding_ai/coding_ai.html#options",
+    "title": "Statistical Computing Workshop",
+    "section": "Options",
+    "text": "Options\nCopilot Indexing: Give access to project files?\nCopilot Completions: Manual (cmd + \\ or ctrl + \\) or Automatic (with delay)"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#syntax",
+    "href": "coding_ai/coding_ai.html#syntax",
+    "title": "Statistical Computing Workshop",
+    "section": "Syntax",
+    "text": "Syntax"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#uses",
+    "href": "coding_ai/coding_ai.html#uses",
+    "title": "Statistical Computing Workshop",
+    "section": "Uses",
+    "text": "Uses\n\nAuto-complete inline code\n\n\n\n\nText in gray is the auto-complete suggestion"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#uses-1",
+    "href": "coding_ai/coding_ai.html#uses-1",
+    "title": "Statistical Computing Workshop",
+    "section": "Uses",
+    "text": "Uses\n\nQuestions\n\n\n# q: what function do I use to compare two means\nt.test()\n\n \n\n\n# q: what is the definition of standard error?\n# a: The standard error (SE) is a statistical measure that quantifies \n# the variability or dispersion of a sample statistic, \n# such as the sample mean,\n# from the true population parameter.\n# It provides an estimate of how much the sample mean is expected to \n# fluctuate from the actual population mean\n# due to random sampling variability.\n\n\n\n\nAnswers adjusted for readability, it outputs a one-line comment by default"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#uses-2",
+    "href": "coding_ai/coding_ai.html#uses-2",
+    "title": "Statistical Computing Workshop",
+    "section": "Uses",
+    "text": "Uses\n\nProvide context at the top\n\n\n# This script will load data from the World Development Indicators\n# Then estimate the relationship between\n# access to clean water and infant mortality\n# using the lm_robust function from the estimatr package\n# including gdp per capita as a control variable\n\n\n\nlibrary(WDI)\n\n\n\n\nlibrary(dplyr)\n\n\n\n\nlibrary(estimatr)\n\n\n\n\nYou then receive completion suggestions one step at a time"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#approaches",
+    "href": "coding_ai/coding_ai.html#approaches",
+    "title": "Statistical Computing Workshop",
+    "section": "Approaches",
+    "text": "Approaches\n\nAI as a teaching assistant\nAI as a collaborator"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#ai-as-collaborator",
+    "href": "coding_ai/coding_ai.html#ai-as-collaborator",
+    "title": "Statistical Computing Workshop",
+    "section": "AI as collaborator",
+    "text": "AI as collaborator\nPros:\n\nYou need to know enough to give good instructions\nDoesn’t break your flow\n\nCons:\n\nYou need to know enough to give good instructions\nAlways online\nIt can be very intrusive (if you let it)"
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#resources-for-python-users",
+    "href": "coding_ai/coding_ai.html#resources-for-python-users",
+    "title": "Statistical Computing Workshop",
+    "section": "Resources for Python users",
+    "text": "Resources for Python users\n\nCopilot in VS Code\nChatGPT in VS Code\nCopilot code and Claude chat in Positron"
+  },
+  {
+    "objectID": "coding_ai/index.html#resources",
+    "href": "coding_ai/index.html#resources",
+    "title": "Dos an Don’ts of Coding with AI",
+    "section": "Resources",
+    "text": "Resources\n\n Guide\n Copilot in RStudio\n GitHub Education\n Northwestern Guidance on the Use of Generative AI\n Making Smart Use of Generative AI Tools"
+  },
+  {
+    "objectID": "schedule.html#fall-200-315-pm-scott-hall-212",
+    "href": "schedule.html#fall-200-315-pm-scott-hall-212",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
+    "section": "Fall (2:00 – 3:15 PM, Scott Hall 212)",
+    "text": "Fall (2:00 – 3:15 PM, Scott Hall 212)\n\nSeptember 30: Gustavo Diaz (Northwestern University)\n“Dos and Don’ts of Coding with AI”\n\n\nOctober 21: Yuki Atsusaka (University of Houston)\n“A Practical Guide to Ranking Data Analysis in the Social Sciences”\n\n\nNovember 11: Alexander Coppock (Northwestern University)\n“Declaring and Diagnosing Research Designs”"
+  },
+  {
+    "objectID": "coding_ai/index.html",
+    "href": "coding_ai/index.html",
+    "title": "Dos an Don’ts of Coding with AI",
+    "section": "",
+    "text": "On Tuesday, September 30, 2025, Gustavo Diaz shared his perspective on coding with AI.\nThe general message is to use it cautiously, as the implications of using large language models for research are not yet fully understood by the community.\nA tutorial cautions against vibe coding since it is detrimental for learning. Instead, Gustavo suggests using Copilot within RStudio as a fruitful workflow that amplifies humans instead of replacing them."
+  },
+  {
+    "objectID": "coding_ai/index.html#overview",
+    "href": "coding_ai/index.html#overview",
+    "title": "Dos an Don’ts of Coding with AI",
+    "section": "",
+    "text": "On Tuesday, September 30, 2025, Gustavo Diaz shared his perspective on coding with AI.\nThe general message is to use it cautiously, as the implications of using large language models for research are not yet fully understood by the community.\nA tutorial cautions against vibe coding since it is detrimental for learning. Instead, Gustavo suggests using Copilot within RStudio as a fruitful workflow that amplifies humans instead of replacing them."
   }
 ]
