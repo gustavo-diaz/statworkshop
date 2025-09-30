@@ -6,8 +6,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.32">
 
   <title>Statistical Computing Workshop – coding_ai</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -204,85 +204,93 @@ Northwestern University<br>
 <p>Materials: <a href="https://gustavodiaz.org/statworkshop/">gustavodiaz.org/statworkshop</a></p>
 <p><img data-src="qr.png" class="absolute" style="bottom: -100px; right: -100px; width: 200px; height: 200px; "></p>
 </section>
-<section id="about-the-workshop" class="slide level2">
-<h2>About the workshop</h2>
+<section id="next-workshop-dates" class="slide level2">
+<h2>Next workshop dates</h2>
 <!-- preamble start -->
 
     <script>
-      function styleCell_v6r1s29mey1nl13m8aft(i, j, css_id) {
-        var table = document.getElementById("tinytable_v6r1s29mey1nl13m8aft");
-        table.rows[i].cells[j].classList.add(css_id);
-      }
-      function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_v6r1s29mey1nl13m8aft');
-        var newRow = table.insertRow(i);
-        var newCell = newRow.insertCell(0);
-        newCell.setAttribute("colspan", colspan);
-        // newCell.innerText = content;
-        // this may be unsafe, but innerText does not interpret <br>
-        newCell.innerHTML = content;
-      }
-      function spanCell_v6r1s29mey1nl13m8aft(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_v6r1s29mey1nl13m8aft");
-        const targetRow = table.rows[i];
-        const targetCell = targetRow.cells[j];
-        for (let r = 0; r < rowspan; r++) {
-          // Only start deleting cells to the right for the first row (r == 0)
-          if (r === 0) {
-            // Delete cells to the right of the target cell in the first row
-            for (let c = colspan - 1; c > 0; c--) {
-              if (table.rows[i + r].cells[j + c]) {
-                table.rows[i + r].deleteCell(j + c);
-              }
-            }
+
+      function styleCell_2grim12h1kvifyiooegj(i, j, css_id) {
+          var table = document.getElementById("tinytable_2grim12h1kvifyiooegj");
+          var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
           }
-          // For rows below the first, delete starting from the target column
-          if (r > 0) {
-            for (let c = colspan - 1; c >= 0; c--) {
-              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
-                table.rows[i + r].deleteCell(j);
-              }
+      }
+      function spanCell_2grim12h1kvifyiooegj(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_2grim12h1kvifyiooegj");
+        const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+        if (!targetCell) {
+          console.warn(`Cell at (${i}, ${j}) not found.`);
+        }
+
+        // Get all cells that need to be removed
+        const cellsToRemove = [];
+        for (let r = 0; r < rowspan; r++) {
+          for (let c = 0; c < colspan; c++) {
+            if (r === 0 && c === 0) continue; // Skip the target cell
+            const cell = table.querySelector(`[data-row="${i + r}"][data-col="${j + c}"]`);
+            if (cell) {
+              cellsToRemove.push(cell);
             }
           }
         }
-        // Set rowspan and colspan of the target cell
-        targetCell.rowSpan = rowspan;
-        targetCell.colSpan = colspan;
+
+        // Remove all cells
+        cellsToRemove.forEach(cell => cell.remove());
+
+        // Set rowspan and colspan of the target cell if it exists
+        if (targetCell) {
+          targetCell.rowSpan = rowspan;
+          targetCell.colSpan = colspan;
+        }
       }
-window.addEventListener('load', function () { styleCell_v6r1s29mey1nl13m8aft(0, 0, 'tinytable_css_id4x9s19wk7rmi3jvesowm') })
-window.addEventListener('load', function () { styleCell_v6r1s29mey1nl13m8aft(0, 1, 'tinytable_css_id4x9s19wk7rmi3jvesowm') })
-window.addEventListener('load', function () { styleCell_v6r1s29mey1nl13m8aft(0, 2, 'tinytable_css_id4x9s19wk7rmi3jvesowm') })
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: '2', j: 0 }, { i: '2', j: 1 }, { i: '2', j: 2 },  ], css_id: 'tinytable_css_tlm4mr0lu345w13qj2li',}, 
+          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_qgo5xs68hph29lvaljr3',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_2grim12h1kvifyiooegj(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
     </script>
 
     <style>
-    .table td.tinytable_css_id4x9s19wk7rmi3jvesowm, .table th.tinytable_css_id4x9s19wk7rmi3jvesowm {  border-bottom: solid 0.1em #d3d8dc; }
+      /* tinytable css entries after */
+      .table td.tinytable_css_tlm4mr0lu345w13qj2li, .table th.tinytable_css_tlm4mr0lu345w13qj2li { border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_qgo5xs68hph29lvaljr3, .table th.tinytable_css_qgo5xs68hph29lvaljr3 { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_v6r1s29mey1nl13m8aft" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_2grim12h1kvifyiooegj" style="table-layout: fixed; width: 100% !important; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
-                <th scope="col">Date</th>
-                <th scope="col">Topic</th>
-                <th scope="col">Presenter</th>
+                <th scope="col" data-row="0" data-col="0">Date</th>
+                <th scope="col" data-row="0" data-col="1">Topic</th>
+                <th scope="col" data-row="0" data-col="2">Presenter</th>
               </tr>
         </thead>
         
         <tbody>
                 <tr>
-                  <td>September 30</td>
-                  <td>Dos and Don’ts of Coding with AI</td>
-                  <td><a href="https://gustavodiaz.org">Gustavo Diaz</a></td>
+                  <td data-row="1" data-col="0">October 21</td>
+                  <td data-row="1" data-col="1">A Practical Guide to Ranking Data Analysis in the Social Sciences</td>
+                  <td data-row="1" data-col="2"><a href="https://atsusaka.org">Yuki Atsusaka</a></td>
                 </tr>
                 <tr>
-                  <td>October 21  </td>
-                  <td>A Practical Guide to Ranking Data Analysis in the Social Sciences</td>
-                  <td><a href="https://atsusaka.org">Yuki Atsusaka</a></td>
-                </tr>
-                <tr>
-                  <td>November 11 </td>
-                  <td>Declaring and Diagnosing Research Designs</td>
-                  <td><a href="https://alexandercoppock.com">Alexander Coppock</a></td>
+                  <td data-row="2" data-col="0">November 11</td>
+                  <td data-row="2" data-col="1">Declaring and Diagnosing Research Designs</td>
+                  <td data-row="2" data-col="2"><a href="https://alexandercoppock.com">Alexander Coppock</a></td>
                 </tr>
         </tbody>
       </table>

@@ -847,7 +847,7 @@
     "href": "coding_ai/coding_ai.html#about-the-workshop",
     "title": "Statistical Computing Workshop",
     "section": "About the workshop",
-    "text": "About the workshop\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  October 21  \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  November 11 \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+    "text": "About the workshop\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  October 21\n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  November 11\n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
   },
   {
     "objectID": "coding_ai/coding_ai.html#agenda",
@@ -1072,5 +1072,12 @@
     "title": "Dos an Don’ts of Coding with AI",
     "section": "",
     "text": "On Tuesday, September 30, 2025, Gustavo Diaz shared his perspective on coding with AI.\nThe general message is to use it cautiously, as the implications of using large language models for research are not yet fully understood by the community.\nA tutorial cautions against vibe coding since it is detrimental for learning. Instead, Gustavo suggests using Copilot within RStudio as a fruitful workflow that amplifies humans instead of replacing them."
+  },
+  {
+    "objectID": "coding_ai/coding_ai.html#next-workshop-dates",
+    "href": "coding_ai/coding_ai.html#next-workshop-dates",
+    "title": "Statistical Computing Workshop",
+    "section": "Next workshop dates",
+    "text": "Next workshop dates\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  October 21\n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  November 11\n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
   }
 ]

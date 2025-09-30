@@ -40,13 +40,12 @@ library(kableExtra)
 
 :::
 
-## About the workshop
+## Next workshop dates
 
 ```{r schedule, include = FALSE}
 schedule =
   tribble(
     ~Date, ~Topic, ~Presenter,
-    "September 30", "Dos and Don'ts of Coding with AI", "[Gustavo Diaz](https://gustavodiaz.org)",
     "October 21", "A Practical Guide to Ranking Data Analysis in the Social Sciences", "[Yuki Atsusaka](https://atsusaka.org)",
     "November 11", "Declaring and Diagnosing Research Designs", "[Alexander Coppock](https://alexandercoppock.com)"
     )
