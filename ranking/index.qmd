@@ -1,0 +1,15 @@
+---
+title: "A Practical Guide to Ranking Data Analysis in the Social Sciences"
+date: last-modified
+---
+
+## Overview
+
+On Tuesday, October 2021, 2025, [Yuki Atsusaka](atsusaka.org) presented his work on recent developments to design and analyze studies with ranking data. The presentation covered research design considerations, new R packages, and illustrations from Dr. Atusaka's research agenda.
+
+Dr. Atsusaka is Assistant Professor at the Hobby School of Public Affairs at the University of Houston. His research focuses on electoral systems, race and representation, and political methodology. He develops and applies new methods to study the effects of electoral system designs on minority representation in democracies.
+
+## Materials
+
+- {{< fa tv >}} [Slides](/Yuki_slides_SC.pdf)
+
