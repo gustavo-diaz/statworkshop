@@ -49,7 +49,16 @@ Winter and Spring schedules coming soon!
 
 
 
-<!-- ## Winter -->
+## Winter (12:30 -- 2:00 PM, Scott Hall 212)
+
+### January 20: Artur Baranov (Northwestern University)
+"Hands-On Methods for Text-as-Data Research"
+
+### February 17: Andrew Heiss (Georgia State)
+"Building reproducible workflows with `{targets}`"
+
+### February 24: Yingdan Lu (Northwestern University)
+"Rethinking Computational Multimodal Analysis in Social Science Research"
 
 <!-- ## Spring -->
 

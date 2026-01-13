@@ -15,3 +15,5 @@
 rworkshop.Rproj
 
 /.quarto/
+
+**/*.quarto_ipynb

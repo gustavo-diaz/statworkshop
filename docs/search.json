@@ -445,7 +445,7 @@
     "href": "index.html",
     "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "2:00 – 3:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  Tuesday, October 21  \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  Tuesday, November 11 \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+    "text": "12:30 – 2:00 PM\n   Scott Hall 212\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, January 20 \n                  Hands-On Methods for Text-as-Data Research\n                  Artur Baranov\n                \n                \n                  Tuesday, February 17\n                  Building reproducible workflows with {targets}\n                  Andrew Heiss\n                \n                \n                  Tuesday, February 24\n                  Rethinking Computational Multimodal Analysis in Social Science Research\n                  Yingdan Lu"
   },
   {
     "objectID": "index.html#spring-2025-schedule",
@@ -459,7 +459,7 @@
     "href": "index.html#details",
     "title": "Statistical Computing Workshop",
     "section": "Details",
-    "text": "Details\nThe Statistical Computing Workshop (formerly R Workshop) is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nWorkshop meetings will feature internal or external speakers introducing a new tool, method, or research project involving statistical computing in the broadest sense. All meetings are hybrid or fully virtual.\nThe workshop is open to everyone. Graduate students in political science formally enrolled in the corresponding version of POLI_SCI 490 will receive full credit by attending every meeting.\nContact Gustavo Diaz for additional information."
+    "text": "Details\nThe Statistical Computing Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science.\nWorkshop meetings will feature internal or external speakers introducing a new tool, method, or research project involving statistical computing in the broadest sense. All meetings are hybrid or fully virtual.\nThe workshop is open to everyone. Graduate students in political science formally enrolled in the corresponding version of POLI_SCI 490 will receive full credit by attending every meeting.\nContact Gustavo Diaz for additional information."
   },
   {
     "objectID": "index.html#previous-terms",
@@ -651,7 +651,7 @@
     "href": "index.html#previous-workshops",
     "title": "Statistical Computing Workshop",
     "section": "Previous Workshops",
-    "text": "Previous Workshops\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Term\n              \n        \n        \n        \n                \n                  Images as Data\n                  Hyein Ko\n                  Spring 2025\n                \n                \n                  Spatial Data\n                  Nicole Wilson\n                  Spring 2025\n                \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024  \n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
+    "text": "Previous Workshops\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Term\n              \n        \n        \n        \n                \n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                  Fall 2025  \n                \n                \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                  Fall 2025  \n                \n                \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock\n                  Fall 2025  \n                \n                \n                  Images as Data\n                  Hyein Ko\n                  Spring 2025\n                \n                \n                  Spatial Data\n                  Nicole Wilson\n                  Spring 2025\n                \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024  \n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
   },
   {
     "objectID": "papers/template.html#from-r",
@@ -784,7 +784,7 @@
     "href": "index.html#fall-2025-schedule",
     "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "2:00 – 3:20 PM\n   Scott Hall 212\n   Zoom meeting\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, September 30\n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                \n                \n                  Tuesday, October 21  \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                \n                \n                  Tuesday, November 11 \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock"
+    "text": "12:30 – 2:00 PM\n   Scott Hall 212\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, January 20 \n                  Hands-On Methods for Text-as-Data Research\n                  Artur Baranov\n                \n                \n                  Tuesday, February 17\n                  Building reproducible workflows with {targets}\n                  Andrew Heiss\n                \n                \n                  Tuesday, February 24\n                  Rethinking Computational Multimodal Analysis in Social Science Research\n                  Yingdan Lu"
   },
   {
     "objectID": "coding_ai/coding_ai.html#about-revealjs",
@@ -1100,5 +1100,12 @@
     "title": "A Practical Guide to Ranking Data Analysis in the Social Sciences",
     "section": "Materials",
     "text": "Materials\n\n Slides"
+  },
+  {
+    "objectID": "index.html#winter-2026-schedule",
+    "href": "index.html#winter-2026-schedule",
+    "title": "Statistical Computing Workshop",
+    "section": "",
+    "text": "12:30 – 2:00 PM\n   Scott Hall 212\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  Tuesday, January 20 \n                  Hands-On Methods for Text-as-Data Research\n                  Artur Baranov\n                \n                \n                  Tuesday, February 17\n                  Building reproducible workflows with {targets}\n                  Andrew Heiss\n                \n                \n                  Tuesday, February 24\n                  Rethinking Computational Multimodal Analysis in Social Science Research\n                  Yingdan Lu"
   }
 ]
