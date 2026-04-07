@@ -15,7 +15,7 @@ library(markdown)
 
 ## Spring 2026 Schedule
 
-- {{< fa clock >}} &nbsp; 12:30 -- 2:00 PM
+- {{< fa clock >}} &nbsp; Wednesday 12:30 -- 2:00 PM
 - {{< fa location-dot >}} &nbsp; Hybrid (see event links for location)
 - {{< fa file-pdf >}} &nbsp; [Full AY 2025-26 schedule](schedule.pdf)
 - {{< fa file-excel >}} &nbsp; [Attendance sheet for registered students](https://forms.office.com/r/m8ZT8aDpVr)
@@ -24,9 +24,9 @@ library(markdown)
 schedule =
   tribble(
     ~Date, ~Topic, ~Presenter,
-    "Wednesday, April 15", "[Estimating heterogeneous causal effects with varying coefficient models and Bayesian Additive Regression Trees](https://planitpurple.northwestern.edu/event/640955)", "Sameer Deshpande",
-    "Wednesday, April 22", "[Leveraging Python and JAX in R workflows](https://planitpurple.northwestern.edu/event/640958)", "Andrés Cruz",
-    "TBD", "TBD", "TBD"
+    "April 15 (Online only)", "[Estimating heterogeneous causal effects with Bayesian Additive Regression Trees](https://planitpurple.northwestern.edu/event/640955)", "[Sameer Deshpande](https://skdeshpande91.github.io)",
+    "April 22", "[Leveraging Python and JAX in R workflows](https://planitpurple.northwestern.edu/event/640958)", "[Andrés Cruz](https://andrescruz.org)",
+    "May 13", "[A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate](https://planitpurple.northwestern.edu/event/640959)", "[Adeline Lo](https://www.loadeline.com)"
     )
 ```
 

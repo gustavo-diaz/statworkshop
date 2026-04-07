@@ -23,7 +23,7 @@ fontsize: 12pt
 
 # Overview
 
-The Statistical Computing Workshop (formerly R Workshop) is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science. 
+The Statistical Computing Workshop is a year-long series that meets three times per quarter during the academic year. The purpose of the workshop is to learn, practice, and update cutting edge statistical programming skills as they apply to quantitative and computational social science. 
 
 Workshop meetings will feature internal or external speakers introducing a new tool, method, approach, or practice. All meetings are hybrid or fully virtual.
 
@@ -58,15 +58,17 @@ The aim is to present topics that are equally useful for new and advanced users.
 ### February 24: Yingdan Lu (Northwestern University)
 "Rethinking Computational Multimodal Analysis in Social Science Research"
 
-## Spring (12:30 -- 2:00 PM, Hybrid)
+## Spring (12:30 -- 2:00 PM)
 
 ### April 15: Sameer Deshpande (University of Wisconsin-Madison)
+**Online only**  
 "Estimating heterogeneous causal effects with varying coefficient models and Bayesian Additive Regression Trees"
 
 ### April 22: Andrés Cruz (University of Texas at Austin)
 "Leveraging Python and JAX in R workflows"
 
-### TBD: TBD
+### May 13: Adeline Lo (University of Wisconsin-Madison)
+"A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate"
 
 
 # Details Subject to Change
