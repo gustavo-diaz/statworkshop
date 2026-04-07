@@ -13,10 +13,10 @@ library(tinytable)
 library(markdown)
 ```
 
-## Winter 2026 Schedule
+## Spring 2026 Schedule
 
 - {{< fa clock >}} &nbsp; 12:30 -- 2:00 PM
-- {{< fa location-dot >}} &nbsp; Scott Hall 212
+- {{< fa location-dot >}} &nbsp; Hybrid (see event links for location)
 - {{< fa file-pdf >}} &nbsp; [Full AY 2025-26 schedule](schedule.pdf)
 - {{< fa file-excel >}} &nbsp; [Attendance sheet for registered students](https://forms.office.com/r/m8ZT8aDpVr)
 
@@ -24,9 +24,9 @@ library(markdown)
 schedule =
   tribble(
     ~Date, ~Topic, ~Presenter,
-    "Tuesday, January 20", "[Hands-On Methods for Text-as-Data Research](https://planitpurple.northwestern.edu/event/636981)", "[Artur Baranov](https://artur-baranov.github.io)",
-    "Tuesday, February 17", "[Building reproducible workflows with `{targets}`](https://planitpurple.northwestern.edu/event/636983)", "[Andrew Heiss](https://www.andrewheiss.com)",
-    "Tuesday, February 24", "[Rethinking Computational Multimodal Analysis in Social Science Research](https://planitpurple.northwestern.edu/event/636982)", "[Yingdan Lu](https://yingdanlu.com)"
+    "Wednesday, April 15", "[Estimating heterogeneous causal effects with varying coefficient models and Bayesian Additive Regression Trees](https://planitpurple.northwestern.edu/event/640955)", "Sameer Deshpande",
+    "Wednesday, April 22", "[Leveraging Python and JAX in R workflows](https://planitpurple.northwestern.edu/event/640958)", "Andrés Cruz",
+    "TBD", "TBD", "TBD"
     )
 ```
 
@@ -53,6 +53,9 @@ Contact [Gustavo Diaz](https://gustavodiaz.org/) for additional information.
 ```{r previous, include = FALSE}
 previous = tribble(
   ~Topic, ~Presenter, ~`Term`,
+  "[Hands-On Methods for Text-as-Data Research](https://planitpurple.northwestern.edu/event/636981)", "[Artur Baranov](https://artur-baranov.github.io)", "Winter 2026",
+  "[Building reproducible workflows with `{targets}`](https://planitpurple.northwestern.edu/event/636983)", "[Andrew Heiss](https://www.andrewheiss.com)", "Winter 2026",
+  "[Rethinking Computational Multimodal Analysis in Social Science Research](https://planitpurple.northwestern.edu/event/636982)", "[Yingdan Lu](https://yingdanlu.com)", "Winter 2026",
   "[Dos and Don'ts of Coding with AI](coding_ai/)", "[Gustavo Diaz](https://gustavodiaz.org)", "Fall 2025",
   "[A Practical Guide to Ranking Data Analysis in the Social Sciences](ranking/)", "[Yuki Atsusaka](https://atsusaka.org)", "Fall 2025",
   "Declaring and Diagnosing Research Designs", "[Alexander Coppock](https://alexandercoppock.com)", "Fall 2025",

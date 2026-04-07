@@ -31,8 +31,6 @@ The workshop is open to everyone. Graduate students in political science formall
 
 The aim is to present topics that are equally useful for new and advanced users. So if you see a topic that you are already confident on, chances are that you will still learn something new. 
 
-Winter and Spring schedules coming soon!
-
 # Schedule
 
 ## Fall (2:00 -- 3:15 PM, Scott Hall 212)
@@ -60,7 +58,15 @@ Winter and Spring schedules coming soon!
 ### February 24: Yingdan Lu (Northwestern University)
 "Rethinking Computational Multimodal Analysis in Social Science Research"
 
-<!-- ## Spring -->
+## Spring (12:30 -- 2:00 PM, Hybrid)
+
+### April 15: Sameer Deshpande (University of Wisconsin-Madison)
+"Estimating heterogeneous causal effects with varying coefficient models and Bayesian Additive Regression Trees"
+
+### April 22: Andrés Cruz (University of Texas at Austin)
+"Leveraging Python and JAX in R workflows"
+
+### TBD: TBD
 
 
 # Details Subject to Change
