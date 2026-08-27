@@ -1,0 +1,56 @@
+---
+title: |
+        | Statistical Computing Workshop
+        | Mini Series:
+        | Computational Tools for Qualitative Inquiry
+        | Fall 2026
+format: typst
+---
+
+## Planning notes
+
+- If we are still doing physical flyers in the new building. I would like to have one flyer that advertises the entire mini series. The physical flyer should omit abstract and bio to keep it clean
+- I would prefer separate planitpurple events for digital distribution, now including abstract and bio. Two talks are virtual only, Nov 4 talk is in person with hybrid option. Hopefully, catering is an option by then.
+
+## Tuesday, October 6, 12:30 -- 2:00 PM, VIRTUAL ONLY
+
+**Qin Huang**  
+*University of Rhode Island*
+
+"Computational Typology: Classifying Regional Economies in China"
+
+**Abstract**  
+China's regional economies are deeply diverse, yet existing approaches struggle to classify them into stable and interpretable types. This talk introduces computational typology—a framework chaining clustering, dimensionality reduction, and stability testing—and applies it to 31 provinces across 23 macroeconomic variables over 23 years. The analysis reveals four stable types of regional economies organized along two dimensions: state direct participation and market institutional development. The talk concludes by demonstrating the methodological framework's portability to broader themes in comparative politics, including varieties of capitalism, welfare states, and authoritarian regimes.
+
+**Bio**  
+Qin Huang is an Assistant Professor and Assistant Director of the Computational Social Science Program at the University of Rhode Island. His research focuses on comparative political economy, institutional change, and bureaucratic politics. Methodologically, he explores how generative AI and machine-learning techniques can complement qualitative and inductive research. He is currently working on a book project, Patchwork Capitalism, which examines the varieties of regional economies in China, their historical evolution, and China’s integration into global capitalism. 
+
+
+## Tuesday, October 20, 12:30 -- 2:00 PM, VIRTUAL ONLY
+
+**Ali Sanaei**  
+*University of Chicago*
+
+"Simulating Realistic Focus Group Discussions Using Large Language Models"
+
+**Abstract**  
+We introduce the FocusGroup package in R for simulating moderated focus groups with large language models. The package allows constructing participants with rich personas from survey data, contains several speaker-selection rules, and experimentation facilities. The package can be used for two primary purposes: to pilot actual focus-groups, and to study LLM behavior. We present five experiments. First, we compare results from simulations based on minimal personas and personas enriched using ANES 2024 data and show that enriched personas yield more varied language, more interpersonal friction, and more personal grounding. Other experiments are concerned with LLM behavior regarding moral dilemmas and have the benefit of having agents interact experimentally, as opposed to the typical manipulations of one-off prompts.
+
+**Bio**  
+Ali Sanaei is Associate Instructional Professor of Computational Social Science at the University of Chicago. His research is on quantitative and computational methods of social science research. He received his PhD in political science from the University of Michigan in 2015 and taught at the University of California, Berkeley, and Shahid Beheshti University in Tehran, Iran, before joining the University of Chicago in 2023.
+
+## Wednesday, November 4, 12:30-2:00, Room TBD
+
+**Jake Bowers**  
+*University of Illinois Urbana-Champaign*
+
+"Two fully specified Bayes factors for hypothesis testing and
+sensitivity analysis in process tracing"
+
+**Abstract**  
+Fairfield and Charman (2022) propose using a Bayes factor to summarize process tracing evidence, but they require researchers to specify the probability of evidence by hand, and this has drawn concern about bias (Zaks 2021). We present a solution by deriving such probabilities directly from two fully specified generative models of observation tailored to process-tracing research designs. Our fully specified Bayes factors enable researchers to report how much observation bias a positive conclusion can absorb before flipping in favor of the rival, taking dependence on smoking gun weight into consideration as well. In practice, this means
+that final conclusions are driven by sensitivity tests more than by Bayes factors themselves. To show the usefulness of our approach we apply the framework to six recent process-tracing studies published in top political science journals.
+
+**Bio**  
+Jake Bowers is Proffesor in the Departments of Political Science and Statistics at the University of Illinois Urbana-Champaign. His methodological research develops computationally intensive, design-based approaches to the analysis of both randomized experiments and non-randomized observational studies in the service of understanding human behavior and improving public policy. The Society for Political Methodology elected him a Fellow in 2025. He currently serves as the Methods Director for the Evidence in Governance and Politics (EGAP) network and co-founder and co-director of the new Arnold Ventures Criminal Justice Research network.
+
