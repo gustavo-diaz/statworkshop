@@ -445,7 +445,7 @@
     "href": "index.html",
     "title": "Statistical Computing Workshop",
     "section": "",
-    "text": "Wednesday 12:30 – 2:00 PM\n   Hybrid (see event links for location)\n   Full AY 2025-26 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  April 15 (Online only)\n                  Estimating heterogeneous causal effects with Bayesian Additive Regression Trees\n                  Sameer Deshpande\n                \n                \n                  April 22\n                  Leveraging Python and JAX in R workflows\n                  Andrés Cruz\n                \n                \n                  May 13\n                  A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate\n                  Adeline Lo"
+    "text": "Mini Series: Computational Tools for Qualitative Inquiry\n\n   12:30 – 2:00 PM\n   Virtual or hybrid (see event links for details)\n   Full AY 2026-27 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  October 6\n                  Computational Typology: Classifying Regional Economies in China\n                  Qin Huang\n                \n                \n                  October 20\n                  Simulating Realistic Focus Group Discussions Using Large Language Models\n                  Ali Sanaei\n                \n                \n                  November 4\n                  Two fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing\n                  Jake Bowers"
   },
   {
     "objectID": "index.html#spring-2025-schedule",
@@ -621,7 +621,7 @@
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
-    "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2026-2027",
     "section": "",
     "text": "Organizer: Gustavo Diaz\nEmail: gustavo.diaz@northwestern.edu\nWebsite: https://gustavodiaz.org/statworkshop/"
   },
@@ -651,7 +651,7 @@
     "href": "index.html#previous-workshops",
     "title": "Statistical Computing Workshop",
     "section": "Previous Workshops",
-    "text": "Previous Workshops\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Term\n              \n        \n        \n        \n                \n                  Hands-On Methods for Text-as-Data Research\n                  Artur Baranov\n                  Winter 2026\n                \n                \n                  Building reproducible workflows with {targets}\n                  Andrew Heiss\n                  Winter 2026\n                \n                \n                  Rethinking Computational Multimodal Analysis in Social Science Research\n                  Yingdan Lu\n                  Winter 2026\n                \n                \n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                  Fall 2025\n                \n                \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                  Fall 2025\n                \n                \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock\n                  Fall 2025\n                \n                \n                  Images as Data\n                  Hyein Ko\n                  Spring 2025\n                \n                \n                  Spatial Data\n                  Nicole Wilson\n                  Spring 2025\n                \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024\n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
+    "text": "Previous Workshops\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                Topic\n                Presenter\n                Term\n              \n        \n        \n        \n                \n                  Estimating heterogeneous causal effects with Bayesian Additive Regression Trees\n                  Sameer Deshpande\n                  Spring 2026\n                \n                \n                  Leveraging Python and JAX in R workflows\n                  Andrés Cruz\n                  Spring 2026\n                \n                \n                  A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate\n                  Adeline Lo\n                  Spring 2026\n                \n                \n                  Hands-On Methods for Text-as-Data Research\n                  Artur Baranov\n                  Winter 2026\n                \n                \n                  Building reproducible workflows with {targets}\n                  Andrew Heiss\n                  Winter 2026\n                \n                \n                  Rethinking Computational Multimodal Analysis in Social Science Research\n                  Yingdan Lu\n                  Winter 2026\n                \n                \n                  Dos and Don’ts of Coding with AI\n                  Gustavo Diaz\n                  Fall 2025\n                \n                \n                  A Practical Guide to Ranking Data Analysis in the Social Sciences\n                  Yuki Atsusaka\n                  Fall 2025\n                \n                \n                  Declaring and Diagnosing Research Designs\n                  Alexander Coppock\n                  Fall 2025\n                \n                \n                  Images as Data\n                  Hyein Ko\n                  Spring 2025\n                \n                \n                  Spatial Data\n                  Nicole Wilson\n                  Spring 2025\n                \n                \n                  Geographical and Census Data\n                  Michelle Bueno Vasquez\n                  Winter 2025\n                \n                \n                  Interpreting Statistical Models\n                  Vincent Arel-Bundock\n                  Winter 2025\n                \n                \n                  Presentations and Posters\n                  Gustavo Diaz\n                  Fall 2024\n                \n                \n                  Writing papers in Quarto\n                  Gustavo Diaz\n                  Fall 2024"
   },
   {
     "objectID": "papers/template.html#from-r",
@@ -1128,5 +1128,33 @@
     "title": "POLI SCI 490\nStatistical Computing Workshop\n2025-2026",
     "section": "Spring (12:30 – 2:00 PM, Hybrid)",
     "text": "Spring (12:30 – 2:00 PM, Hybrid)\n\nApril 15: Sameer Deshpande (University of Wisconsin-Madison)\n“Estimating heterogeneous causal effects with varying coefficient models and Bayesian Additive Regression Trees”\n\n\nApril 22: Andrés Cruz (University of Texas at Austin)\n“Leveraging Python and JAX in R workflows”\n\n\nTBD: TBD"
+  },
+  {
+    "objectID": "index.html#fall-2026-schedule",
+    "href": "index.html#fall-2026-schedule",
+    "title": "Statistical Computing Workshop",
+    "section": "",
+    "text": "Mini Series: Computational Tools for Qualitative Inquiry\n\n   12:30 – 2:00 PM\n   Virtual or hybrid (see event links for details)\n   Full AY 2026-27 schedule\n   Attendance sheet for registered students\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                Date\n                Topic\n                Presenter\n              \n        \n        \n        \n                \n                  October 6\n                  Computational Typology: Classifying Regional Economies in China\n                  Qin Huang\n                \n                \n                  October 20\n                  Simulating Realistic Focus Group Discussions Using Large Language Models\n                  Ali Sanaei\n                \n                \n                  November 4\n                  Two fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing\n                  Jake Bowers"
+  },
+  {
+    "objectID": "schedule.html#fall-2026-1230-200-pm",
+    "href": "schedule.html#fall-2026-1230-200-pm",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2026-2027",
+    "section": "Fall 2026 (12:30 – 2:00 PM)",
+    "text": "Fall 2026 (12:30 – 2:00 PM)\nMini Series: Computational Tools for Qualitative Inquiry\n\nOctober 6: Qin Huang (University of Rhode Island)\nVirtual only “Computational Typology: Classifying Regional Economies in China”\n\n\nOctober 20: Ali Sanaei (University of Chicago)\nVirtual only “Simulating Realistic Focus Group Discussions Using Large Language Models”\n\n\nNovember 4: Jake Bowers (University of Illinois Urbana-Champaign)\nHybrid, room TBD “Two fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing”"
+  },
+  {
+    "objectID": "schedule.html#winter-2027",
+    "href": "schedule.html#winter-2027",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2026-2027",
+    "section": "Winter 2027",
+    "text": "Winter 2027\nDetails to be announced"
+  },
+  {
+    "objectID": "schedule.html#spring-2027",
+    "href": "schedule.html#spring-2027",
+    "title": "POLI SCI 490\nStatistical Computing Workshop\n2026-2027",
+    "section": "Spring 2027",
+    "text": "Spring 2027\nDetails to be announced"
   }
 ]

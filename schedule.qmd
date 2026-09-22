@@ -2,7 +2,7 @@
 title: |
        | POLI SCI 490
        | Statistical Computing Workshop
-       | 2025-2026
+       | 2026-2027
 format: 
   typst:
     margin:
@@ -33,42 +33,31 @@ The aim is to present topics that are equally useful for new and advanced users.
 
 # Schedule
 
-## Fall (2:00 -- 3:15 PM, Scott Hall 212)
+## Fall 2026 (12:30 -- 2:00 PM)
 
-### September 30: Gustavo Diaz (Northwestern University)  
-"Dos and Don'ts of Coding with AI"
+**Mini Series: Computational Tools for Qualitative Inquiry**
 
+### October 6: Qin Huang (University of Rhode Island)
 
-### October 21: Yuki Atsusaka (University of Houston)
-"A Practical Guide to Ranking Data Analysis in the Social Sciences"
+"Computational Typology: Classifying Regional Economies in China"
 
-### November 11: Alexander Coppock (Northwestern University)
-"Declaring and Diagnosing Research Designs"
+### October 20: Ali Sanaei (University of Chicago)
 
 
+"Simulating Realistic Focus Group Discussions Using Large Language Models"
 
-## Winter (12:30 -- 2:00 PM, Scott Hall 212)
+### November 4: Jake Bowers (University of Illinois Urbana-Champaign)
 
-### January 20: Artur Baranov (Northwestern University)
-"Hands-On Methods for Text-as-Data Research"
 
-### February 17: Andrew Heiss (Georgia State)
-"Building reproducible workflows with `{targets}`"
+"Two fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing"
 
-### February 24: Yingdan Lu (Northwestern University)
-"Rethinking Computational Multimodal Analysis in Social Science Research"
+## Winter 2027
 
-## Spring (12:30 -- 2:00 PM)
+*Details to be announced*
 
-### April 15: Sameer Deshpande (University of Wisconsin-Madison)
-**Online only**  
-"Estimating heterogeneous causal effects with varying coefficient models and Bayesian Additive Regression Trees"
+## Spring 2027
 
-### April 22: Andrés Cruz (University of Texas at Austin)
-"Leveraging Python and JAX in R workflows"
-
-### May 13: Adeline Lo (University of Wisconsin-Madison)
-"A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate"
+*Details to be announced*
 
 
 # Details Subject to Change

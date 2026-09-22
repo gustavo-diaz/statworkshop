@@ -13,20 +13,22 @@ library(tinytable)
 library(markdown)
 ```
 
-## Spring 2026 Schedule
+## Fall 2026 Schedule
 
-- {{< fa clock >}} &nbsp; Wednesday 12:30 -- 2:00 PM
-- {{< fa location-dot >}} &nbsp; Hybrid (see event links for location)
-- {{< fa file-pdf >}} &nbsp; [Full AY 2025-26 schedule](schedule.pdf)
+**Mini Series: Computational Tools for Qualitative Inquiry**
+
+- {{< fa clock >}} &nbsp; 12:30 -- 2:00 PM
+- {{< fa location-dot >}} &nbsp; Virtual or hybrid (see event links for details)
+- {{< fa file-pdf >}} &nbsp; [Full AY 2026-27 schedule](schedule.pdf)
 - {{< fa file-excel >}} &nbsp; [Attendance sheet for registered students](https://forms.office.com/r/m8ZT8aDpVr)
 
 ```{r schedule, include = FALSE}
 schedule =
   tribble(
     ~Date, ~Topic, ~Presenter,
-    "April 15 (Online only)", "[Estimating heterogeneous causal effects with Bayesian Additive Regression Trees](https://planitpurple.northwestern.edu/event/640955)", "[Sameer Deshpande](https://skdeshpande91.github.io)",
-    "April 22", "[Leveraging Python and JAX in R workflows](https://planitpurple.northwestern.edu/event/640958)", "[Andrés Cruz](https://andrescruz.org)",
-    "May 13", "[A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate](https://planitpurple.northwestern.edu/event/640959)", "[Adeline Lo](https://www.loadeline.com)"
+    "October 6", "[Computational Typology: Classifying Regional Economies in China](https://planitpurple.northwestern.edu/event/645517)", "[Qin Huang](https://web.uri.edu/politicalscience/meet/qin-huang/)",
+    "October 20", "[Simulating Realistic Focus Group Discussions Using Large Language Models](https://planitpurple.northwestern.edu/event/645518)", "[Ali Sanaei](https://macss.uchicago.edu/directory/Ali-Sanaei)",
+    "November 4", "[Two fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing](https://planitpurple.northwestern.edu/event/645601)", "[Jake Bowers](https://jakebowers.org)"
     )
 ```
 
@@ -53,6 +55,9 @@ Contact [Gustavo Diaz](https://gustavodiaz.org/) for additional information.
 ```{r previous, include = FALSE}
 previous = tribble(
   ~Topic, ~Presenter, ~`Term`,
+  "[Estimating heterogeneous causal effects with Bayesian Additive Regression Trees](https://planitpurple.northwestern.edu/event/640955)", "[Sameer Deshpande](https://skdeshpande91.github.io)", "Spring 2026",
+  "[Leveraging Python and JAX in R workflows](https://planitpurple.northwestern.edu/event/640958)", "[Andrés Cruz](https://andrescruz.org)", "Spring 2026",
+  "[A Statistical Model of Bipartite Networks: Application to Cosponsorship in the United States Senate](https://planitpurple.northwestern.edu/event/640959)", "[Adeline Lo](https://www.loadeline.com)", "Spring 2026",
   "[Hands-On Methods for Text-as-Data Research](https://planitpurple.northwestern.edu/event/636981)", "[Artur Baranov](https://artur-baranov.github.io)", "Winter 2026",
   "[Building reproducible workflows with `{targets}`](https://planitpurple.northwestern.edu/event/636983)", "[Andrew Heiss](https://www.andrewheiss.com)", "Winter 2026",
   "[Rethinking Computational Multimodal Analysis in Social Science Research](https://planitpurple.northwestern.edu/event/636982)", "[Yingdan Lu](https://yingdanlu.com)", "Winter 2026",
